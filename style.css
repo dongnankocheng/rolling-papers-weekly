@@ -287,6 +287,36 @@ main {
   gap: 18px;
 }
 
+/* ===== 子分类标签 ===== */
+.subcat-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 18px 0 10px;
+  padding: 6px 0;
+}
+.subcat-tag {
+  display: inline-block;
+  padding: 3px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+  background: rgba(56,189,248,0.1);
+  border: 1px solid rgba(56,189,248,0.2);
+  white-space: nowrap;
+}
+.subcat-count {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.subcat-label::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(56,189,248,0.2), transparent);
+}
+
 /* ===== 近期/归档分区 ===== */
 .epoch-header {
   display: flex;

@@ -230,6 +230,37 @@
     return html;
   }
 
+  // ---- 按 subCategory 分组渲染 ----
+  function renderSubCategories(paperList) {
+    // 按子分类分组
+    var groups = {};
+    var order = [];
+    paperList.forEach(function (p) {
+      var sc = p.subCategory || "其他";
+      if (!groups[sc]) {
+        groups[sc] = [];
+        order.push(sc);
+      }
+      groups[sc].push(p);
+    });
+
+    var html = "";
+    // 如果只有一个子分类，不显示标签
+    if (order.length <= 1) {
+      var list = groups[order[0]] || paperList;
+      html += '<div class="paper-grid">' + list.map(function (p, i) { return renderCard(p, i); }).join("") + '</div>';
+      return html;
+    }
+
+    // 多个子分类：显示标签
+    order.forEach(function (sc) {
+      var list = groups[sc];
+      html += '<div class="subcat-label"><span class="subcat-tag">' + escapeHtml(sc) + '</span><span class="subcat-count">' + list.length + ' 篇</span></div>';
+      html += '<div class="paper-grid">' + list.map(function (p, i) { return renderCard(p, i); }).join("") + '</div>';
+    });
+    return html;
+  }
+
   // ---- 渲染单张卡片 ----
   function renderCard(p, index) {
     const d = dirById(p.field) || { icon: "📄", color: "#38bdf8", name: "" };
@@ -292,7 +323,7 @@
           var sub = recent.filter(function (p) { return p.field === d.id; });
           if (sub.length === 0) return;
           html += renderSectionHeader(d, sub.length);
-          html += '<div class="paper-grid">' + sub.map(function (p, i) { return renderCard(p, i); }).join("") + '</div>';
+          html += renderSubCategories(sub);
         });
       }
 
@@ -329,7 +360,7 @@
       if (recent.length > 0) {
         html += '<div class="epoch-header"><span class="epoch-badge new">🔥 本周/近期更新</span><span class="epoch-count">' + recent.length + ' 篇</span></div>';
         if (d) html += renderSectionHeader(d, recent.length);
-        html += '<div class="paper-grid">' + recent.map(function (p, i) { return renderCard(p, i); }).join("") + '</div>';
+        html += renderSubCategories(recent);
       }
       if (archived.length > 0) {
         html += '<div class="archive-toggle-wrap">';
