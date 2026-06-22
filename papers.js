@@ -251,26 +251,6 @@ const PAPERS = [
     "innovationFormula": "深度Q网络(DQN) + 三阶段分解 + 多目标优化 = 热轧全流程智能调度"
   },
   {
-    "id": "p-003",
-    "title": "Dynamics of levitation during rolling over a thin viscous film",
-    "titleCn": "在粘性薄膜上滚动时的悬浮动力学",
-    "authors": "Siqi Chen, Cheng Liu, Neil J. Balmforth, Sheldon Green, et al.",
-    "journal": "arXiv preprint",
-    "sourceType": "预印本",
-    "year": 2025,
-    "month": 11,
-    "innovationScore": 10,
-    "field": "ml",
-    "processType": "general",
-    "innovationTags": [
-      "润滑"
-    ],
-    "abstract": "In isothermal non-coalescence behaviours of a droplet against a wall, an air film of micrometre thickness plays a crucial role. We experimentally study this phenomenon by letting a droplet levitate over a moving glass wall. The three-dimensional shape of the air film is measured using an interferometric method. The mean curvature distribution of the deformed free surface and the distributions of the lubrication pressure are derived from the experimental measurements. We vary experimental parameters, namely wall velocity, droplet diameter and viscosity of the droplets, over a wide range; for example, the droplet viscosity is varied over two orders of magnitude. For the same wall velocity, the air film of low-viscosity droplets shows little shape oscillation with constant film thickness (defined as the steady state), while that of highly viscous droplets shows a significant shape oscillation with varying film thickness (defined as the unsteady state). The droplet viscosity also affects the surface velocity of a droplet. Under our experimental conditions, where the air film shape can be assumed to be steady, we present experimental evidence showing that the lift force generated inside the air film balances with the droplet’s weight. We also verify that the lubrication pressure locally balances with the surface tension and hydrostatic pressures. This indicates that lubrication pressure and the shape of the free surface are mutually determined. Based on the local pressure balance, we discuss a process of determining the steady shape of an air film that has two areas of minimum thickness in the vicinity of the downstream rim.",
-    "doi": "arXiv:2511.12441",
-    "innovationCn": "在液滴靠壁的等温非聚结行为中，微米厚度的空气膜起着至关重要的作用。我们通过让液滴悬浮在移动的玻璃壁上来实验研究这种现象。使用干涉法测量空气膜的三维形状。变形自由表面的平均曲率分布和润滑压力的分布是从实验测量得出的。我们在很大范围内改变实验参数，即壁速度、液滴直径和液滴粘度；例如，液滴粘度变化两个数量级。对于相同的壁速度，低粘度液滴的空气膜在膜厚度恒定的情况下表现出很小的形状振荡（定义为稳态），而高粘度液滴的空气膜在不同的膜厚度下表现出显着的形状振荡（定义为非稳态）。液滴粘度还影响液滴的表面速度。在我们的实验条件下，可以假设气膜形状是稳定的，我们提供的实验证据表明，气膜内部产生的升力与液滴的重量平衡。我们还验证了润滑压力与表面张力和静水压力的局部平衡。这表明润滑压力和自由表面的形状是相互决定的。基于局部压力平衡，我们讨论了确定空气膜稳定形状的过程，该空气膜在下游边缘附近有两个最小厚度区域。",
-    "innovationFormula": "干涉法测量 + 润滑压力分析 + 空气膜形貌 = 悬浮动力学机理"
-  },
-  {
     "id": "p-004",
     "title": "Reinforcement-learning-assisted control of four-roll mills: geometric symmetry and inertial effect",
     "titleCn": "四辊轧机的强化学习辅助控制：几何对称性和惯性效应",
@@ -1703,6 +1683,7 @@ const PAPERS = [
     "doi": "10.1088/1361-6501/ae7e1c"
   }
 ];
+
 
 
 
