@@ -304,11 +304,22 @@
         html += '</button>';
         html += '</div>';
         html += '<div id="archiveContent" style="display:none;">';
+        // 归档按方向折叠
         DIRECTIONS.forEach(function (d) {
           var sub = archived.filter(function (p) { return p.field === d.id; });
           if (sub.length === 0) return;
-          html += renderSectionHeader(d, sub.length, true);
+          var dirId = "arch-" + d.id;
+          html += '<div class="arch-dir-block">';
+          html += '<button class="arch-dir-toggle" onclick="toggleArchDir(\'' + dirId + '\')">';
+          html += '<span class="arch-dir-icon">' + d.icon + '</span>';
+          html += '<span class="arch-dir-name">' + escapeHtml(d.name) + '</span>';
+          html += '<span class="arch-dir-count">' + sub.length + ' 篇</span>';
+          html += '<span class="arch-dir-arrow" id="arrow-' + dirId + '">▶</span>';
+          html += '</button>';
+          html += '<div id="' + dirId + '" class="arch-dir-content" style="display:none;">';
           html += '<div class="paper-grid archive-grid">' + sub.map(function (p, i) { return renderCard(p, i); }).join("") + '</div>';
+          html += '</div>';
+          html += '</div>';
         });
         html += '</div>';
       }
@@ -327,7 +338,6 @@
         html += '</button>';
         html += '</div>';
         html += '<div id="archiveContent" style="display:none;">';
-        if (d) html += renderSectionHeader(d, archived.length, true);
         html += '<div class="paper-grid archive-grid">' + archived.map(function (p, i) { return renderCard(p, i); }).join("") + '</div>';
         html += '</div>';
       }
@@ -650,5 +660,19 @@ function toggleArchive() {
   } else {
     content.style.display = "none";
     text.textContent = text.textContent.replace("收起", "展开").replace("▲", "▼");
+  }
+}
+
+// ---- 全局：展开/收起归档中单个方向 ----
+function toggleArchDir(id) {
+  var content = document.getElementById(id);
+  var arrow = document.getElementById("arrow-" + id);
+  if (!content) return;
+  if (content.style.display === "none") {
+    content.style.display = "block";
+    if (arrow) arrow.textContent = "▼";
+  } else {
+    content.style.display = "none";
+    if (arrow) arrow.textContent = "▶";
   }
 }
