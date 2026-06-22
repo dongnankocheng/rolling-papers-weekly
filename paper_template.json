@@ -1,0 +1,15 @@
+{
+  "id": "strip-07",
+  "title": "English Title Here",
+  "titleCn": "中文标题",
+  "authors": "Zhang X., Li Y., et al.",
+  "journal": "Journal Name",
+  "sourceType": "SCI",
+  "year": 2026,
+  "month": 6,
+  "innovationScore": 8,
+  "field": "strip",
+  "innovationTags": ["标签1", "标签2", "标签3"],
+  "abstract": "创新点摘要描述，重点说明该论文的方法创新与性能提升指标。",
+  "doi": "10.xxxx/xxxx"
+}

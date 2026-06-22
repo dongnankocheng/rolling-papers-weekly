@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="每周轧制领域论文更新 - 按创新点与方向排序，覆盖 SCI、核心期刊、预印本">
+  <title>⚙️ 每周轧制论文更新 · Rolling Papers Weekly</title>
+  <link rel="icon" href="rolling.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== 顶部 Header ===== -->
+  <header class="hero">
+    <div class="badge">
+      <span class="dot"></span>
+      <span>每周自动更新 · WEEKLY UPDATE · <span id="weekInfo">--</span></span>
+    </div>
+    <h1>⚙️ 每周轧制论文更新</h1>
+    <p class="sub">
+      汇总轧制领域最新研究，覆盖 <b>SCI / EI / 核心 / 预印本</b> 等多源文献，
+      按 <b>创新点</b> 与 <b>研究方向</b> 自动排序，每个方向精选 Top 10。
+    </p>
+    <div class="stats-row" id="statsRow"><!-- JS 注入 --></div>
+  </header>
+
+  <!-- ===== 图表仪表盘 ===== -->
+  <section class="dashboard">
+    <div class="dash-title"><h2>📊 数据可视化</h2><span class="dash-sub" id="dashSub"></span></div>
+    <div class="dash-grid">
+      <div class="dash-card">
+        <h3>📁 各方向论文数</h3>
+        <div id="chartDirection"></div>
+      </div>
+      <div class="dash-card">
+        <h3>🏷️ 来源类型分布</h3>
+        <div id="chartSource"></div>
+      </div>
+      <div class="dash-card">
+        <h3>📅 年份趋势</h3>
+        <div id="chartYear"></div>
+      </div>
+      <div class="dash-card">
+        <h3>⭐ 平均创新分</h3>
+        <div id="chartInnovation"></div>
+      </div>
+    </div>
+    <!-- 交叉热力图 -->
+    <div class="dash-card dash-wide">
+      <h3>🔀 研究方法 × 工艺类型 交叉分布</h3>
+      <div id="chartMatrix"></div>
+    </div>
+    <!-- 各方向研究趋势与总结 -->
+    <div class="dash-card dash-wide">
+      <h3>📋 各方向研究趋势与总结</h3>
+      <div id="trendSummaries"></div>
+    </div>
+  </section>
+
+  <!-- ===== 控制栏 ===== -->
+  <div class="toolbar">
+    <div class="search-box">
+      <span class="icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="搜索标题 / 作者 / 期刊 / 创新点关键词...">
+    </div>
+    <select class="sort-select" id="sortSelect" title="排序方式">
+      <option value="innovation">⭐ 按创新性排序</option>
+      <option value="date">📅 按时间排序</option>
+      <option value="source">🏷️ 按来源排序</option>
+    </select>
+    <div class="source-filter" id="sourceFilter"><!-- JS 注入 --></div>
+  </div>
+
+  <!-- ===== 方向导航 ===== -->
+  <nav class="direction-nav" id="directionNav"><!-- JS 注入 --></nav>
+
+  <!-- ===== 论文列表 ===== -->
+  <main id="mainContent">
+    <div id="paperContainer"><!-- JS 注入 --></div>
+  </main>
+
+  <!-- ===== 页脚 ===== -->
+  <footer>
+    <p>📚 每周轧制论文更新 · 数据来源：Web of Science / Scopus / arXiv / 中国知网核心库</p>
+    <p style="margin-top:6px;">更新方法：编辑 <code style="background:rgba(255,255,255,0.06);padding:2px 6px;border-radius:4px;">papers.js</code> 中的 PAPERS 数组后刷新页面即可</p>
+    <p style="margin-top:8px;opacity:0.6;">© 2026 Rolling Papers Weekly · 仅供学术交流</p>
+  </footer>
+
+  <script src="papers.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
