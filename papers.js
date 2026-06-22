@@ -396,28 +396,6 @@ const PAPERS = [
     "innovationFormula": "过程特征提取 + 机器学习框架 + 缺陷 signature = 热轧脊线缺陷预测"
   },
   {
-    "id": "p-010",
-    "title": "Data-driven adaptive approach integrating genetic algorithm and conditional generative adversarial network for minimizing earing formation in industrially rolled aluminium strips",
-    "titleCn": "数据驱动的自适应方法集成遗传算法和条件生成对抗网络，以最大限度地减少工业轧制铝带中的耳状物形成",
-    "authors": "Thakare N., Karhausen K., Brüggemann H., Scharifi E., et al.",
-    "journal": "Transactions of the Indian Institute of Metals",
-    "sourceType": "SCI",
-    "year": 2026,
-    "month": 6,
-    "innovationScore": 6,
-    "field": "ml",
-    "processType": "general",
-    "innovationTags": [
-      "混合建模",
-      "自适应控制",
-      "铝合金"
-    ],
-    "abstract": "The production chain for aluminium beverage can production typically encompasses multiple thermo-mechanical processing steps, including casting, hot and cold rolling, heat treatment, and deep drawing. Each of these steps uniquely influences the material’s mechanical properties, resulting in anisotropy that can cause earing in the drawn beverage can body. Advancements in digitalization and Industry 4.0 are enabling companies to acquire vast amounts of production data. In combination with fast simulation tools to generate material quality parameters, the combined data contain valuable process knowledge. While process experts are utilizing these data to optimize operations, there remains significant untapped potential to achieve further benefits, such as data-driven process monitoring for anomaly detection using advanced data analytics methods. Moreover, despite efforts to run industrial processes at optimal efficiency, deviations in alloy composition or ingot temperature can still occur. Such deviations may propagate through the process chain, leading to undesirable effects on the mechanical properties of the final product. To address this challenge, data-based intelligent systems are essential for effectively responding to the deviations and minimizing their negative impacts. In this work, we propose a flexible and scalable adaptive optimization approach that integrates a genetic algorithm with a conditional generative adversarial network, alongside a data-driven XGBoost surrogate model of the process chain. This integration enables the determination of modified process variables in response to the deviations. The proposed approach is applied to an industrial use-case focussed on minimizing earing formation in cold-rolled aluminium strips (3xxx alloy) used for beverage can production. By intentionally introducing deviations, we demonstrate the effectiveness of the proposed method in suggesting countermeasures. Furthermore, this research highlights the suitability of a generative model in anomaly detection during production. The results reveal significant potential to enable process monitoring and optimization, thereby improving production planning and strip quality.",
-    "doi": "10.1007/s12666-026-03929-3",
-    "innovationCn": "铝饮料罐生产的生产链通常包含多个热机械加工步骤，包括铸造、热轧和冷轧、热处理和深拉。这些步骤中的每一步都会独特地影响材料的机械性能，从而产生各向异性，从而导致拉制的饮料罐体出现耳部。数字化和工业 4.0 的进步使企业能够获取大量生产数据。结合快速模拟工具生成材料质量参数，组合数据包含有价值的工艺知识。虽然流程专家正在利用这些数据来优化运营，但仍有巨大的未开发潜力来实现进一步的好处，例如使用高级数据分析方法进行数据驱动的流程监控以进行异常检测。此外，尽管努力以最佳效率运行工业流程，合金成分或铸锭温度的偏差仍然可能发生。这种偏差可能会在整个工艺链中传播，从而对最终产品的机械性能产生不良影响。为了应对这一挑战，基于数据的智能系统对于有效响应偏差并最大程度地减少其负面影响至关重要。在这项工作中，我们提出了一种灵活且可扩展的自适应优化方法，该方法将遗传算法与条件生成对抗网络以及数据驱动的 XGBoost 流程链代理模型相结合。这种集成使得能够响应偏差确定修改的过程变量。所提出的方法应用于工业用例，重点是最大限度地减少用于饮料罐生产的冷轧铝带（3xxx 合金）中的耳状物形成。通过有意引入偏差，我们证明了所提出的方法在提出对策方面的有效性。此外，这项研究强调了生成模型在生产过程中异常检测的适用性。结果揭示了实现过程监控和优化的巨大潜力，从而改善生产计划和带钢质量。",
-    "innovationFormula": "遗传算法 + 条件GAN + 自适应控制 = 铝带耳状物最小化"
-  },
-  {
     "id": "p-011",
     "title": "Hot Deformation Behavior of High-Nitrogen Steels and Numerical Simulation of Continuous Rolling",
     "titleCn": "高氮钢的热变形行为及连轧数值模拟",
@@ -1873,8 +1851,45 @@ const PAPERS = [
     "doi": "10.53063/synsint.2025.53296",
     "innovationCn": "由于其显着的氢容量（7.6 wt%）、可用性和可逆性，氢化镁（MgH2）被认为是最有前途的固态储氢材料之一，使其对可持续能源系统具有吸引力。优异的热力学稳定性和缓慢的吸收/解吸动力学需要升高的操作温度，限制了其实际应用。本文讨论了先进合成方法（特别是高能反应球磨和催化掺杂）如何克服固有挑战并使 MgH2 实际用于储氢的重要问题。所采用的方法是对最先进的实验和理论研究的系统和综合回顾，重点是热力学和动力学基础、合成路线、催化添加剂和纳米结构策略。结果表明，高能球磨通过将颗粒尺寸减小至纳米级并将解吸起始温度降低约 45 °C，显着改善了氢扩散。 2 mol% Nb2O5 等催化剂进一步降低了活化能垒，能够在 114 秒内快速释放 6.4 wt% 的氢，同时多晶型转变（γ-MgH2 形成）增强了结构稳定性。尽管取得了这些进展，但晶粒粗化和循环容量损失等挑战仍然存在，凸显了纳米封装、合金化和可扩展制造技术的重要性。总之，该综述为理解球磨和催化在调整 MgH2 性能方面的协同作用提供了一个关键框架，并概述了高效、可扩展和可立即应用的储氢系统的未来研究方向。",
     "innovationFormula": "高能球磨 + 催化改性 + MgH2 = 固态储氢增强"
+  },
+  {
+    "id": "p-082",
+    "title": "Data-Driven Multi-Objective Optimization of Energy, Environmental, and Economic Performances in Manufacturing with Physics-Consistent Deep Learning",
+    "titleCn": "利用物理一致的深度学习对制造业中的能源、环境和经济绩效进行数据驱动的多目标优化",
+    "authors": "Hyeonrok Choi, Jaewook Lee, Won Yang, Seong-il Kim",
+    "journal": "Systems and Control Transactions",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 6,
+    "innovationScore": 8,
+    "field": "ml",
+    "processType": "section",
+    "innovationTags": [],
+    "abstract": "Aluminium cold rolling is an energy-intensive process that has a substantial impact on CO2 emissions and production cost, yet plant-level optimization remains challenging due to strong process nonlinearities and various operational constraints. This study develops a physics-consistent hybrid model that combines a Stone–Hitchcock–Ludwik analytical rolling-energy formulation with a residual deep neural network to predict the daily electricity consumption of three single-stand cold rolling mills. Using plant raw data, the hybrid model achieves lower prediction errors than conventional data driven model and yields line-specific physical parameters that agree well with the observed behaviour of each mill. On this basis, an NSGA-II-based tri-objective optimization is carried out to minimise daily energy use, CO2 emissions, and specific production cost (SPC) by adjusting pass-wise reduction and tension schedules and line-wise production allocation. Case studies on a representative operating day and additional plant data show that the optimised operating strategy shifts production load from less efficient to more efficient lines and smooths pass-wise operating conditions, thereby consistently reducing daily energy consumption and unit cost while moderately decreasing CO2 emissions without any hardware modifications. The proposed hybrid prediction–optimization framework thus provides a practical decision-support tool for integrated energy–environment–economic optimization in multi-line aluminium cold rolling operations.",
+    "innovationCn": "铝冷轧是一种能源密集型工艺，对二氧化碳排放和生产成本产生重大影响，但由于工艺非线性和各种操作限制，工厂级优化仍然具有挑战性。本研究开发了一种物理一致的混合模型，将 Stone-Hitchcock-Ludwik 分析轧制能量公式与残差深度神经网络相结合，以预测三个单机架冷轧机的每日耗电量。使用工厂原始数据，混合模型比传统数据驱动模型实现了更低的预测误差，并产生与每个工厂观察到的行为非常吻合的生产线特定物理参数。在此基础上，进行基于NSGA-II的三目标优化，通过调整道次减少和张力计划以及生产线生产分配，最大限度地减少日常能源使用、二氧化碳排放和特定生产成本（SPC）。对代表性运营日的案例研究和其他工厂数据表明，优化的运营策略将生产负荷从效率较低的生产线转移到效率较高的生产线，并平滑逐道运行条件，从而持续降低每日能源消耗和单位成本，同时适度减少二氧化碳排放，而无需任何硬件改造。因此，所提出的混合预测-优化框架为多线铝冷轧操作中的能源-环境-经济综合优化提供了实用的决策支持工具。",
+    "innovationFormula": "机器学习与智能预测 + 型线轧制 + 轧制实验 = 工艺优化",
+    "doi": "10.69997/sct.128206"
+  },
+  {
+    "id": "p-083",
+    "title": "Relaxed-graph embedding intuitionistic fuzzy broad learning system based on quality-related virtual variable : A novel approach for quality-related fault diagnosis in process manufacturing systems",
+    "titleCn": "基于质量相关虚拟变量的松弛图嵌入直观模糊广泛学习系统：过程制造系统中质量相关故障诊断的新方法",
+    "authors": "Chuanfang Zhang, Zhibin Huang, Wenxiao Yin, D J Li et al.",
+    "journal": "Measurement Science and Technology",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 6,
+    "innovationScore": 9,
+    "field": "digital",
+    "processType": "section",
+    "innovationTags": [],
+    "abstract": "Abstract In multivariate process manufacturing systems, such as chemical production and hot rolling processes, product quality is strongly influenced by the dynamic behavior of process variables. Accordingly, quality-related fault diagnosis is not merely a fault classification task, but a measurement-driven decision problem that aims to identify quality-relevant abnormal operating conditions from high-dimensional process measurements. Its practical implementation is often hindered by delayed or unavailable quality measurements, measurement noise, outliers, and complex couplings among process variables. These factors may degrade the reliability of quality-related diagnostic decisions and increase the difficulty of real-time industrial deployment. To address these challenges, this paper proposes a relaxed-graph embedding intuitionistic fuzzy broad learning system (RGE-IFBLS) for quality-related fault diagnosis. First, a quality-related virtual variable (QRVV) is constructed to automatically classify process variables into quality-related and quality-unrelated categories, eliminating dependence on direct quality measurements. Second, an intuitionistic fuzzy (IF) scoring mechanism adaptively re-weights training samples to suppress the influence of noise and outliers, significantly improving robustness. Third, a relaxed-graph embedding framework with dual transformation matrices is introduced to enhance inter-class separation while maintaining local structural consistency, thereby alleviating overfitting in broad learning architectures. The resulting optimization problem is efficiently solved via the alternating direction method of multipliers (ADMM) with closed-form updates, ensuring computational efficiency suitable for real-time applications. Extensive evaluations on the Tennessee Eastman Process (TEP) and a real-world hot rolling process (HRP) demonstrate that RGE-IFBLS achieves average diagnostic accuracies of 97.0% and 97.7%, respectively, outperforming the best competing broad-learning-based methods by 1.8 and 1.3 percentage points. Moreover, the testing times of RGE-IFBLS are only 0.38 s and 0.44 s on the TEP and HRP datasets, respectively, indicating its potential for real-time quality-related fault diagnosis.",
+    "innovationCn": "摘要 在多变量过程制造系统中，例如化工生产和热轧过程，产品质量受到过程变量动态行为的强烈影响。因此，与质量相关的故障诊断不仅仅是故障分类任务，而且是一个测量驱动的决策问题，旨在从高维过程测量中识别与质量相关的异常操作条件。其实际实施常常受到延迟或不可用的质量测量、测量噪声、异常值以及过程变量之间的复杂耦合的阻碍。这些因素可能会降低质量相关诊断决策的可靠性，并增加实时工业部署的难度。为了应对这些挑战，本文提出了一种用于质量相关故障诊断的松弛图嵌入直觉模糊广泛学习系统（RGE-IFBLS）。首先，构建质量相关虚拟变量（QRVV）以自动将过程变量分为质量相关和质量无关类别，消除对直接质量测量的依赖。其次，直观的模糊（IF）评分机制自适应地重新加权训练样本，以抑制噪声和异常值的影响，显着提高鲁棒性。第三，引入了具有对偶变换矩阵的宽松图嵌入框架，以增强类间分离，同时保持局部结构一致性，从而减轻广泛学习架构中的过度拟合。由此产生的优化问题通过具有封闭形式更新的乘法器交替方向法（ADMM）有效解决，确保适合实时应用的计算效率。对田纳西伊士曼过程 (TEP) 和实际热轧过程 (HRP) 的广泛评估表明，RGE-IFBLS 的平均诊断准确率分别为 97.0% 和 97.7%，比基于广泛学习的最佳竞争方法高出 1.8 和 1.3 个百分点。此外，RGE-IFBLS在TEP和HRP数据集上的测试时间分别仅为0.38秒和0.44秒，表明其在实时质量相关故障诊断方面的潜力。",
+    "innovationFormula": "数字孪生与在线监测 + 型线轧制 + 轧制实验 = 故障诊断",
+    "doi": "10.1088/1361-6501/ae7e1c"
   }
 ];
+
 
 
 
