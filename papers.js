@@ -332,49 +332,6 @@ const PAPERS = [
     "innovationFormula": "有限元(FEM) + 机器学习(ML) + 应变诱导马氏体 = 轧辊挠度广义预测"
   },
   {
-    "id": "p-007",
-    "title": "Rolling bearing fault diagnosis based on ST-CNN-SVM",
-    "titleCn": "基于ST-CNN-SVM的滚动轴承故障诊断",
-    "authors": "Tian B.",
-    "journal": "Noise & Vibration Worldwide",
-    "sourceType": "SCI",
-    "year": 2026,
-    "month": 6,
-    "innovationScore": 6,
-    "field": "ml",
-    "processType": "general",
-    "innovationTags": [
-      "神经网络",
-      "预测性维护"
-    ],
-    "abstract": "Rolling bearing fault diagnosis under complex operating conditions forms the essential foundation for the predictive maintenance of rotating machinery. However, traditional methods are often overwhelmed by strong noise, and constrained by the empirical risk minimization (ERM) principle, leading to significant overfitting in small sample learning scenarios. To address the aforementioned limitations, a lightweight diagnostic model integrating S-Transform (ST), convolutional neural network (CNN), and support vector machine (SVM) is proposed in this paper. Time-frequency features are extracted by leveraging the multi-resolution characteristics of the ST, deep feature mapping is performed through a customized CNN, and SVM is introduced to construct the maximum-margin classification hyperplane based on the structural risk minimization (SRM) principle. The experimental results illustrate that the method exhibits exceptional diagnostic accuracy under intense noise and small sample sizes. Randomized subset cross-validation confirms that this architecture effectively eliminates the interference of sampling randomness. Consequently, the ST-CNN-SVM model demonstrates high statistical stability.",
-    "doi": "10.1177/09574565261459693",
-    "innovationCn": "复杂工况下的滚动轴承故障诊断是旋转机械预测性维护的重要基础。然而，传统方法往往会被强噪声所淹没，并受到经验风险最小化（ERM）原理的约束，导致小样本学习场景中出现严重的过拟合。为了解决上述局限性，本文提出了一种集成 S-Transform（ST）、卷积神经网络（CNN）和支持向量机（SVM）的轻量级诊断模型。利用ST的多分辨率特性提取时频特征，通过定制的CNN进行深度特征映射，并引入SVM基于结构风险最小化（SRM）原理构建最大边缘分类超平面。实验结果表明，该方法在强噪声和小样本量下表现出优异的诊断准确性。随机子集交叉验证证实该架构有效消除了采样随机性的干扰。因此，ST-CNN-SVM 模型表现出较高的统计稳定性。",
-    "innovationFormula": "S-Transform + CNN + SVM = 强噪声下轴承故障诊断"
-  },
-  {
-    "id": "p-008",
-    "title": "Research on remaining useful life prediction of rolling bearings based on adaptive variational mode decomposition and dual-branch temporal neural network",
-    "titleCn": "基于自适应变分模态分解和双分支时序神经网络的滚动轴承剩余寿命预测研究",
-    "authors": "Tang W., Dong W., Yang J., Wu G.",
-    "journal": "Advances in Engineering Innovation",
-    "sourceType": "SCI",
-    "year": 2026,
-    "month": 6,
-    "innovationScore": 6,
-    "field": "ml",
-    "processType": "general",
-    "innovationTags": [
-      "神经网络",
-      "自适应控制",
-      "在线监测"
-    ],
-    "abstract": "To address the nonlinear and non-stationary characteristics of vibration signals during rolling bearing operation and the issue of insufficient degradation information representation, this paper designs a prediction framework that combines Adaptive Variational Mode Decomposition (AVMD) with a SETCN-BiGRU multi-head temporal attention mechanism for Remaining Useful Life (RUL) prediction. First, AVMD is used to decompose the bearing horizontal vibration signal into five Intrinsic Mode Functions (IMFs). Time-domain and frequency-domain statistics are extracted from each IMF and concatenated into a 115-dimensional degradation feature sequence. Subsequently, the model processes in parallel: a TCN-SENet branch extracts local temporal features and adaptively adjusts channel weights, while a BiGRU with multi-head temporal attention sub-network captures global bidirectional dependencies and critical degradation periods within the degradation sequence. Finally, the two types of features are fused, and the RUL prediction result is output. Experimental results demonstrate that the proposed model achieves an RMSE, MAE, and R² of 0.0582, 0.0477, and 0.9483 respectively on the IEEE PHM 2012 dataset, and average values of 0.0780, 0.0559, and 0.9133 on a self-built laboratory bearing dataset, indicating good prediction accuracy, robustness, and generalization ability.",
-    "doi": "10.54254/2977-3903/2026.34398",
-    "innovationCn": "针对滚动轴承运行过程中振动信号的非线性和非平稳特性以及退化信息表示不足的问题，本文设计了一种将自适应变分模态分解（AVMD）与SETCN-BiGRU多头时间注意力机制相结合的预测框架，用于剩余使用寿命（RUL）预测。首先，使用 AVMD 将轴承水平振动信号分解为五个本征模态函数 (IMF)。从每个 IMF 中提取时域和频域统计数据，并将其连接成 115 维退化特征序列。随后，模型并行处理：TCN-SENet 分支提取局部时间特征并自适应调整通道权重，而具有多头时间注意子网络的 BiGRU 捕获全局双向依赖性和退化序列中的关键退化周期。最后融合两类特征，输出RUL预测结果。实验结果表明，该模型在IEEE PHM 2012数据集上的RMSE、MAE和R²分别为0.0582、0.0477和0.9483，在自建实验室轴承数据集上的平均值分别为0.0780、0.0559和0.9133，具有良好的预测精度、鲁棒性和泛化能力。",
-    "innovationFormula": "自适应VMD + SETCN-BiGRU + 多头注意力 = 剩余寿命预测"
-  },
-  {
     "id": "p-009",
     "title": "A novel machine learning framework for ridge defect prediction in hot rolling using process signature",
     "titleCn": "一种使用过程特征进行热轧脊线缺陷预测的新型机器学习框架",
@@ -454,26 +411,6 @@ const PAPERS = [
     "doi": "10.31875/2409-9848.2024.11.05",
     "innovationCn": "针对航空涡轮轴大断面缩孔成形速度慢的问题，提出了多辊斜滚成形工艺。利用Simufact Forming软件对GH4169涡轮轴毛坯进行仿真分析，分析初始壁厚为6 mm的空心轴构件成形过程中应力、应变和温度场的变化。此外，我们还进一步探讨了工件端部初始壁厚与凹中心深度之间的内在关系。结果表明，经过多场耦合作用后，工件的金属变形沿轴向逐渐累积，达到最大变形量后达到峰值，并呈现出逐渐减小的趋势。",
     "innovationFormula": "Simufact Forming + 多辊斜轧 + 空心阶梯轴 = 涡轮轴成形仿真"
-  },
-  {
-    "id": "p-014",
-    "title": "S2M-Trek: From Single to Multi-Sphere Transport via Per-Frame Deep Sets on a Wheel-Legged Robot",
-    "titleCn": "S2M-Trek：通过轮腿机器人上的每帧深度集从单球体运输到多球体运输",
-    "authors": "Zong Chen, Xuebin Li, Jinpeng Xiao, Shaoyang Li, et al.",
-    "journal": "arXiv preprint",
-    "sourceType": "预印本",
-    "year": 2026,
-    "month": 5,
-    "innovationScore": 10,
-    "field": "fem",
-    "processType": "general",
-    "innovationTags": [
-      "无网格"
-    ],
-    "abstract": "We study the problem of scaling dynamic loco-manipulation from a single free-rolling sphere to multiple spheres transported simultaneously on the back of a wheel-legged quadruped, without fences, grippers, or mechanical stops. Multiple identical free-rolling spheres form an unordered set with no persistent identity: their ordering may change independently at each history frame, creating a \\emph{per-frame permutation symmetry} that standard history-concatenation set encoders do not explicitly enforce -- these encoders impose only a shared, diagonal permutation symmetry over the full history. We show that this symmetry mismatch leads to a concrete failure mode in curriculum-based reinforcement learning. Within the same PPO training budget, flat MLPs and branch-wise encoders plateau at or below the two-sphere stage, while a history-concatenation Deep Sets baseline (\\HCDS) fails to progress past the two-sphere stage in our runs unless ball-to-slot assignments are randomised during training, suggesting that it exploits slot indices as a curriculum shortcut rather than learning identity-free multi-sphere dynamics. We propose \\textbf{Per-Frame Deep Sets (\\PFDS)}, which performs permutation-invariant pooling within each history frame before temporal readout; we prove that \\PFDS is $\\Gframe$-invariant and universally approximates continuous $\\Gframe$-invariant policies. A $2{\\times}2$ ablation over encoder architecture and slot randomisation separates the architectural and data-augmentation pathways, and \\PFDS reaches the five-sphere stage with 100\\% no-drop transport in simulation across all five random seeds. We further distill the \\PFDS teacher into \\TactSet via DAgger, replacing privileged sphere-state observations with a $16{\\times}16$ Boolean union contact map, yielding a compact and naturally $\\Gframe$-invariant tactile representation.",
-    "doi": "arXiv:2606.01332",
-    "innovationCn": "我们研究将动态局部操纵从单个自由滚动球体扩展为在轮腿四足动物背上同时运输的多个球体的问题，无需围栏、夹具或机械挡块。多个相同的自由滚动球体形成一个没有持久标识的无序集合：它们的顺序可能在每个历史帧上独立改变，从而创建标准历史串联集合编码器不会显式强制执行的 \\emph{每帧置换对称性} - 这些编码器仅在整个历史上强加共享的对角置换对称性。我们表明，这种对称不匹配会导致基于课程的强化学习的具体失败模式。在相同的 PPO 训练预算内，平坦 MLP 和分支编码器在两球阶段或以下处于稳定状态，而历史串联深度集基线 (\\HCDS) 在我们的运行中无法进展到两球阶段，除非在训练期间随机分配球到槽位，这表明它利用槽索引作为课程捷径，而不是学习无身份的多球动力学。我们提出 \\textbf{Per-Frame Deep Sets (\\PFDS)}，它在时间读出之前在每个历史帧内执行排列不变池化；我们证明\\PFDS是$\\Gframe$不变的并且普遍近似连续$\\Gframe$不变的策略。编码器架构和时隙随机化的 $2{\\times}2$ 消融将架构和数据增强路径分开，并且 \\PFDS 达到五球阶段，在所有五个随机种子的模拟中实现 100\\% 无丢包传输。我们通过 DAgger 将 \\PFDS 教师进一步提炼为 \\TactSet，用 $16{\\times}16$ 布尔联合接触图替换特权球体状态观察，产生紧凑且自然 $\\Gframe$ 不变的触觉表示。",
-    "innovationFormula": "深度集(Deep Sets) + 每帧感知 + 轮腿机器人 = 多球体运输控制"
   },
   {
     "id": "p-015",
@@ -868,26 +805,6 @@ const PAPERS = [
     "doi": "10.1109/icieam69213.2026.11549796",
     "innovationCn": "基于Simulink Real-Time的轧机机电系统数字孪生开发。主要涉及数字孪生、在线监测等方面的创新研究。",
     "innovationFormula": "Simulink Real-Time + 机电系统 + 数字孪生 = 轧机实时仿真"
-  },
-  {
-    "id": "p-034",
-    "title": "Fault Diagnosis of Rolling Bearings Based on Mechanism-Guided Deep Subdomain Adaptation Method",
-    "titleCn": "基于机构引导的深度子域自适应方法的滚动轴承故障诊断",
-    "authors": "Wang W., Pan J., Yu J.",
-    "journal": "Engineering Research Express",
-    "sourceType": "SCI",
-    "year": 2026,
-    "month": 6,
-    "innovationScore": 6,
-    "field": "digital",
-    "processType": "general",
-    "innovationTags": [
-      "轧制工艺"
-    ],
-    "abstract": "Rolling bearings are critical components in rotating machinery, yet their accurate fault diagnosis in industrial applications remains challenging due to the scarcity of fault labels and the shift in feature distributions under varying operating conditions. To address these issues, this paper proposes a mechanism-guided deep subdomain adaptation method for bearing fault diagnosis. First, raw vibration signals are resampled at equal angular intervals to transform them from the time domain to the angular domain, thereby mitigating feature shifts caused by speed variation and providing a stable order-domain representation. Then, an order filter is constructed based on the   theoretical fault characteristic orders to generate a fault order spectrum. Next, a mechanism-guided feature extraction structure is designed to focus on fault features according to their distribution in the order domain. This structure enhances the model’s sensitivity to localised fault information while preserving the global full-spectrum background.&amp;#xD;Finally, the proposed method is validated through six cross-domain transfer tasks across three distinct datasets. Experimental results demonstrate that the proposed method achieves a diagnostic accuracy of up to 95.88% without requiring target-domain labels, exhibiting strong robustness and cross-domain adaptation ability under dynamic operating conditions.&amp;#xD;",
-    "doi": "10.1088/2631-8695/ae7ef9",
-    "innovationCn": "摘要 滚动轴承是旋转机械中的关键部件，但由于故障标签的缺乏以及不同运行条件下特征分布的变化，其在工业应用中的准确故障诊断仍然具有挑战性。针对这些问题，本文提出了一种机制引导的轴承故障诊断深度子域自适应方法。首先，以相等的角度间隔对原始振动信号进行重采样，将其从时域变换到角域，从而减轻速度变化引起的特征偏移并提供稳定的阶域表示。然后，根据理论故障特征阶次构建阶次滤波器，生成故障阶次谱。接下来，设计了一种机制引导的特征提取结构，根据故障特征在阶域中的分布来关注故障特征。这种结构增强了模型对局部故障信息的敏感性，同时保留了全局全谱背景。最后，通过三个不同数据集的六个跨域传输任务对所提出的方法进行了验证。实验结果表明，该方法在不需要目标域标签的情况下实现了高达95.88%的诊断准确率，在动态运行条件下表现出很强的鲁棒性和跨域适应能力。",
-    "innovationFormula": "机构引导 + 深度子域自适应 + 跨域诊断 = 无标签轴承故障诊断"
   },
   {
     "id": "p-035",
@@ -1506,27 +1423,6 @@ const PAPERS = [
     "innovationFormula": "Al/AZ31/Al层压 + 塑性成形分析 + 能量评估 = 运输用轻量化复合"
   },
   {
-    "id": "p-065",
-    "title": "Creation of a wear-resistant bimetallic coating for the track treadmill of a crawler",
-    "titleCn": "为履带式跑步机创建耐磨双金属涂层",
-    "authors": "Bekmurzaev N.X., Nurmetov K., Alimukhamedov S.",
-    "journal": "Vibroengineering PROCEDIA",
-    "sourceType": "SCI",
-    "year": 2025,
-    "month": 12,
-    "innovationScore": 6,
-    "field": "clad",
-    "processType": "general",
-    "innovationTags": [
-      "累积叠轧",
-      "磨损"
-    ],
-    "abstract": "The technology of creating a bimetallic compound steel 20GL – a hard alloy of the  Fe-Cr-C system, formed during the casting process by melting the carbide powder of the PG-C27 alloy due to the heat of the crystallizing melt, is investigated in this article. The resulting bimetallic compound on the working surfaces of the crawler makes it possible to increase the abrasive wear resistance. The production of bimetallic castings in the casting process involves the complete or partial penetration of inserts made of wear-resistant material placed on the working surface of the casting during its crystallization. Upon contact with the melt, the melt penetrates and partially melts the particles of the inserts to form a single bimetallic composition. Based on the above and in order to increase the durability and wear resistance of cast parts of road construction and agricultural machinery, we have developed a technology for bimetallic steel - hard alloy PG-C27 type “sormite”. The obtained bimetallic compound makes it possible to increase the abrasive wear resistance on the working surfaces of the crawler.",
-    "doi": "10.21595/vp.2025.25613",
-    "innovationCn": "本文研究了双金属复合钢 20GL 的制造技术，这是一种 Fe-Cr-C 系硬质合金，在铸造过程中通过结晶熔体的热量熔化 PG-C27 合金的碳化物粉末而形成。由此产生的履带工作表面上的双金属化合物可以提高耐磨性。在铸造过程中双金属铸件的生产涉及在铸件结晶期间放置在铸件工作表面上的由耐磨材料制成的镶件的完全或部分渗透。当与熔体接触时，熔体渗透并部分熔化插入物的颗粒以形成单一双金属组合物。基于此，为了提高筑路、农业机械铸件的耐用度和耐磨性，我们开发了双金属钢——硬质合金PG-C27型“索氏体”技术。所获得的双金属化合物可以提高履带工作表面的耐磨耗性能。",
-    "innovationFormula": "双金属铸造 + PG-C27碳化物 + 热轧 = 履带耐磨涂层"
-  },
-  {
     "id": "p-066",
     "title": "Structural, Thermal Behaviour and Tribological Performance in Cold Rolling of Mineral Lubricants with Graphene Nanoplatelets Functionalized with Oleic Acid",
     "titleCn": "油酸功能化石墨烯纳米片冷轧矿物润滑剂的结构、热行为和摩擦学性能",
@@ -1566,46 +1462,6 @@ const PAPERS = [
     "doi": "10.17580/chm.2024.11.07",
     "innovationCn": "润滑广泛应用于金属成型。润滑剂的主要目的是降低摩擦系数。润滑剂在变形体和工具之间形成中间层，将它们完全或部分地彼此隔离。由于高比压，润滑脂并不总是完全隔离摩擦表面，从而使工具和工件表面接触，导致磨损加速和发热增加。这会对刀具和工件造成损坏，降低加工精度并缩短设备寿命。本文提出了一种确定多层轧机连续热轧无缝管过程中润滑对摩擦条件影响的方法。提出了基于实验室磨机 DUO-210 的摩擦研究装置的实现变体。该装置可以进行物理建模，以研究尽可能接近真实生产过程的条件下的摩擦力。给出了使用各种技术润滑剂在两辊轧机的可移动心轴上轧制壳的过程的试验结果，以及不使用润滑剂的经验结果。使用基于石墨的技术润滑剂的研究表明，在套筒滚动过程中，心轴保持力的差异取决于所使用的成分。同时，润滑脂的使用显着降低了保持力。这项工作是在日期为 075-11-2023-011 号协议框架内的综合项目框架内进行的，该项目的主题为“俄罗斯联邦燃料和能源综合体复杂操作条件下采用新一代钢生产具有受控耐腐蚀性能的无缝管的综合技术的开发和实施”。 2023 年 2 月 10 日，根据俄罗斯联邦政府 2010 年 4 月 9 日第 218 号决议。",
     "innovationFormula": "管轧润滑剂 + 受控芯轴 + 摩擦系数 = DUO-210轧管优化"
-  },
-  {
-    "id": "p-068",
-    "title": "Free-Colloidal Probe Lateral Force Microscopy (fCP-LFM) for Nanotribology of Sliding and Rolling Contacts",
-    "titleCn": "用于滑动和滚动接触纳米摩擦学的自由胶体探针横向力显微镜 (fCP-LFM)",
-    "authors": "Scherrer S., Margni N., Skailand K., Hu M., et al.",
-    "journal": "Tribology Letters",
-    "sourceType": "SCI",
-    "year": 2026,
-    "month": 5,
-    "innovationScore": 10,
-    "field": "tribo",
-    "processType": "general",
-    "innovationTags": [
-      "摩擦"
-    ],
-    "abstract": "While sliding friction at the nanoscale is routinely measured by colloidal probe lateral force microscopy (CP-LFM), measuring rolling friction at this scale remains challenging due to the difficulty of resolving lateral forces and particle rotation under well-defined normal loads. Here, we present an extension of a recently published platform that uses free-colloidal probes to enable quantitative measurements of both sliding and rolling friction at individual particle–substrate contacts. Our approach combines a custom-made colloidal probe with a holder for free particle rotation with lateral force detection and optical particle tracking. The modular holder design is compatible with particles of different sizes and materials, enabling studies of many systems of interest. We functionalize the holder surface using a lubricious poly(ethylene-glycol) (PEG) brush to minimize the internal friction of the free-moving particle within and extend the regime in which rolling friction can be measured. In addition, we present a scalable synthesis route for smooth, polymeric particles with tunable size (3–8\n                    \n                      \n                        $$\\mu $$\n                        \n                          μ\n                        \n                      \n                    \n                    m) and anisotropic fluorescence, enabling direct tracking of particle rotation without modifying native surface properties. Together, these developments establish free-colloidal probe LFM, or fCP-LFM, as a robust and adaptable tribological platform for quantifying friction at the microscale under different modes of relative motion, suitable for systematic studies of nanoscale particle–surface interactions across a wide range of materials and conditions.",
-    "doi": "10.1007/s11249-026-02147-8",
-    "innovationCn": "虽然纳米尺度的滑动摩擦通常通过胶体探针侧向力显微镜 (CP-LFM) 进行测量，但由于在明确的法向载荷下难以解析侧向力和颗粒旋转，测量这种尺度的滚动摩擦仍然具有挑战性。在这里，我们提出了最近发布的平台的扩展，该平台使用自由胶体探针来定量测量单个颗粒与基底接触处的滑动和滚动摩擦。我们的方法将定制的胶体探针与支架相结合，用于自由粒子旋转、侧向力检测和光学粒子跟踪。模块化支架设计与不同尺寸和材料的颗粒兼容，可以对许多感兴趣的系统进行研究。我们使用润滑的聚（乙二醇）（PEG）刷对支架表面进行功能化，以最大限度地减少内部自由移动颗粒的内部摩擦，并扩展可以测量滚动摩擦的范围。此外，我们还提出了一种可扩展的合成路线，用于具有可调尺寸（3-8 $$\\mu $$ μ m）和各向异性荧光的光滑聚合物颗粒，从而能够直接跟踪颗粒旋转，而无需改变天然表面特性。总之，这些发展建立了自由胶体探针 LFM（或 fCP-LFM）作为一个强大且适应性强的摩擦学平台，用于量化不同相对运动模式下的微尺度摩擦，适用于对各种材料和条件下的纳米级颗粒-表面相互作用进行系统研究。",
-    "innovationFormula": "自由胶体探针 + 横向力显微镜 + 纳米尺度 = 滚动摩擦测量"
-  },
-  {
-    "id": "p-069",
-    "title": "A numerical study on the effect of rolling friction on clogging of pores in particle-laden flows",
-    "titleCn": "滚动摩擦对颗粒流中孔隙堵塞影响的数值研究",
-    "authors": "Sagar G. Nayak, Zhenjiang You, Yuchen Dai, Geoff Wang, et al.",
-    "journal": "arXiv preprint",
-    "sourceType": "预印本",
-    "year": 2026,
-    "month": 1,
-    "innovationScore": 10,
-    "field": "tribo",
-    "processType": "general",
-    "innovationTags": [
-      "摩擦"
-    ],
-    "abstract": "Granular flow is common across different fields from energy resource recovery and mineral processing to grain transport and traffic flow. Migrating particles may jam and form arches that span constrictions and hinder particle flow. Most studies have investigated the migration and clogging of spherical particles, however, natural particles are rarely spherical, but exhibit eccentricity, angularity and roughness. New experiments explore the discharge of cubes, 2D crosses, 3D crosses and spheres under dry conditions and during particle-laden fluid flow. Variables include orifice-to-particle size ratio and solidity. Cubes and 3D crosses are the most prone to clogging because of their ability to interlock or the development of face-to-face contacts that can resist torque and enhance bridging. Spheres arriving to the orifice must be correctly positioned to create stable bridges, while flat 2D crosses orient their longest axes in the direction of flowlines across the orifice and favor flow. Intermittent clogging causes kinetic retardation in particle-laden flow even in the absence of inertial effects; the gradual increase in the local particle solidity above the constriction enhances particle interactions and the probability of clogging. The discharge volume before clogging is a Poisson process for small orifice-to-particle size ratio; however, the clogging probability becomes history-dependent for non-spherical particles at large orifice-to-particle size ratio and high solidities, i.e., when particle-particle interactions and interlocking gain significance.",
-    "doi": "arXiv:2601.11121",
-    "innovationCn": "颗粒流在能源资源回收和矿物加工、粮食运输和交通流等不同领域都很常见。迁移的颗粒可能会堵塞并形成跨越狭窄处并阻碍颗粒流动的拱形结构。大多数研究都研究了球形颗粒的迁移和堵塞，然而，天然颗粒很少是球形的，而是表现出偏心性、棱角性和粗糙度。新的实验探索了在干燥条件下和充满颗粒的流体流动过程中立方体、2D 十字形、3D 十字形和球体的放电。变量包括孔口与颗粒尺寸之比和密实度。立方体和 3D 十字最容易堵塞，因为它们能够互锁或形成面对面接触，可以抵抗扭矩并增强桥接。到达孔口的球体必须正确定位以形成稳定的桥，而平面二维十字将其最长轴定向在穿过孔口的流线方向并有利于流动。即使在没有惯性效应的情况下，间歇性堵塞也会导致颗粒流动的动力学迟缓；颈缩上方局部颗粒密实度的逐渐增加增强了颗粒相互作用和堵塞的可能性。堵塞前的排出量为小孔径比的泊松过程；然而，对于大孔口与颗粒尺寸比和高固体度的非球形颗粒，即当颗粒与颗粒相互作用和联锁变得重要时，堵塞概率变得依赖于历史。",
-    "innovationFormula": "滚动摩擦模型 + 非球形颗粒 + 孔隙堵塞 = 颗粒流堵塞预测"
   },
   {
     "id": "p-070",
@@ -1668,27 +1524,6 @@ const PAPERS = [
     "doi": "10.1016/j.jmapro.2026.05.052",
     "innovationCn": "快速多次旋转轧制引起 AA1010 铝基体上 Al-Si-Cu 涂层结构、强度和磨损行为的变化。主要涉及磨损、铝合金等方面的创新研究。",
     "innovationFormula": "快速多次旋转轧制 + Al-Si-Cu涂层 + 结构演变 = 铝基涂层强化"
-  },
-  {
-    "id": "p-073",
-    "title": "Design Framework and Manufacturing of an Active Magnetic Bearing Spindle for Micro-Milling Applications",
-    "titleCn": "用于微铣削应用的主动磁力轴承主轴的设计框架和制造",
-    "authors": "Kazi Sher Ahmed, Bekir Bediz",
-    "journal": "arXiv preprint",
-    "sourceType": "预印本",
-    "year": 2026,
-    "month": 2,
-    "innovationScore": 10,
-    "field": "tribo",
-    "processType": "general",
-    "innovationTags": [
-      "摩擦",
-      "润滑"
-    ],
-    "abstract": "Micro-milling spindles require high rotational speeds where conventional rolling element bearings face limitations such as friction and thermal expansion. Active magnetic bearings (AMBs) address these challenges by providing non-contact and lubrication-free operation at ultra-high speeds with the ability to actively regulate spindle dynamics. The existing literature on AMB spindles has mainly reported specific prototype realizations or control system implementations for specific spindle dynamics. Consequently, design knowledge remains fragmented across isolated successful studies. This paper addresses this gap by presenting a systematic and iterative framework to design and manufacture a micro-milling AMB spindle. The process involves a multidisciplinary design flow with a focus on critical practical aspects of manufacturing. The realized spindle is reported as a case study.",
-    "doi": "arXiv:2603.00169",
-    "innovationCn": "微铣削主轴需要高转速，而传统滚动轴承面临摩擦和热膨胀等限制。主动磁力轴承 (AMB) 通过提供超高速非接触式免润滑操作以及主动调节主轴动态的能力来应对这些挑战。关于 AMB 主轴的现有文献主要报道了特定主轴动力学的特定原型实现或控制系统实现。因此，设计知识在孤立的成功研究中仍然是支离破碎的。本文通过提出一个系统的迭代框架来设计和制造微铣削 AMB 主轴，从而弥补了这一差距。该过程涉及多学科设计流程，重点关注制造的关键实际方面。所实现的主轴作为案例研究进行了报告。",
-    "innovationFormula": "主动磁力轴承(AMB) + 非接触式 + 多学科设计 = 微铣削主轴"
   },
   {
     "id": "p-074",
@@ -1832,27 +1667,6 @@ const PAPERS = [
     "innovationFormula": "EBCHM + 免锻直接轧制 + Ti-6Al-4V = 钛合金短流程制造"
   },
   {
-    "id": "p-081",
-    "title": "A review of enhanced hydrogen storage in MgH2: the role of high-energy reactive ball milling and catalysis",
-    "titleCn": "MgH2 增强储氢综述：高能反应球磨和催化的作用",
-    "authors": "Borchloo A., Nekouee K.",
-    "journal": "Synthesis and Sintering",
-    "sourceType": "SCI",
-    "year": 2025,
-    "month": 9,
-    "innovationScore": 6,
-    "field": "green",
-    "processType": "general",
-    "innovationTags": [
-      "氢能",
-      "镁合金"
-    ],
-    "abstract": "Due to its significant hydrogen capacity (7.6 wt%), availability, and reversibility, magnesium hydride (MgH2) is considered one of the most promising solid-state hydrogen storage materials, making it attractive for sustainable energy systems. The excellent thermodynamic stability and slow absorption/desorption kinetics, which require elevated operating temperatures, limit its practical application. This paper addresses the important issue of how advanced synthesis methods, specifically high-energy reactive ball milling and catalytic doping, can overcome inherent challenges and enable the practical use of MgH2 for hydrogen storage. The methodology adopted is a systematic and integrative review of state-of-the-art experimental and theoretical studies, focusing on thermodynamic and kinetic fundamentals, synthesis routes, catalytic additives, and nanostructuring strategies. Results indicate that high-energy ball milling significantly improves hydrogen diffusion by reducing particle sizes to the nanoscale and lowering the desorption onset temperature by approximately 45 °C. Catalysts such as 2 mol% Nb2O5 further reduce activation energy barriers, enabling rapid hydrogen release of 6.4 wt% in 114 s, while polymorphic transitions (γ-MgH2 formation) enhance structural stability. Despite these advances, challenges such as grain coarsening and cycling capacity loss remain, highlighting the importance of nanoencapsulation, alloying, and scalable fabrication techniques. In conclusion, the review provides a critical framework for understanding the synergistic role of ball milling and catalysis in tailoring MgH2 properties and outlines future research directions toward efficient, scalable, and application-ready hydrogen storage systems.",
-    "doi": "10.53063/synsint.2025.53296",
-    "innovationCn": "由于其显着的氢容量（7.6 wt%）、可用性和可逆性，氢化镁（MgH2）被认为是最有前途的固态储氢材料之一，使其对可持续能源系统具有吸引力。优异的热力学稳定性和缓慢的吸收/解吸动力学需要升高的操作温度，限制了其实际应用。本文讨论了先进合成方法（特别是高能反应球磨和催化掺杂）如何克服固有挑战并使 MgH2 实际用于储氢的重要问题。所采用的方法是对最先进的实验和理论研究的系统和综合回顾，重点是热力学和动力学基础、合成路线、催化添加剂和纳米结构策略。结果表明，高能球磨通过将颗粒尺寸减小至纳米级并将解吸起始温度降低约 45 °C，显着改善了氢扩散。 2 mol% Nb2O5 等催化剂进一步降低了活化能垒，能够在 114 秒内快速释放 6.4 wt% 的氢，同时多晶型转变（γ-MgH2 形成）增强了结构稳定性。尽管取得了这些进展，但晶粒粗化和循环容量损失等挑战仍然存在，凸显了纳米封装、合金化和可扩展制造技术的重要性。总之，该综述为理解球磨和催化在调整 MgH2 性能方面的协同作用提供了一个关键框架，并概述了高效、可扩展和可立即应用的储氢系统的未来研究方向。",
-    "innovationFormula": "高能球磨 + 催化改性 + MgH2 = 固态储氢增强"
-  },
-  {
     "id": "p-082",
     "title": "Data-Driven Multi-Objective Optimization of Energy, Environmental, and Economic Performances in Manufacturing with Physics-Consistent Deep Learning",
     "titleCn": "利用物理一致的深度学习对制造业中的能源、环境和经济绩效进行数据驱动的多目标优化",
@@ -1889,6 +1703,7 @@ const PAPERS = [
     "doi": "10.1088/1361-6501/ae7e1c"
   }
 ];
+
 
 
 
