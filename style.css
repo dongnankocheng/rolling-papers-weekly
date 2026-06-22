@@ -286,6 +286,72 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 18px;
 }
+
+/* ===== 近期/归档分区 ===== */
+.epoch-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 28px 0 8px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, rgba(56,189,248,0.12), transparent);
+  border: 1px solid rgba(56,189,248,0.15);
+}
+.epoch-badge {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.epoch-badge.new {
+  background: linear-gradient(90deg, #f97316, #ef4444);
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(239,68,68,0.3);
+}
+.epoch-count {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+/* 归档折叠按钮 */
+.archive-toggle-wrap {
+  margin: 24px 0 12px;
+  text-align: center;
+}
+.archive-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 24px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.04);
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .2s;
+}
+.archive-toggle:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(56,189,248,0.3);
+  color: var(--accent);
+}
+
+/* 归档区域样式 */
+.archive-grid .paper-card {
+  opacity: 0.82;
+  transition: opacity .2s, transform .25s, box-shadow .25s, border-color .25s;
+}
+.archive-grid .paper-card:hover {
+  opacity: 1;
+}
+.archive-header {
+  opacity: 0.85;
+}
+
 .paper-card {
   position: relative;
   padding: 20px;

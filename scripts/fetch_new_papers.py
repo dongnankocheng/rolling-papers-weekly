@@ -10,7 +10,7 @@ if hasattr(sys.stdout, "reconfigure"):
 
 # ====== Config ======
 DAYS_BACK = 7  # 只搜最近一周的论文
-MAX_PER_DIR = 10
+MAX_PER_DIR = 0  # 0 = 不删除旧论文，往期归档保留
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PAPERS_JS = os.path.join(os.path.dirname(SCRIPT_DIR), "papers.js")
 

@@ -262,32 +262,75 @@
     '</article>';
   }
 
+  // ---- 判断是否为近期论文 (最近30天内) ----
+  function isRecentPaper(p) {
+    var now = new Date();
+    var y = p.year || now.getFullYear();
+    var m = p.month || 1;
+    var paperDate = new Date(y, m - 1, 1);
+    var diff = (now - paperDate) / (1000 * 60 * 60 * 24);
+    return diff <= 60; // 最近2个月内算"本周更新"
+  }
+
   // ---- 渲染论文列表 ----
   function renderPapers() {
     const root = document.getElementById("paperContainer");
     if (!root) return;
     const list = getFilteredPapers();
 
-    // 按方向分组渲染
-    let html = "";
+    // 分为近期和归档
+    var recent = list.filter(isRecentPaper);
+    var archived = list.filter(function (p) { return !isRecentPaper(p); });
+
+    var html = "";
+
     if (state.activeDir === "all") {
-      // 全部方向：按方向分 section
-      DIRECTIONS.forEach(function (d) {
-        const sub = list.filter(function (p) { return p.field === d.id; });
-        if (sub.length === 0) return;
-        html += renderSectionHeader(d, sub.length);
-        html += '<div class="paper-grid">' +
-          sub.map(function (p, i) { return renderCard(p, i); }).join("") +
-        '</div>';
-      });
-    } else {
-      const d = dirById(state.activeDir);
-      if (d) {
-        html += renderSectionHeader(d, list.length);
+      // ---- 近期更新 ----
+      if (recent.length > 0) {
+        html += '<div class="epoch-header"><span class="epoch-badge new">🔥 本周/近期更新</span><span class="epoch-count">' + recent.length + ' 篇</span></div>';
+        DIRECTIONS.forEach(function (d) {
+          var sub = recent.filter(function (p) { return p.field === d.id; });
+          if (sub.length === 0) return;
+          html += renderSectionHeader(d, sub.length);
+          html += '<div class="paper-grid">' + sub.map(function (p, i) { return renderCard(p, i); }).join("") + '</div>';
+        });
       }
-      html += '<div class="paper-grid">' +
-        list.map(function (p, i) { return renderCard(p, i); }).join("") +
-      '</div>';
+
+      // ---- 往期归档 ----
+      if (archived.length > 0) {
+        html += '<div class="archive-toggle-wrap">';
+        html += '<button class="archive-toggle" id="archiveToggle" onclick="toggleArchive()">';
+        html += '<span id="archiveToggleText">📂 展开往期归档 (' + archived.length + ' 篇) ▼</span>';
+        html += '</button>';
+        html += '</div>';
+        html += '<div id="archiveContent" style="display:none;">';
+        DIRECTIONS.forEach(function (d) {
+          var sub = archived.filter(function (p) { return p.field === d.id; });
+          if (sub.length === 0) return;
+          html += renderSectionHeader(d, sub.length, true);
+          html += '<div class="paper-grid archive-grid">' + sub.map(function (p, i) { return renderCard(p, i); }).join("") + '</div>';
+        });
+        html += '</div>';
+      }
+    } else {
+      // 单个方向视图
+      var d = dirById(state.activeDir);
+      if (recent.length > 0) {
+        html += '<div class="epoch-header"><span class="epoch-badge new">🔥 本周/近期更新</span><span class="epoch-count">' + recent.length + ' 篇</span></div>';
+        if (d) html += renderSectionHeader(d, recent.length);
+        html += '<div class="paper-grid">' + recent.map(function (p, i) { return renderCard(p, i); }).join("") + '</div>';
+      }
+      if (archived.length > 0) {
+        html += '<div class="archive-toggle-wrap">';
+        html += '<button class="archive-toggle" id="archiveToggle" onclick="toggleArchive()">';
+        html += '<span id="archiveToggleText">📂 展开往期归档 (' + archived.length + ' 篇) ▼</span>';
+        html += '</button>';
+        html += '</div>';
+        html += '<div id="archiveContent" style="display:none;">';
+        if (d) html += renderSectionHeader(d, archived.length, true);
+        html += '<div class="paper-grid archive-grid">' + archived.map(function (p, i) { return renderCard(p, i); }).join("") + '</div>';
+        html += '</div>';
+      }
     }
 
     if (list.length === 0) {
@@ -299,11 +342,11 @@
     root.innerHTML = html;
   }
 
-  function renderSectionHeader(d, count) {
-    return '<div class="section-header" id="sec-' + d.id + '">' +
+  function renderSectionHeader(d, count, isArchive) {
+    return '<div class="section-header' + (isArchive ? ' archive-header' : '') + '" id="sec-' + d.id + (isArchive ? "-arch" : "") + '">' +
       '<div class="ico" style="border-color:' + d.color + '55;background:' + d.color + "22" + ';">' + d.icon + '</div>' +
       '<h2>' + escapeHtml(d.name) + '</h2>' +
-      '<span class="meta">Top ' + count + ' 篇 · 按创新性排序</span>' +
+      '<span class="meta">' + (isArchive ? '往期 ' : 'Top ') + count + ' 篇' + (isArchive ? '（归档）' : ' · 按创新性排序') + '</span>' +
     '</div>';
   }
 
@@ -593,5 +636,19 @@ function toggleAbstract(id) {
     toggle.textContent = "展开全部 ▼";
     toggle.setAttribute("data-state", "short");
     if (enEl) enEl.style.display = "none";
+  }
+}
+
+// ---- 全局：展开/收起往期归档 ----
+function toggleArchive() {
+  var content = document.getElementById("archiveContent");
+  var text = document.getElementById("archiveToggleText");
+  if (!content || !text) return;
+  if (content.style.display === "none") {
+    content.style.display = "block";
+    text.textContent = text.textContent.replace("展开", "收起").replace("▼", "▲");
+  } else {
+    content.style.display = "none";
+    text.textContent = text.textContent.replace("收起", "展开").replace("▲", "▼");
   }
 }
