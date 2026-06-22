@@ -55,7 +55,19 @@ EXCLUDE_KEYWORDS = [
     "random walk", "exchange rate", "asylum application",
     "airp", "bologna", "cruiser doctrine", "pre-war",
     "functional time series", "magneto-thermal",
-    "training dynamic", "ai ", "gpt", "chatbot",
+    "training dynamic", "gpt", "chatbot",
+    # 非金属轧制的 rolling 语境
+    "rolling bearing", "rolling element bearing", "bearing fault", "bearing diagnosis",
+    "rolling friction", "rolling contact", "rolling resistance",
+    "ball mill", "ball milling", "high-energy ball",
+    "magnetic bearing", "active magnetic bearing",
+    "rolling tire", "rolling wheel", "rolling robot",
+    "crawler", "treadmill", "track treadmill",
+    "hydrogen storage", "mgh2",
+    "nanotribology", "colloidal probe",
+    "particle-laden", "clogging of pore",
+    "sperm", "flagellar", "ciliary",
+    "rolling sphere", "rolling ball", "rolling droplet",
 ]
 
 # 必须包含 metal rolling 特定术语
