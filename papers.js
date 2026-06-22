@@ -251,26 +251,6 @@ const PAPERS = [
     "innovationFormula": "深度Q网络(DQN) + 三阶段分解 + 多目标优化 = 热轧全流程智能调度"
   },
   {
-    "id": "p-004",
-    "title": "Reinforcement-learning-assisted control of four-roll mills: geometric symmetry and inertial effect",
-    "titleCn": "四辊轧机的强化学习辅助控制：几何对称性和惯性效应",
-    "authors": "Xuan Dai, Da Xu, Mengqi Zhang, Yantao Yang",
-    "journal": "arXiv preprint",
-    "sourceType": "预印本",
-    "year": 2025,
-    "month": 4,
-    "innovationScore": 10,
-    "field": "ml",
-    "processType": "general",
-    "innovationTags": [
-      "机器学习"
-    ],
-    "abstract": "Embedding the intrinsic symmetry of a flow system in training its machine learning algorithms has become a significant trend in the recent surge of their application in fluid mechanics. This paper leverages the geometric symmetry of a four-roll mill (FRM) to enhance its training efficiency. Stabilising and precisely controlling droplet trajectories in an FRM is challenging due to the unstable nature of the extensional flow with a saddle point. Extending the work of Vona &amp; Lauga ( Phys. Rev. E , vol. 104(5), 2021, p. 055108), this study applies deep reinforcement learning (DRL) to effectively guide a displaced droplet to the centre of the FRM. Through direct numerical simulations, we explore the applicability of DRL in controlling FRM flow with moderate inertial effects, i.e. Reynolds number $\\sim \\mathcal{O}(1)$ , a nonlinear regime previously unexplored. The FRM’s geometric symmetry allows control policies trained in one of the eight sub-quadrants to be extended to the entire domain, reducing training costs. Our results indicate that the DRL-based control method can successfully guide a displaced droplet to the target centre with robust performance across various starting positions, even from substantially far distances. The work also highlights potential directions for future research, particularly focusing on efficiently addressing the delay effects in flow response caused by inertia. This study presents new advances in controlling droplet trajectories in more nonlinear and complex situations, with potential applications to other nonlinear flows. The geometric symmetry used in this cutting-edge reinforcement learning approach can also be applied to other control methods.",
-    "doi": "arXiv:2504.20336",
-    "innovationCn": "在机器学习算法的训练中嵌入流动系统的固有对称性已成为近期流体力学应用激增的一个重要趋势。本文利用四辊轧机（FRM）的几何对称性来提高其训练效率。由于具有鞍点的拉伸流的不稳定性质，稳定和精确控制 FRM 中的液滴轨迹具有挑战性。这项研究扩展了 Vona 和 Lauga 的工作（Phys. Rev. E，第 104(5) 卷，2021 年，第 055108 页），应用深度强化学习 (DRL) 来有效引导移位的液滴到达 FRM 中心。通过直接数值模拟，我们探索了 DRL 在控制具有中等惯性效应的 FRM 流动中的适用性，即雷诺数 $\\sim \\mathcal{O}(1)$ ，以前未探索过的非线性状态。 FRM 的几何对称性允许在八个子象限之一中训练的控制策略扩展到整个域，从而降低训练成本。我们的结果表明，基于 DRL 的控制方法可以成功地将移位的液滴引导到目标中心，并且在各个起始位置（即使距离很远）也具有鲁棒的性能。这项工作还强调了未来研究的潜在方向，特别是专注于有效解决惯性引起的流动响应的延迟效应。这项研究展示了在更加非线性和复杂的情况下控制液滴轨迹的新进展，并具有在其他非线性流动中的潜在应用。这种尖端强化学习方法中使用的几何对称性也可以应用于其他控制方法。",
-    "innovationFormula": "强化学习 + 几何对称性 + 直接数值模拟 = 四辊轧机液滴控制"
-  },
-  {
     "id": "p-005",
     "title": "Mechanisms and control strategies for spatial crossing of working rolls in S6-high cold rolling mills",
     "titleCn": "S6高冷轧机工作辊空间交叉机理及控制策略",
@@ -1444,27 +1424,6 @@ const PAPERS = [
     "innovationFormula": "管轧润滑剂 + 受控芯轴 + 摩擦系数 = DUO-210轧管优化"
   },
   {
-    "id": "p-070",
-    "title": "Dynamic sliding and rolling friction models for linear viscoelastic contact pairs",
-    "titleCn": "线性粘弹性接触副的动态滑动和滚动摩擦模型",
-    "authors": "Luigi Romano",
-    "journal": "arXiv preprint",
-    "sourceType": "预印本",
-    "year": 2026,
-    "month": 6,
-    "innovationScore": 10,
-    "field": "tribo",
-    "processType": "general",
-    "innovationTags": [
-      "在线监测",
-      "摩擦"
-    ],
-    "abstract": "Friction stir welding is a relatively new solid-state joining technique which is widely adopted in different industry fields to join different metallic alloys that are hard to weld by conventional fusion welding. Friction stir welding is a highly complex process comprising several highly coupled physical phenomena. The complex geometry of some kinds of joints and their three dimensional nature make it difficult to develop an overall system of governing equations for theoretical analyzing the behavior of the friction stir welded joints. The experiments are often time consuming and costly. To overcome these problems, numerical analysis has frequently been used since the 2000s. This paper reviews the latest developments in the numerical analysis of friction stir welding processes, microstructures of friction stir welded joints and the properties of friction stir welded structures. Some important numerical issues such as materials flow modeling, meshing procedure and failure criteria are discussed. Numerical analysis of friction stir welding will allow many different welding processes to be simulated in order to understand the effects of changes in different system parameters before physical testing, which would be time-consuming or prohibitively expensive in practice. The main methods used in numerical analysis of friction stir welding are discussed and illustrated with brief case studies. In addition, several important key problems and issues remain to be addressed about the numerical analysis of friction stir welding and opportunities for further research are identified.",
-    "doi": "arXiv:2606.09128",
-    "innovationCn": "搅拌摩擦焊是一种相对较新的固态连接技术，广泛应用于不同的工业领域，用于连接传统熔焊难以焊接的不同金属合金。搅拌摩擦焊是一个高度复杂的过程，包含几种高度耦合的物理现象。某些类型接头的复杂几何形状及其三维性质使得开发用于理论分析搅拌摩擦焊接头行为的整体控制方程系统变得困难。这些实验通常既耗时又昂贵。为了克服这些问题，自 2000 年代以来数值分析被频繁使用。本文综述了搅拌摩擦焊过程数值分析、显微组织等方面的最新进展。",
-    "innovationFormula": "动态滑动模型 + 滚动摩擦 + 粘弹性接触 = 搅拌摩擦焊力学"
-  },
-  {
     "id": "p-071",
     "title": "Enhancing mechanical strength and tribological performance in tin bronze alloys via rolling treatment",
     "titleCn": "通过滚压处理提高锡青铜合金的机械强度和摩擦性能",
@@ -1683,6 +1642,7 @@ const PAPERS = [
     "doi": "10.1088/1361-6501/ae7e1c"
   }
 ];
+
 
 
 
