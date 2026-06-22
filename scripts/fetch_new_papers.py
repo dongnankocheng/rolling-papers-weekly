@@ -9,7 +9,7 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 # ====== Config ======
-DAYS_BACK = 14
+DAYS_BACK = 7  # 只搜最近一周的论文
 MAX_PER_DIR = 10
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PAPERS_JS = os.path.join(os.path.dirname(SCRIPT_DIR), "papers.js")
