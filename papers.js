@@ -2034,8 +2034,63 @@ const PAPERS = [
     "innovationCn": "口径轧制是一项重要的高生产率钢铁制造技术。口径轧制中影响产品质量的工艺参数有钢坯温度、轧辊温度、轧辊转速、摩擦系数、压下比、轧辊直径等，但通常通过试错法进行调整。作为替代方案，计算机辅助工程（CAE）被广泛使用。设计优化也是确定口径轧制最佳工艺参数的有用工具之一。本文利用CAE和设计优化技术确定了口径轧制的最佳工艺参数。钢坯温度、轧辊温度和轧辊速度是代表性的可控参数，将其作为设计变量处理。考虑口径轧制的特点，同时最小化过程中的冲量和等效应变的分布。口径滚动的数值模拟计算量很大，因此采用径向基函数网络的顺序近似优化来识别脉冲和等效应变分布之间的帕累托前沿。数值结果表明，最大轧制力减小，等效应变分布也最小化。预计所提出的方法将生产出具有高生产率的高产品质量材料。",
     "innovationFormula": "摩擦润滑与磨损 + 型线轧制 + 轧制实验 = 润滑性能",
     "doi": "10.1007/s00170-026-18578-5"
+  },
+  {
+    "id": "p-102",
+    "title": "Effect of the bands thickness on the profile of the roller in the two-roller method of fast hardening of the melt",
+    "titleCn": "熔体快速硬化双辊法中条带厚度对辊型的影响",
+    "authors": "М. Н. Верещагин, Yu. D. Chernichenko, S. V. Shishkov",
+    "journal": "Proceedings of the National Academy of Sciences of Belarus Physical-Technical Series",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 7,
+    "innovationScore": 8,
+    "field": "process",
+    "processType": "section",
+    "innovationTags": [],
+    "abstract": "A model is presented for the effect of the thickness of the crystallizer roll bandage on the roll profile in the tworoll method of rapid melt hardening. It is established that by changing the wall thickness of the roll band, the profile of the resulting strip can be adjusted. In addition, an increase in the length of the distribution nozzle under constant conditions contributes to a more uniform expansion of the central part of the roll, which is associated with the formation of a more uniform thermoelastic stress state in the bandage. Experimental studies have shown that an increase in the nozzle length and a decrease in the wall thickness of the bandage reduce the unevenness of the thermal expansion and reduce the deformation of the roll profile. These parameters directly affect the characteristics of the hardened crust and, as a result, the quality of the resulting strip after rolling. Obtaining a thin continuously cast strip makes it possible to completely exclude a number of operations from the technological chain, leaving only cold rolling mills and finishing equipment. This makes it possible to reduce capital costs and energy consumption, as well as improve the environmental friendliness of production. The use of efficient two-roll rapid melt quenching technology provides high quality steel products at low selling prices. This technology fits well with the concept of “micro-mills” for the production of steel strip in small batches and a specific range in accordance with individual customer requirements. The research results can be used in the design of equipment for two-roll rapid melt quenching, in particular in the design of a roll crystallizer.",
+    "innovationCn": "建立了双辊快速熔融硬化法中结晶器辊带厚度对辊型面影响的模型。已经确定，通过改变卷带的壁厚，可以调节所得带材的轮廓。此外，在恒定条件下增加分配喷嘴的长度有助于卷的中心部分更均匀的膨胀，这与绷带中更均匀的热弹性应力状态的形成相关。实验研究表明，喷嘴长度的增加和绷带壁厚的减小可以减少热膨胀的不均匀性，并减少辊型的变形。这些参数直接影响硬化皮的特性，从而影响轧制后所得带材的质量。获得薄的连铸带材可以完全排除技术链中的许多操作，只留下冷轧机和精加工设备。这使得可以降低资本成本和能源消耗，并提高生产的环境友好性。采用高效的二辊快熔淬火技术，以低廉的售价提供高品质的钢材产品。该技术非常符合“微型轧机”的概念，可根据客户的具体要求进行小批量和特定范围的钢带生产。研究成果可用于两辊快速熔体淬火设备的设计，特别是辊式结晶器的设计。",
+    "innovationFormula": "DEFORM + 辊型优化 + 工艺优化与参数设计 = 厚度精度",
+    "doi": "10.29235/1561-8358-2026-71-2-118-126"
+  },
+  {
+    "id": "p-103",
+    "title": "Application of surrogate models to FE simulation for a sizing press in a hot rolling mill",
+    "titleCn": "代理模型在热轧机定径机有限元模拟中的应用",
+    "authors": "Hiroto Goto, Peter Eberhard",
+    "journal": "International Journal of Material Forming",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 7,
+    "innovationScore": 8,
+    "field": "fem",
+    "processType": "hot",
+    "innovationTags": [],
+    "abstract": "Abstract In steel production plants, finite element (FE) simulations are widely used to develop plastic deformation processes such as rolling and forging. However, these simulations are large-scale and highly nonlinear, and therefore require long computation times, which makes systematic optimization of process conditions difficult. In this study, a POD-based non-intrusive reduced order model (NIROM), which is used here as a surrogate model, is applied to FE simulations of a sizing press in a hot rolling mill to address this challenge. The method combines Proper Orthogonal Decomposition (POD) with machine-learning-based regression to learn from existing simulation results and predict unknown process conditions. Gaussian process regression (GPR) is employed as the regression model. This approach accelerates computations while preserving the relevant physical characteristics of the solution. For slab displacement, POD-based NIROM with Gaussian process regression as developed in this study achieves a relative root mean square error (RMSE) of approximately 5 % across all nodes at each time step, although periodic error growth is observed during initial slab–die contact. Excluding the initial contact phase, relative RMSE values in all directions remain under 1 % relative to the characteristic lengths of the slab in the conveyance, thickness, and width directions. While one FE simulation requires about 20 hours on the target computational environment, the surrogate model produces predictions within a few seconds, resulting in a significant reduction in computation time. The results demonstrate that POD-based NIROM with Gaussian process regression is effective for predicting displacement even in simulations involving complex plastic deformation such as sizing press operations. Furthermore, the method provides sufficient accuracy and speed for process development in steel production, indicating its practical applicability. To the best of the authors’ knowledge, this is the first reported application of a POD-based NIROM to FE simulation models involving large-scale plastic deformation in industrial steel production processes.",
+    "innovationCn": "摘要 在钢铁生产厂中，有限元 (FE) 模拟被广泛用于开发塑性变形工艺，例如轧制和锻造。然而，这些模拟是大规模且高度非线性的，因此需要较长的计算时间，这使得工艺条件的系统优化变得困难。在本研究中，基于 POD 的非侵入式降阶模型 (NIROM)（此处用作替代模型）被应用于热轧机定径机的有限元模拟，以应对这一挑战。该方法将本征正交分解 (POD) 与基于机器学习的回归相结合，以从现有的模拟结果中学习并预测未知的过程条件。采用高斯过程回归（GPR）作为回归模型。这种方法可以加速计算，同时保留解决方案的相关物理特性。对于板位移，本研究中开发的采用高斯过程回归的基于 POD 的 NIROM 在每个时间步的所有节点上实现了约 5% 的相对均方根误差 (RMSE)，尽管在初始板-芯片接触期间观察到周期性误差增长。排除初始接触阶段，所有方向上的相对 RMSE 值相对于板坯在输送、厚度和宽度方向上的特征长度保持在 1% 以下。虽然在目标计算环境上进行一次有限元模拟需要大约 20 个小时，但替代模型可在几秒钟内产生预测，从而显着减少计算时间。结果表明，即使在涉及复杂塑性变形（例如定径压力机操作）的模拟中，基于 POD 的 NIROM 与高斯过程回归也能有效预测位移。此外，该方法为钢铁生产中的工艺开发提供了足够的精度和速度，表明了其实际适用性。据作者所知，这是首次报道将基于 POD 的 NIROM 应用于涉及工业钢铁生产过程中大规模塑性变形的有限元模拟模型。",
+    "innovationFormula": "有限元(FEM) + DEFORM + 有限元与多物理场仿真 = 厚度精度",
+    "doi": "10.1007/s12289-026-02042-6"
+  },
+  {
+    "id": "p-104",
+    "title": "Accelerating life cycle inventory development through correlation-aware multi-fidelity transfer learning: Case studies in cradle-to-gate manufacturing energy modeling",
+    "titleCn": "通过关联感知多保真度迁移学习加速生命周期库存开发：从摇篮到大门制造能源建模的案例研究",
+    "authors": "Muhammad Umar Farooq, Daniel Cooper",
+    "journal": "Journal of Manufacturing Systems",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 7,
+    "innovationScore": 8,
+    "field": "ml",
+    "processType": "cold",
+    "innovationTags": [],
+    "abstract": "Accurate, parametric cradle-to-gate Life Cycle Assessment (LCA) models of production systems are essential for environmentally motivated process comparison and optimization; however, commercially-available Life Cycle Inventory (LCI) databases are often too inaccurate for confident decision-making, while more accurate process and/or site-specific data-driven modeling can require prohibitively expensive experimental campaigns. In this work, a multi-fidelity transfer learning (MFTL) framework is developed for cradle-to-gate LCA that combines a low-fidelity reduced-order model, embedding basic physics or experience as a principled head start, with a high-fidelity adaptive boosting mechanism based on limited experimental data. The framework accelerates learning and helps prevent overfitting by augmenting the traditional residual-based loss with a correlation-aware term. The framework is demonstrated by modeling energy-related inventory data in two manufacturing processes: roller power consumption in aluminum cold rolling and energy use in polymer extrusion-based additive manufacturing (AM). The correlation-aware MFTL framework achieved R 2 validation scores of 0.99 and 0.98 using just 60% and 12% of the data collected from experiments on the rolling and AM case studies, respectively. This predictive accuracy outperformed Traditional MFTL ( R 2 validation scores of 0.88 and 0.83) and purely data-driven approaches such as a neural network and a support vector regressor ( R 2 validation scores of 0.85 and 0.84) when trained on the same amount of data. Overall, the framework enables accelerated, accurate, parametric modeling of LCI data, supporting the development of sustainable manufacturing systems.",
+    "innovationCn": "生产系统的准确、参数化的从摇篮到大门的生命周期评估 (LCA) 模型对于环保流程比较和优化至关重要；然而，商业上可用的生命周期清单 (LCI) 数据库通常对于自信的决策来说太不准确，而更准确的流程和/或特定地点的数据驱动建模可能需要极其昂贵的实验活动。在这项工作中，为从摇篮到门的 LCA 开发了一个多保真度迁移学习 (MFTL) 框架，该框架结合了低保真度降阶模型、嵌入基础物理或经验作为原则性领先优势，以及基于有限实验数据的高保真度自适应增强机制。该框架通过使用相关感知项来增强传统的基于残差的损失，从而加速学习并帮助防止过度拟合。该框架通过对两种制造工艺中与能源相关的库存数据进行建模来进行演示：铝冷轧中的轧辊功耗和基于聚合物挤出的增材制造 (AM) 中的能源使用。相关性感知 MFTL 框架分别仅使用从滚动和 AM 案例研究实验中收集的 60% 和 12% 的数据，获得了 0.99 和 0.98 的 R 2 验证分数。当使用相同数量的数据进行训练时，这种预测准确性优于传统 MFTL（R 2 验证分数为 0.88 和 0.83）以及纯数据驱动的方法，例如神经网络和支持向量回归器（R 2 验证分数为 0.85 和 0.84）。总体而言，该框架能够对 LCI 数据进行加速、准确的参数化建模，支持可持续制造系统的开发。",
+    "innovationFormula": "支持向量机(SVM) + 机器学习与智能预测 + 冷轧工艺 = 工艺优化",
+    "doi": "10.1016/j.jmsy.2026.06.005"
   }
 ];
+
 
 
 
