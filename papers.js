@@ -2088,8 +2088,63 @@ const PAPERS = [
     "innovationCn": "生产系统的准确、参数化的从摇篮到大门的生命周期评估 (LCA) 模型对于环保流程比较和优化至关重要；然而，商业上可用的生命周期清单 (LCI) 数据库通常对于自信的决策来说太不准确，而更准确的流程和/或特定地点的数据驱动建模可能需要极其昂贵的实验活动。在这项工作中，为从摇篮到门的 LCA 开发了一个多保真度迁移学习 (MFTL) 框架，该框架结合了低保真度降阶模型、嵌入基础物理或经验作为原则性领先优势，以及基于有限实验数据的高保真度自适应增强机制。该框架通过使用相关感知项来增强传统的基于残差的损失，从而加速学习并帮助防止过度拟合。该框架通过对两种制造工艺中与能源相关的库存数据进行建模来进行演示：铝冷轧中的轧辊功耗和基于聚合物挤出的增材制造 (AM) 中的能源使用。相关性感知 MFTL 框架分别仅使用从滚动和 AM 案例研究实验中收集的 60% 和 12% 的数据，获得了 0.99 和 0.98 的 R 2 验证分数。当使用相同数量的数据进行训练时，这种预测准确性优于传统 MFTL（R 2 验证分数为 0.88 和 0.83）以及纯数据驱动的方法，例如神经网络和支持向量回归器（R 2 验证分数为 0.85 和 0.84）。总体而言，该框架能够对 LCI 数据进行加速、准确的参数化建模，支持可持续制造系统的开发。",
     "innovationFormula": "支持向量机(SVM) + 机器学习与智能预测 + 冷轧工艺 = 工艺优化",
     "doi": "10.1016/j.jmsy.2026.06.005"
+  },
+  {
+    "id": "p-105",
+    "title": "Hot Strip Mill Process Flow, Cobble Generation & Preventive Action",
+    "titleCn": "热带钢轧机工艺流程、卵石生成和预防措施",
+    "authors": "M Ajay Kumar, Prof.  Chandrashekar Hiregoudar",
+    "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 7,
+    "innovationScore": 8,
+    "field": "process",
+    "processType": "hot",
+    "innovationTags": [],
+    "abstract": "The Hot Strip Mill (HSM) is a critical process in steel manufacturing used to convert slabs into hot rolled coils by using (220-260) mm thick & width (900-2250) mm of length 4 meter – 1150 meter through controlled thermo-mechanical operations. During rolling, maintaining strip stability within the finishing mill stands is essential to ensure product quality and continuous operation. However, defects such as cobble formation can occur, leading to production loss and equipment damage. A cobble is characterized by uncontrolled folding or accumulation of the strip due to instability in rolling conditions. This study focuses on understanding the Hot Strip Mill process, identifying the causes of cobble generation, and analyzing process parameters such as Center Line Deviation (CLD), differential roll force, strip tension, and temperature, width, the Based on data analysis, suitable preventive measures and corrective actions are proposed to reduce cobble occurrence, improve mill efficiency, and enhance product quality.",
+    "innovationCn": "热轧带钢轧机 (HSM) 是钢铁制造中的关键工艺，用于通过受控的热机械操作，使用厚度为 (220-260) 毫米、宽度为 (900-2250) 毫米、长度为 4 米 - 1150 米的板坯转变成热轧卷。在轧制过程中，保持精轧机机架内带钢的稳定性对于确保产品质量和连续运行至关重要。然而，可能会出现鹅卵石形成等缺陷，导致生产损失和设备损坏。鹅卵石的特点是由于轧制条件不稳定而导致条带不受控制的折叠或堆积。本研究的重点是了解热轧带钢轧机工艺，找出产生卵石的原因，并分析中心线偏差（CLD）、辊差力、带钢张力、温度、宽度等工艺参数，根据数据分析，提出适当的预防措施和纠正措施，以减少卵石的出现，提高轧机效率，提高产品质量。",
+    "innovationFormula": "工艺优化与参数设计 + 热轧工艺 + 轧制实验 = 热轧工艺优化",
+    "doi": "10.5281/zenodo.21350747"
+  },
+  {
+    "id": "p-106",
+    "title": "Prediction of Coiling Temperature for Hot-Rolled Strip Steel Based on WOA-CNN-GRU-SE Model",
+    "titleCn": "基于WOA-CNN-GRU-SE模型的热轧带钢卷取温度预测",
+    "authors": "Tiejun Sun, Hongjiang Cao, Xiaodan Zhang, Luyao Sun et al.",
+    "journal": "Applied Sciences",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 7,
+    "innovationScore": 8,
+    "field": "ml",
+    "processType": "hot",
+    "innovationTags": [],
+    "abstract": "Coiling temperature is a pivotal process parameter for hot-rolled strip steel, which directly determines the microstructure and mechanical properties of final products. Affected by the coupling of multiple process variables, coiling temperature presents strong nonlinearity and complex time-varying characteristics. Traditional heat transfer mechanism models, Random Forest (RF), Extreme Learning Machine (ELM) and single Long Short-Term Memory (LSTM) networks fail to fully explore the deep correlation among variables. In addition, their hyperparameters are generally selected by manual trial-and-error, leading to unsatisfactory prediction accuracy and poor robustness in practical production. To address the above limitations, this paper proposes a novel prediction model named WOA-CNN-GRU-SE, where the Whale Optimization Algorithm (WOA) is adopted for parameter optimization. Firstly, Convolutional Neural Network (CNN) is utilized to extract local coupling features from various working condition parameters. Secondly, the Squeeze-and-Excitation (SE) attention mechanism is applied to adaptively recalibrate channel weights, which enhances key features closely related to temperature variation and suppresses redundant interference information. Afterwards, Gated Recurrent Unit (GRU) is employed to conduct in-depth learning of temporal features. Furthermore, WOA is used to globally optimize critical hyperparameters, including learning rate, the number of GRU hidden units and L2 regularization coefficient, so as to eliminate the drawbacks of manual parameter tuning. Comparative experiments are conducted on actual production data from a hot rolling line. The results demonstrate that the proposed model outperforms CNN-GRU, CNN-GRU-SE, LSTM, RF and ELM in prediction performance. Its hit rate reaches 92.56% within the industrial error range of ±6 °C. This model effectively realizes accurate prediction of coiling temperature under complex working conditions and possesses great application potential in industrial practice.",
+    "innovationCn": "卷取温度是热轧带钢的关键工艺参数，直接决定最终产品的显微组织和力学性能。受多个过程变量耦合影响，卷取温度呈现出较强的非线性和复杂的时变特性。传统的传热机制模型、随机森林（RF）、极限学习机（ELM）和单一长短期记忆（LSTM）网络未能充分探索变量之间的深层相关性。此外，它们的超参数一般都是通过人工试错来选择，导致预测精度不高，实际生产中鲁棒性较差。为了解决上述局限性，本文提出了一种名为WOA-CNN-GRU-SE的新型预测模型，其中采用鲸鱼优化算法（WOA）进行参数优化。首先，利用卷积神经网络（CNN）从各种工况参数中提取局部耦合特征。其次，应用挤压和激励（SE）注意力机制自适应地重新校准通道权重，增强与温度变化密切相关的关键特征并抑制冗余干扰信息。然后，采用门控循环单元（GRU）对时间特征进行深度学习。此外，WOA还用于全局优化关键超参数，包括学习率、GRU隐藏单元数量和L2正则化系数，从而消除手动调参的弊端。根据热轧线的实际生产数据进行了对比实验。结果表明，所提出的模型在预测性能上优于 CNN-GRU、CNN-GRU-SE、LSTM、RF 和 ELM。在±6℃工业误差范围内，命中率达到92.56%。该模型有效实现了复杂工况下卷取温度的准确预测，在工业实践中具有巨大的应用潜力。",
+    "innovationFormula": "CNN + LSTM/BiLSTM + Transformer = 组织调控",
+    "doi": "10.3390/app16147022"
+  },
+  {
+    "id": "p-107",
+    "title": "Solidification of Massive Nodular Cast Iron Mill Rolls in Combined Metal–Sand Molds",
+    "titleCn": "金属砂组合铸型中大块球墨铸铁轧辊的凝固",
+    "authors": "V. Khrychikov, O. Semenov, Y. Aftandiliants, Svyatoslav Gnyloskurenko et al.",
+    "journal": "Archives of Foundry Engineering",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 7,
+    "innovationScore": 8,
+    "field": "fem",
+    "processType": "general",
+    "innovationTags": [],
+    "abstract": "At crystallization of castings the various defects such as shrinkage cavities, shrinkage depressions and others are often formed. The purpose of the present work is to experimentally investigate the crystallization process of a massive rolling mill of high-strength cast iron, and to adapt the mathematical model. In the result of the experimental study of the 2160 kg mill roll casting solidification process, the mathematical model was adapted from a reference roll to enable its application to rolls of other sizes. Simulation of ≈7500 kg rolls solidification in combined metal–sand molds revealed the position of the isosolidus fronts, formation of a shrinkage depression on the hot top surface after electroslag heating, and the volume of shrinkage cavities in the hot spot. The volume of the depression was used as the first approximation to estimate the volume of the shrinkage cavity in the hot spot of the casting. This method enables the calculation of chill mass and the elimination of hot spots and shrinkage depressions without the need for complex measuring equipment.",
+    "innovationCn": "铸件结晶时常常会形成缩孔、缩孔等各种缺陷。本工作的目的是通过实验研究大型高强度铸铁轧机的结晶过程，并调整数学模型。在对 2160 kg 轧机轧辊铸造凝固过程的实验研究结果中，数学模型是根据参考轧辊进行改编的，以使其能够应用于其他尺寸的轧辊。对约 7500 kg 轧辊在金属砂组合模具中凝固的模拟揭示了等固线前沿的位置、电渣加热后热顶表面收缩凹陷的形成以及热点中收缩腔的体积。凹陷的体积被用作第一近似值来估计铸件热点中缩孔的体积。该方法无需复杂的测量设备即可计算激冷质量并消除热点和收缩凹陷。",
+    "innovationFormula": "有限元与多物理场仿真 + 轧制工艺 + 轧制实验 = 轧制工艺优化",
+    "doi": "10.24425/afe.2026.158007"
   }
 ];
+
 
 
 
