@@ -2142,8 +2142,81 @@ const PAPERS = [
     "innovationCn": "铸件结晶时常常会形成缩孔、缩孔等各种缺陷。本工作的目的是通过实验研究大型高强度铸铁轧机的结晶过程，并调整数学模型。在对 2160 kg 轧机轧辊铸造凝固过程的实验研究结果中，数学模型是根据参考轧辊进行改编的，以使其能够应用于其他尺寸的轧辊。对约 7500 kg 轧辊在金属砂组合模具中凝固的模拟揭示了等固线前沿的位置、电渣加热后热顶表面收缩凹陷的形成以及热点中收缩腔的体积。凹陷的体积被用作第一近似值来估计铸件热点中缩孔的体积。该方法无需复杂的测量设备即可计算激冷质量并消除热点和收缩凹陷。",
     "innovationFormula": "有限元与多物理场仿真 + 轧制工艺 + 轧制实验 = 轧制工艺优化",
     "doi": "10.24425/afe.2026.158007"
+  },
+  {
+    "id": "p-108",
+    "title": "Substantiation of the Concept of Object-Oriented Digital Twins of Electrotechnical Systems in Rolling Mills",
+    "titleCn": "轧机电工系统面向对象数字孪生概念的证实",
+    "authors": "Andrey A. Radionov, Stanislav S. Voronin, Artem V. Litvinov, А. С. Карандаев et al.",
+    "journal": "Energies",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 7,
+    "innovationScore": 8,
+    "field": "digital",
+    "processType": "general",
+    "innovationTags": [],
+    "abstract": "The development of ferrous metallurgy, as with most industrial sectors, is progressing toward the adoption of IIoT technologies and the development of digital automatic control systems for electrotechnical and mechatronic complexes. This direction is implemented within the paradigm of digital twins (DTs), which enable the use of advanced design methods, virtual commissioning, and maintenance. The concept of relatively simple object-oriented DTs created using available software and applicable at individual stages of the equipment lifecycle has been substantiated. The relationship between the object-oriented approach and M. Grieves’ classification system has been determined. The contribution of this paper lies in the fact that this problem is addressed for the first time using the example of electrotechnical systems of rolling mills. Definitions of DTs are provided, along with a brief overview of digital platforms developed by leading manufacturers of metallurgical equipment. The development of object-oriented DTs based on Simulink Real-Time modules and domains of the Simscape library is substantiated. A methodology for their virtual tuning using Hardware-in-the-Loop (HIL) simulation is proposed. The results of developing an aggregated DT of interconnected electric drives of the upper and lower rolls (UMD and LMD) of the horizontal stand of the 5000 plate rolling mill are presented. An example of DT implementation in a programmable logic controller (PLC) based on a multicore processor using CODESYS 3.5 software is provided. The advantages and prospects of this approach are discussed. Validation of the results is performed by comparing processes during virtual tuning with oscillograms obtained from the actual mill. Satisfactory accuracy is confirmed, and recommendations for the broader application of the developed object-oriented digital twins are given.",
+    "innovationCn": "与大多数工业部门一样，黑色冶金的发展正在朝着采用工业物联网技术以及开发电子技术和机电一体化数字自动控制系统的方向发展。该方向是在数字孪生 (DT) 范式内实施的，可以使用先进的设计方法、虚拟调试和维护。使用可用软件创建并适用于设备生命周期各个阶段的相对简单的面向对象DT的概念已经得到证实。面向对象方法与M. Grieves分类系统之间的关系已经确定。本文的贡献在于，首次以轧机电工系统为例解决了这个问题。提供了 DT 的定义，以及由领先的冶金设备制造商开发的数字平台的简要概述。基于Simulink Real-Time模块和Simscape库域的面向对象DT的开发得到了证实。提出了一种使用硬件在环 (HIL) 仿真进行虚拟调整的方法。介绍了 5000 中厚板轧机水平机架上辊和下辊（UMD 和 LMD）互连电驱动聚合 DT 的开发结果。提供了使用 CODESYS 3.5 软件在基于多核处理器的可编程逻辑控制器 (PLC) 中实现 DT 的示例。讨论了这种方法的优点和前景。通过将虚拟调整期间的过程与从实际工厂获得的波形图进行比较来验证结果。确认了令人满意的准确性，并给出了所开发的面向对象的数字孪生的更广泛应用的建议。",
+    "innovationFormula": "数字孪生 + 数字孪生与在线监测 + 轧制工艺 = 轧制工艺优化",
+    "doi": "10.3390/en19143443"
+  },
+  {
+    "id": "p-109",
+    "title": "Synthetic process modeling for ring rolling via physics-guided GANs and analytical transfer learning",
+    "titleCn": "通过物理引导的 GAN 和分析迁移学习进行环轧的综合过程建模",
+    "authors": "Johannes Seitz, Qinwen Wang, Luca Quagliato, Tobias Moser et al.",
+    "journal": "Journal of Intelligent Manufacturing",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 7,
+    "innovationScore": 8,
+    "field": "ml",
+    "processType": "section",
+    "innovationTags": [],
+    "abstract": "Abstract Modeling metal forming processes, and specifically ring rolling as considered in this research, is crucial for process design and the development of new product variants. Although finite element simulations and analytical modeling are common practices to perform process predictions, they can still present limitations such as high computational time, adherence to reality, and modeling accuracy. Trying to address all the above, this research proposes a novel generative machine learning solution for the creation of accurate and physics-compliant synthetic data for the ring rolling process, enabling almost real time and accurate process modeling within latent space. The proposed data generation method is based on multivariate generative adversarial network (GAN) combined with a physics-guided neural network (PGNN) to incorporate constraints relevant to the ring rolling process and integrate them into an auxiliary loss granting physical consistency. The proposed GAN architecture is then annotated as a physics-guided auxiliary GAN (PG-A-GAN). The physical constraints introduced are relevant to an analytical slip-line model for the force, a surrogate model for the torque, volume consistency, and an analytical model for the time–diameter relationship. Considering the duality of the physical modeling approach for the force and torque, where data-driven machine learning is stirred by analytical models, the proposed approach is defined as analytical transfer learning. Findings reveal that employing PGNNs in the GANs learning process improves physical loss in data generation, combined with a slight increase in data distribution similarity with respect to experimental instances. To enable modeling of specific and customized rolling instances, a condition based on the final sought ring geometry was introduced, within an auxiliary classifier generative adversarial network (ACGAN) framework. The proposed architecture allows the generation of multivariate, physically constrained, rolling time series and highlights the feasibility of such a modeling approach within the latent space and might be extended to other manufacturing processes by adapting modeling and retraining the proposed architecture.",
+    "innovationCn": "摘要 金属成形过程建模，特别是本研究中考虑的环轧过程建模，对于工艺设计和新产品变体的开发至关重要。尽管有限元模拟和分析建模是执行过程预测的常见做法，但它们仍然存在计算时间长、对现实的依赖和建模精度等限制。为了解决上述所有问题，本研究提出了一种新颖的生成机器学习解决方案，用于为环件轧制过程创建准确且符合物理的合成数据，从而在潜在空间内实现几乎实时和准确的过程建模。所提出的数据生成方法基于多元生成对抗网络（GAN）与物理引导神经网络（PGNN）相结合，以纳入与环件轧制过程相关的约束，并将它们集成到辅助损失中，从而保证物理一致性。然后，所提出的 GAN 架构被注释为物理引导的辅助 GAN (PG-A-GAN)。引入的物理约束与力的分析滑移线模型、扭矩的替代模型、体积一致性以及时间-直径关系的分析模型相关。考虑到力和扭矩物理建模方法的二元性，其中数据驱动的机器学习由分析模型激发，所提出的方法被定义为分析迁移学习。研究结果表明，在 GAN 学习过程中使用 PGNN 可以改善数据生成中的物理损失，同时相对于实验实例的数据分布相似性略有增加。为了能够对特定和定制的滚动实例进行建模，在辅助分类器生成对抗网络（ACGAN）框架内引入了基于最终寻求的环几何形状的条件。所提出的架构允许生成多变量、物理约束、滚动时间序列，并强调了这种建模方法在潜在空间内的可行性，并且可以通过调整建模和重新训练所提出的架构来扩展到其他制造过程。",
+    "innovationFormula": "GAN + 有限元(FEM) + 机器学习与智能预测 = 性能预测",
+    "doi": "10.1007/s10845-026-02904-5"
+  },
+  {
+    "id": "p-110",
+    "title": "Next-generation wear-resistant cast irons: A review of multicomponent systems",
+    "titleCn": "下一代耐磨铸铁：多组分系统回顾",
+    "authors": "Riki Hendra Purba, Aldi Raditya Adriansyah, Fransiskus Abriel Mones Leo, Mu'Adz Taqy",
+    "journal": "Next Materials",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 7,
+    "innovationScore": 6,
+    "field": "clad",
+    "processType": "hot",
+    "innovationTags": [],
+    "abstract": "Multicomponent white cast iron (MWCI) is widely used in many critical engineering machine parts such as roll materials for steel hot rolling, mineral pulverizing mills, chute liners, slurry transportation pipelines, and blast furnace components, owing to superior wear resistance. This review integrates experimental evidence on MWCI wear behaviour across compositional design, microstructural evolution, and tribological performance. A PRISMA 2020-guided systematic search was conducted (1996–2025) across Scopus, Web of Science, and Google Scholar. Evidence was synthesized across four analytical classes: carbide morphology, carbide size, matrix properties, and testing conditions. The literature reveals that transitioning from M₇C₃-dominated to multi-carbide systems can reduce abrasive wear rates by 60–80%, depending on carbide type and test conditions, while carbide size governs shadow zone formation and matrix hardness controls carbide anchoring. For erosive wear, multi-carbide architectures reduced erosion by 57–80% relative to single-carbide counterparts under equivalent test conditions, while high-temperature oxidation protection through CoCr₂O₄ spinel formation suppressed erosion rates by up to 94.9% in specific alloy systems. Overall, MWCI wear resistance emerges from the synergistic interaction among carbide morphology, matrix composition, and thermal-oxidation control, rather than any single microstructural parameter. Abrasive wear is dominated by carbide size-shielding mechanisms, while erosive wear is controlled by interfacial bonding and oxidation resistance. The complexity of engineering factors in multicomponent systems causes dominant factors to vary across different testing conditions. Despite decades of research into the wear-resistance of MWCI, current literature lacks a comprehensive, focused analysis of these specific wear properties. This study fills the crucial gap by integrating analysis to bridge these specific areas, establishing its unique value and importance within the current literature, and guide future research direction in advanced manufacturing strategies and predictive modelling frameworks.",
+    "innovationCn": "多元白口铸铁（MWCI）具有优异的耐磨性，广泛应用于钢铁热轧辊材、选矿磨粉机、溜槽衬板、浆料输送管道、高炉部件等许多关键工程机械部件。本综述整合了有关成分设计、微观结构演变和摩擦学性能的 MWCI 磨损行为的实验证据。在 Scopus、Web of Science 和 Google Scholar 上进行了 PRISMA 2020 指导的系统检索（1996-2025 年）。综合了四个分析类别的证据：碳化物形态、碳化物尺寸、基体特性和测试条件。文献表明，从 M₇C₃ 为主过渡到多碳化物系统可以将磨粒磨损率降低 60-80%，具体取决于碳化物类型和测试条件，而碳化物尺寸控制阴影区的形成，基体硬度控制碳化物锚定。对于侵蚀磨损，在同等测试条件下，多碳化物结构相对于单碳化物结构可减少 57-80% 的侵蚀，而在特定合金系统中，通过 CoCr2O4 尖晶石形成的高温氧化保护可将侵蚀率抑制高达 94.9%。总体而言，MWCI 耐磨性源自碳化物形态、基体成分和热氧化控制之间的协同相互作用，而不是任何单一的微观结构参数。磨粒磨损主要由碳化物尺寸屏蔽机制控制，而侵蚀磨损则由界面结合和抗氧化性控制。多组分系统中工程因素的复杂性导致主导因素在不同的测试条件下发生变化。尽管对 MWCI 的耐磨性进行了数十年的研究，但目前的文献缺乏对这些特定磨损性能的全面、集中的分析。这项研究通过整合分析来弥合这些特定领域，在当前文献中确立其独特的价值和重要性，并指导先进制造策略和预测建模框架的未来研究方向，从而填补了关键空白。",
+    "innovationFormula": "累积叠轧(ARB) + 磨损分析 + 复合轧制与层压材料 = 耐磨性",
+    "doi": "10.1016/j.nxmate.2026.102852"
+  },
+  {
+    "id": "p-111",
+    "title": "Computational Modeling of Dynamic Recrystallization and Strain-Induced Precipitation in C-Mn Steels by Thermomechanical Processes",
+    "titleCn": "通过热机械过程对 C-Mn 钢中的动态再结晶和应变诱导析出进行计算建模",
+    "authors": "M. Sales, Antonio Lourenço Batista de Souza, Marcelly Cristiny Nunes de Carvalho, João Marcos da Silva Nunes et al.",
+    "journal": "Journal of Materials Engineering and Performance",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 7,
+    "innovationScore": 8,
+    "field": "micro",
+    "processType": "hot",
+    "innovationTags": [],
+    "abstract": "Abstract This study proposes a computational model based on the finite element method (FEM) to simulate the thermomechanical behavior of C-Mn steel under continuous cooling. Hot torsion tests were conducted at temperatures from 900 to 1100 °C, with strain rates of 0.1, 1.0, and 10 s −1 , and a strain of $$\\varepsilon$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mi>ε</mml:mi> </mml:math> = 6.0, using an infrared radiation furnace, argon gas shielding, and a chromel–alumel K -type thermocouple. The experimental data were implemented in DEFORM™3D to formulate equations for dynamic recrystallization ( $${\\varepsilon}_{0.5}$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msub> <mml:mi>ε</mml:mi> <mml:mrow> <mml:mn>0.5</mml:mn> </mml:mrow> </mml:msub> </mml:math> , $${X}_{\\text{D}\\text{R}\\text{X}}$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msub> <mml:mi>X</mml:mi> <mml:mtext>DRX</mml:mtext> </mml:msub> </mml:math> ) and recrystallized grain size ( $${d}_{\\text{D}\\text{R}\\text{X}}$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msub> <mml:mi>d</mml:mi> <mml:mtext>DRX</mml:mtext> </mml:msub> </mml:math> ), yielding good agreement with DRX kinetic models and accurate numerical predictions. The results show that recrystallization time increases as temperature decreases, while strain-induced precipitation (SIP) begins after the seventh pass. Small variations in rolling temperature altered the microstructure and average grain size, emphasizing the need for strict process control. These findings confirm that controlled rolling is essential to prevent heterogeneous grain-size distributions that may impair mechanical performance. The main contribution of this study is the development of a thermomechanical computational model capable of evaluating a wide range of processing parameter combinations with high efficiency and reduced experimental effort, enabling accurate prediction of microstructural evolution during hot rolling.",
+    "innovationCn": "摘要 本研究提出了一种基于有限元法（FEM）的计算模型来模拟连续冷却下C-Mn钢的热机械行为。热扭转试验在900至1100°C的温度下进行，应变率为0.1、1.0和10 s -1 ，应变为$$\\varepsilon$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mi>ε</mml:mi> </mml:math> = 6.0，使用红外辐射炉、氩气保护和铬镍合金-铝镍合金K型热电偶。实验数据在 DEFORM™3D 中实现，以制定动态再结晶方程 ( $${\\varepsilon}_{0.5}$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msub> <mml:mi>ε</mml:mi> <mml:mrow> <mml:mn>0.5</mml:mn> </mml:mrow> </mml:msub> </mml:math> , $${X}_{\\text{D}\\text{R}\\text{X}}$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msub> <mml:mi>X</mml:mi> <mml:mtext>DRX</mml:mtext> </mml:msub> </mml:math> ) 和再结晶晶粒尺寸 ( $${d}_{\\text{D}\\text{R}\\text{X}}$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msub> <mml:mi>d</mml:mi> <mml:mtext>DRX</mml:mtext> </mml:msub> </mml:math> ），与 DRX 动力学模型和准确的数值预测具有良好的一致性。结果表明，再结晶时间随着温度降低而增加，而应变诱导沉淀（SIP）在第七遍后开始。轧制温度的微小变化会改变微观结构和平均晶粒尺寸，强调了严格的过程控制的必要性。这些发现证实，控制轧制对于防止可能损害机械性能的不均匀晶粒尺寸分布至关重要。这项研究的主要贡献是开发了一种热机械计算模型，能够以高效率和减少实验工作量评估各种加工参数组合，从而能够准确预测热轧过程中的微观结构演变。",
+    "innovationFormula": "有限元(FEM) + DEFORM + 析出强化 = 组织调控",
+    "doi": "10.1007/s11665-026-14528-0"
   }
 ];
+
 
 
 
