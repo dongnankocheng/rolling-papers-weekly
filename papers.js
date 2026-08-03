@@ -2214,8 +2214,27 @@ const PAPERS = [
     "innovationCn": "摘要 本研究提出了一种基于有限元法（FEM）的计算模型来模拟连续冷却下C-Mn钢的热机械行为。热扭转试验在900至1100°C的温度下进行，应变率为0.1、1.0和10 s -1 ，应变为$$\\varepsilon$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mi>ε</mml:mi> </mml:math> = 6.0，使用红外辐射炉、氩气保护和铬镍合金-铝镍合金K型热电偶。实验数据在 DEFORM™3D 中实现，以制定动态再结晶方程 ( $${\\varepsilon}_{0.5}$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msub> <mml:mi>ε</mml:mi> <mml:mrow> <mml:mn>0.5</mml:mn> </mml:mrow> </mml:msub> </mml:math> , $${X}_{\\text{D}\\text{R}\\text{X}}$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msub> <mml:mi>X</mml:mi> <mml:mtext>DRX</mml:mtext> </mml:msub> </mml:math> ) 和再结晶晶粒尺寸 ( $${d}_{\\text{D}\\text{R}\\text{X}}$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msub> <mml:mi>d</mml:mi> <mml:mtext>DRX</mml:mtext> </mml:msub> </mml:math> ），与 DRX 动力学模型和准确的数值预测具有良好的一致性。结果表明，再结晶时间随着温度降低而增加，而应变诱导沉淀（SIP）在第七遍后开始。轧制温度的微小变化会改变微观结构和平均晶粒尺寸，强调了严格的过程控制的必要性。这些发现证实，控制轧制对于防止可能损害机械性能的不均匀晶粒尺寸分布至关重要。这项研究的主要贡献是开发了一种热机械计算模型，能够以高效率和减少实验工作量评估各种加工参数组合，从而能够准确预测热轧过程中的微观结构演变。",
     "innovationFormula": "有限元(FEM) + DEFORM + 析出强化 = 组织调控",
     "doi": "10.1007/s11665-026-14528-0"
+  },
+  {
+    "id": "p-112",
+    "title": "<i>In-situ</i> investigation of the roll gap in a cantilever stand for hot rolled wire rod",
+    "titleCn": "热轧线材悬臂机架辊缝<i>现场</i>研究",
+    "authors": "Annette Elisabeth Jobst, Mario Radschun, Christoph R. Clemens, Jörg Himmel et al.",
+    "journal": "tm - Technisches Messen",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 7,
+    "innovationScore": 8,
+    "field": "process",
+    "processType": "section",
+    "innovationTags": [],
+    "abstract": "Abstract The global climate crisis forces in particular energy-intensive industries to ensure that their processes are more sustainable. One of the most important drivers of decarbonization is the steel industry which accounts for approximately 30 % of industrial greenhouse gas emissions in Germany. It is therefore essential for rolling mill operators to equip their rolling mills with modern measurement technology in order to obtain current measurements of crucial rolling parameters and remain competitive. One such decisive parameter is the roll gap. The aim of this work was to measure the roll gap during operation in a wire mill and to evaluate whether multi-axis detection of the roll gap is necessary. The unique feature here is that no studies on vector roll deflection in hot rolling mills for wire rod and bars have been undertaken so far. As a result, the correlative relationship between the roll deflection and the resulting diameter of the rod has been proven. In addition, the insights gained from the roll gap measurement can be used to optimize the predictive maintenance of the roll stands and the roll gap setting for different alloys.",
+    "innovationCn": "摘要 全球气候危机迫使能源密集型行业特别是确保其流程更具可持续性。脱碳最重要的推动力之一是钢铁行业，该行业约占德国工业温室气体排放量的 30%。因此，轧机操作员必须为其轧机配备现代测量技术，以获得关键轧制参数的当前测量结果并保持竞争力。此类决定性参数之一是辊缝。这项工作的目的是测量线材轧机运行期间的辊缝，并评估是否有必要对辊缝进行多轴检测。这里的独特之处在于，迄今为止尚未对线材和棒材热轧机中的矢量轧辊挠度进行研究。结果，滚转挠度与杆的最终直径之间的相关关系已被证明。此外，从辊缝测量中获得的见解可用于优化轧机机架的预测性维护和不同合金的辊缝设置。",
+    "innovationFormula": "麻雀搜索(SSA) + 累积叠轧(ARB) + 工艺优化与参数设计 = 型线轧制优化",
+    "doi": "10.1515/teme-2025-0118"
   }
 ];
+
 
 
 
