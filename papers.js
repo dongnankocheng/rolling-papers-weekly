@@ -2232,8 +2232,27 @@ const PAPERS = [
     "innovationCn": "摘要 全球气候危机迫使能源密集型行业特别是确保其流程更具可持续性。脱碳最重要的推动力之一是钢铁行业，该行业约占德国工业温室气体排放量的 30%。因此，轧机操作员必须为其轧机配备现代测量技术，以获得关键轧制参数的当前测量结果并保持竞争力。此类决定性参数之一是辊缝。这项工作的目的是测量线材轧机运行期间的辊缝，并评估是否有必要对辊缝进行多轴检测。这里的独特之处在于，迄今为止尚未对线材和棒材热轧机中的矢量轧辊挠度进行研究。结果，滚转挠度与杆的最终直径之间的相关关系已被证明。此外，从辊缝测量中获得的见解可用于优化轧机机架的预测性维护和不同合金的辊缝设置。",
     "innovationFormula": "麻雀搜索(SSA) + 累积叠轧(ARB) + 工艺优化与参数设计 = 型线轧制优化",
     "doi": "10.1515/teme-2025-0118"
+  },
+  {
+    "id": "p-113",
+    "title": "Theoretical Investigation on the Critical Thickness Conditions and Development of a Minimal Producible Thickness Model for Thin Strip Rolling",
+    "titleCn": "薄带轧制临界厚度条件的理论研究及最小生产厚度模型的建立",
+    "authors": "Xiao Liu, Lipu Xu, Tao Wang, Zhongkai Ren et al.",
+    "journal": "Metals",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 8,
+    "innovationScore": 8,
+    "field": "process",
+    "processType": "section",
+    "innovationTags": [],
+    "abstract": "The growing demand for high-precision thickness control in cold rolling of metal strips calls for continuous improvement in rolling force prediction models. Classical thin-strip rolling theories, notably the Stone model, are based on the assumption of a circular roll arc profile within the contact deformation zone. In practice, however, this assumption often becomes invalid owing to the emergence of a neutral zone under specific rolling conditions, which introduces considerable errors in force calculation and compromises model applicability. To address this issue, the present study develops a numerical analysis framework for thin-strip rolling processes across a range of initial thicknesses and reductions. The proposed method quantitatively captures the effects of single-pass reduction on roll shape evolution and contact pressure distribution along the deformation arc. In addition, a limiting producible thickness model is proposed by incorporating the deformation efficiency of the strip material. This approach enables the precise delineation of a neutral-zone-free deformation regime and establishes a criterion for determining the optimal single-pass reduction based on the ratio of initial thickness to Stone minimum rolling thickness. For given initial thickness and process parameters, a critical single-pass reduction exists that eliminates the neutral zone, yielding a characteristic curve that divides the rolling regimes: above it, the neutral zone vanishes, the Stone model applies, and efficiency is high; below it, a finite neutral zone persists, partially dissipating rolling force in elastic deformation, though rolling remains viable within limits. These findings provide a robust basis for improving rolling force accuracy and pass optimization, ultimately enhancing product quality and forming efficiency in precision strip manufacturing.",
+    "innovationCn": "金属带材冷轧对高精度厚度控制的需求不断增长，要求轧制力预测模型的不断改进。经典的薄带轧制理论，特别是斯通模型，是基于接触变形区内的圆轧辊弧轮廓的假设。然而，在实践中，由于特定滚动条件下会出现中性区，这种假设常常变得无效，这会在力计算中引入相当大的误差并损害模型的适用性。为了解决这个问题，本研究开发了一个针对一系列初始厚度和压下量的薄带轧制过程的数值分析框架。该方法定量地捕捉了单道次压下量对轧辊形状演变和沿变形弧的接触压力分布的影响。此外，通过考虑带材的变形效率，提出了极限可生产厚度模型。该方法能够精确描绘无中性区变形区域，并建立基于初始厚度与斯通最小轧制厚度之比确定最佳单道次压下量的标准。对于给定的初始厚度和工艺参数，存在临界单道次压下量，消除了中性区，产生了划分轧制区域的特征曲线：在其之上，中性区消失，适用斯通模型，效率高；在它之下，有限的中性区仍然存在，在弹性变形中部分消散轧制力，尽管轧制在限制范围内仍然可行。这些发现为提高轧制力精度和道次优化提供了坚实的基础，最终提高了精密带材制造的产品质量和成形效率。",
+    "innovationFormula": "DEFORM + 工艺优化与参数设计 + 型线轧制 = 厚度精度",
+    "doi": "10.3390/met16080874"
   }
 ];
+
 
 
 
