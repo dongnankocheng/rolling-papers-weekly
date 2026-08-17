@@ -2250,8 +2250,81 @@ const PAPERS = [
     "innovationCn": "金属带材冷轧对高精度厚度控制的需求不断增长，要求轧制力预测模型的不断改进。经典的薄带轧制理论，特别是斯通模型，是基于接触变形区内的圆轧辊弧轮廓的假设。然而，在实践中，由于特定滚动条件下会出现中性区，这种假设常常变得无效，这会在力计算中引入相当大的误差并损害模型的适用性。为了解决这个问题，本研究开发了一个针对一系列初始厚度和压下量的薄带轧制过程的数值分析框架。该方法定量地捕捉了单道次压下量对轧辊形状演变和沿变形弧的接触压力分布的影响。此外，通过考虑带材的变形效率，提出了极限可生产厚度模型。该方法能够精确描绘无中性区变形区域，并建立基于初始厚度与斯通最小轧制厚度之比确定最佳单道次压下量的标准。对于给定的初始厚度和工艺参数，存在临界单道次压下量，消除了中性区，产生了划分轧制区域的特征曲线：在其之上，中性区消失，适用斯通模型，效率高；在它之下，有限的中性区仍然存在，在弹性变形中部分消散轧制力，尽管轧制在限制范围内仍然可行。这些发现为提高轧制力精度和道次优化提供了坚实的基础，最终提高了精密带材制造的产品质量和成形效率。",
     "innovationFormula": "DEFORM + 工艺优化与参数设计 + 型线轧制 = 厚度精度",
     "doi": "10.3390/met16080874"
+  },
+  {
+    "id": "p-114",
+    "title": "Pilot Plant Study of the ZESTY Flash Hydrogen Direct Reduction Ironmaking Process",
+    "titleCn": "ZESTY 闪氢直接还原炼铁工艺中试研究",
+    "authors": "Shabnam Sabah, Matt Boot-Handford, Geoffrey Brooks, Made Giri Natha et al.",
+    "journal": "Journal of Sustainable Metallurgy",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 8,
+    "innovationScore": 8,
+    "field": "process",
+    "processType": "section",
+    "innovationTags": [],
+    "abstract": "Zero Emission Steel Technology (ZESTY) is a flash hydrogen direct reduction ironmaking process. The technology is based on the concept of counter-current flash reduction of iron ore fines by hydrogen in an indirectly heated reactor. Important aspects of this technology are the use of hydrogen only as a reductant and the direct use of iron ore fines without the sintering or pelletizing steps. This paper focuses on 18 pilot plant trials at the ZESTY pilot plant using a single goethite/hematite ore, enabling a comparative analysis of various operating parameters of that specific ore. The highest level of metallization was found to be 90% for the investigated goethite/hematite ore, whereas the highest metallization level achieved from the entire campaign over a range of ores was 98% [ 1 ]. Increasing temperature from 900 to 1050 °C and H 2 /O reduction ratio from 1.2 to 2 has a positive effect on the level of metallization. The highest level of metallization was achieved from the trials when the particle size (d80) was less than 200 µm. Fayalite formation was observed in the DRI product, and the effect of fayalite formation on the metallization level of DRI is worthy of further investigation.",
+    "innovationCn": "Zero Emission Steel Technology (ZESTY) is a flash hydrogen direct reduction ironmaking process. The technology is based on the concept of counter-current flash reduction of iron ore fines by hydrogen in an indirectly heated reactor. Important aspects of this technology are the use of hydrogen only as a reductant and the direct use of iron ore fines without the sintering or pelletizing steps.本文重点介绍了 ZESTY 中试工厂使用单一针铁矿/赤铁矿矿石进行的 18 次中试工厂试验，从而能够对该特定矿石的各种操作参数进行比较分析。所研究的针铁矿/赤铁矿矿石的最高金属化水平为 90%，而整个系列矿石的最高金属化水平为 98% [1]。将温度从 900 °C 提高到 1050 °C 并将 H 2 /O 还原比从 1.2 提高到 2 对金属化水平具有积极影响。当颗粒尺寸 (d80) 小于 200 µm 时，试验中实现了最高水平的金属化。在DRI产品中观察到铁橄榄石形成，铁橄榄石形成对DRI金属化水平的影响值得进一步研究。",
+    "innovationFormula": "工艺优化与参数设计 + 型线轧制 + 轧制实验 = 型线轧制优化",
+    "doi": "10.1007/s40831-026-01591-z"
+  },
+  {
+    "id": "p-115",
+    "title": "Magnetite-activated carbon nanocomposite derived from steel waste and rice husks for trace removal of Pb(II) and Cd(II) from drinking water: Synthesis, characterization, and adsorption performance",
+    "titleCn": "Magnetite-activated carbon nanocomposite derived from steel waste and rice husks for trace removal of Pb(II) and Cd(II) from drinking water: Synthesis, characterization, and adsorption performance",
+    "authors": "Joseph Jjagwe, Peter Wilberforce Olupot, Robinah Kulabako, Sandro Carrara",
+    "journal": "Chemical Engineering Journal Green and Sustainable",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 8,
+    "innovationScore": 8,
+    "field": "clad",
+    "processType": "clad",
+    "innovationTags": [],
+    "abstract": "Lead (Pb) and cadmium (Cd) contamination of drinking water at trace concentrations (μg/L) poses severe public health risks, particularly in resource-limited countries. This study reports the synthesis, characterization, and adsorption performance of a magnetite-rice husk activated carbon (Fe 3 O 4 @RHAC) nanocomposite derived from two waste streams — iron oxide waste powder (IOWP) from a steel-rolling mill and rice husk — for simultaneous trace-level Pb(II) and Cd(II) removal from drinking water. Fe 3 O 4 @RHAC was characterized by BET analysis, SEM/TEM, XRD, Raman, and FTIR spectroscopy, and by vibrating sample magnetometry, revealing a surface area of 440.38 m 2 /g, a pH at the point of zero charge of 5.5, and superparamagnetic behaviour. Batch experiments identified optimal conditions of pH 6 and adsorbent dosage of 50 mg/L, yielding removal efficiencies of 95.57% for Pb(II) and 93.93% for Cd(II) at 100 μg/L. Kinetics followed the pseudo-first-order model; equilibrium data conformed to the Sips isotherm with maximum capacities of 11,855 μg/g for Pb(II) and 13,838 μg/g for Cd(II). Thermodynamic analysis confirmed endothermic, spontaneous adsorption driven by entropy gain. Competing ion studies showed divalent cations caused greater interference than monovalent ions, yet distribution coefficients remained high (Kd > 98 L/g) under competitive conditions. Adsorption proceeded via a multi-mechanistic pathway dominated by electrostatic attraction and outer-sphere surface complexation with oxygen-containing functional groups, supplemented by ion exchange. The adsorbent retained over 80% capacity across five consecutive HCl regeneration cycles. Applied to four real drinking water sources in Uganda, the nanocomposite achieved WHO-guideline-compliant Pb in three of four cases and WHO-compliant Cd in all applicable cases. This work establishes a circular-economy pathway for converting steel and agricultural wastes into high-performance, magnetically recoverable drinking water treatment materials.",
+    "innovationCn": "Lead (Pb) and cadmium (Cd) contamination of drinking water at trace concentrations (μg/L) poses severe public health risks, particularly in resource-limited countries.本研究报告了磁铁矿-稻壳活性炭 (Fe 3 O 4 @RHAC) 纳米复合材料的合成、表征和吸附性能，该复合材料取自两种废物流——轧钢厂的氧化铁废粉 (IOWP) 和稻壳——可同时去除饮用水中的痕量 Pb(II) 和 Cd(II)。 Fe 3 O 4 @RHAC 通过 BET 分析、SEM/TEM、XRD、拉曼和 FTIR 光谱以及振动样品磁力测定进行表征，显示其表面积为 440.38 m 2 /g，零电荷点的 pH 为 5.5，并具有超顺磁行为。Batch experiments identified optimal conditions of pH 6 and adsorbent dosage of 50 mg/L, yielding removal efficiencies of 95.57% for Pb(II) and 93.93% for Cd(II) at 100 μg/L. Kinetics followed the pseudo-first-order model;平衡数据符合 Sips 等温线，Pb(II) 的最大容量为 11,855 μg/g，Cd(II) 的最大容量为 13,838 μg/g。热力学分析证实了由熵增益驱动的吸热自发吸附。 Competing ion studies showed divalent cations caused greater interference than monovalent ions, yet distribution coefficients remained high (Kd > 98 L/g) under competitive conditions.Adsorption proceeded via a multi-mechanistic pathway dominated by electrostatic attraction and outer-sphere surface complexation with oxygen-containing functional groups, supplemented by ion exchange.该吸附剂在五个连续的 HCl 再生循环中保留了 80% 以上的容量。 Applied to four real drinking water sources in Uganda, the nanocomposite achieved WHO-guideline-compliant Pb in three of four cases and WHO-compliant Cd in all applicable cases. This work establishes a circular-economy pathway for converting steel and agricultural wastes into high-performance, magnetically recoverable drinking water treatment materials.",
+    "innovationFormula": "累积叠轧(ARB) + 复合轧制与层压材料 + 复合轧制 = 复合轧制优化",
+    "doi": "10.1016/j.cejgas.2026.100116"
+  },
+  {
+    "id": "p-116",
+    "title": "Hybrid Plasmonic Photoanodes for Effective Photocatalytic Water Splitting",
+    "titleCn": "用于有效光催化水分解的混合等离子体光电阳极",
+    "authors": "Hongkai Zhou, Andrew Campbell, Wilfrid Harvey, Vasyl G. Kravets et al.",
+    "journal": "Nanophotonics",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 8,
+    "innovationScore": 8,
+    "field": "process",
+    "processType": "general",
+    "innovationTags": [],
+    "abstract": "ABSTRACT Photocatalytic water splitting by semiconductors is elucidated in many important works. At the same time, mechanisms of plasmonic enhancement of photocatalytic water splitting by metals are still debated. Here, we study hybrid photocatalysts in which a main metallic catalyst, AlB 2 , is combined with a co‐catalyst made of either a metal, a semiconductor or a dielectric (FeSe, WS 2 and ZrO 2 ). These catalysts are fabricated from AlB 2 and relevant powders by a low‐cost, high‐yield and scalable rolling mill technique. They demonstrate photocatalytic water/seawater splitting under solar‐like radiation with high efficiency. We show that the reasons for efficiency enhancement are connected to optical impedance matching in hybrid photoanodes, reasonable light absorption that allowed total light absorption in 300 nm films, and matching the absorption spectrum of photoanodes to the spectrum of solar light. Using hybrid photoanodes composed of AlB 2 and FeSe nanostructures, we achieved a maximum applied bias photon‐to‐current efficiency of ∼10% under simulated solar illumination with an applied bias of 0.3 V, which brings our approach within values for the commercial viability benchmark. We also demonstrate seawater splitting using stable AlB 2 ‐FeSe and AlB 2 ‐WS 2 photoanodes attaining current densities of ∼5 mA/cm 2 by solar illumination raising efficiency of seawater splitting to ∼5%. Bifunctionality of studied hybrid photoanodes is established.",
+    "innovationCn": "摘要 许多重要的工作都阐明了半导体光催化水分解。与此同时，金属光催化分解水的等离子体增强机制仍然存在争议。在这里，我们研究了混合光催化剂，其中主要金属催化剂 AlB 2 与由金属、半导体或电介质（FeSe、WS 2 和 ZrO 2 ）制成的助催化剂相结合。这些催化剂由 AlB 2 和相关粉末通过低成本、高产且可扩展的轧机技术制成。他们证明了在类似太阳的辐射下光催化水/海水的高效分解。我们表明，效率提高的原因与混合光电阳极中的光学阻抗匹配、允许 300 nm 薄膜中的总光吸收的合理光吸收以及光电阳极的吸收光谱与太阳光光谱的匹配有关。使用由 AlB 2 和 FeSe 纳米结构组成的混合光电阳极，我们在模拟太阳光照下施加 0.3 V 的偏压，实现了最大施加偏压光子电流效率约 10%，这使我们的方法处于商业可行性基准的值范围内。我们还演示了使用稳定的 AlB 2 ‐FeSe 和 AlB 2 ‐WS 2 光阳极进行海水分解，通过太阳照射获得~5 mA/cm 2 的电流密度，将海水分解效率提高到~5%。建立了所研究的混合光电阳极的双功能性。",
+    "innovationFormula": "工艺优化与参数设计 + 轧制工艺 + 轧制实验 = 轧制工艺优化",
+    "doi": "10.1002/nap2.70237"
+  },
+  {
+    "id": "p-117",
+    "title": "Power Quality Enhancement in Rolling Mill Power Supply Networks Using Controlled Reactor Compensation",
+    "titleCn": "使用受控电抗器补偿提高轧机供电网络的电能质量",
+    "authors": "Arailym Smail, Alibek Batyrbek, Karshiga Smagulova, Zoya Gelmanova et al.",
+    "journal": "Eng—Advances in Engineering",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 8,
+    "innovationScore": 8,
+    "field": "process",
+    "processType": "hot",
+    "innovationTags": [],
+    "abstract": "The article is aimed at studying the features of the hot rolling mill CWBRM-1700 of JSC “Qarmet”, which negatively affect the operation of the distribution network of the workshop. Such factors are frequent shock loads of technological mechanisms with high installed capacity of the equipment. Experimental studies of the distribution network of the rolling production on the buses of the 10 kV substation showed that shock loads of synchronous electric drives of roughing stands lead to periodic voltage drops of up to 13% lasting 5–6 s. Mathematical modeling in the MATLAB/Simscape/Electrical environment, the results of which coincide with the data of the experimental study, showed that the most significant factor affecting the quality of electricity are abrupt changes in the reactive power of the synchronous motor from −0.5 to +0.5 MVAR. To solve the problem, it is proposed to use a controlled filter-compensating device. Variants of circuit solutions for such devices are considered. The choice was made in favor of a three-phase adjustable LLC filter with diode–transistor keys. The article develops a method for calculating the electromagnetic parameters of such a filter and establishes that in order to reduce the level of harmonic distortion of voltage, it is necessary to use a triangle connection of the controlled reactive compensator and select the PWM frequency of the transistors, a multiple of the tripled frequency of the power grid. Two options for creating a closed-loop control system for energy modes are studied: a reactive power stabilization system and a voltage stabilization system in a distribution network node, which reduce the duration of transient processes to 0.5 s and reduce the voltage drop in the network node to −4 to + 1% in the first case and to −4 to + 3% in the second, also reducing reactive power consumption to 0.02 MVAR and 0.25 MVAR, respectively. The advantage of a closed-loop control system with voltage stabilization is the ability to use a technically less complex voltage sensor.",
+    "innovationCn": "本文旨在研究 JSC“Qarmet”热轧机 CWBRM-1700 的特性，这些特性对车间配电网络的运行产生负面影响。这些因素是设备装机容量大的工艺机构频繁的冲击载荷。对10 kV变电站母线轧制生产配电网的实验研究表明，粗轧机架同步电传动的冲击载荷导致周期性电压下降高达13%，持续5-6 s。在MATLAB/Simscape/Electrical环境中进行数学建模，其结果与实验研究的数据一致，表明影响电能质量的最显着因素是同步电机无功功率从-0.5到+0.5 MVAR的突变。为了解决该问题，建议使用受控滤波器补偿装置。考虑了此类设备的电路解决方案的变体。我们选择了带有二极管-晶体管键的三相可调 LLC 滤波器。本文开发了一种计算此类滤波器电磁参数的方法，并确定，为了降低电压谐波畸变程度，需要使用可控无功补偿器的三角形连接，并选择晶体管的 PWM 频率，即电网三倍频率的倍数。研究了创建能量模式闭环控制系统的两种方案：配电网节点中的无功功率稳定系统和电压稳定系统，它们将暂态过程的持续时间减少到 0.5 s，并将网络节点的电压降在第一种情况下减少到 -4 到 + 1%，在第二种情况下减少到 -4 到 + 3%，同时将无功功耗分别减少到 0.02 MVAR 和 0.25 MVAR。具有电压稳定功能的闭环控制系统的优点是能够使用技术上不太复杂的电压传感器。",
+    "innovationFormula": "麻雀搜索(SSA) + 工艺优化与参数设计 + 热轧工艺 = 热轧工艺优化",
+    "doi": "10.3390/eng7080408"
   }
 ];
+
 
 
 
