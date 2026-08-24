@@ -2322,8 +2322,81 @@ const PAPERS = [
     "innovationCn": "本文旨在研究 JSC“Qarmet”热轧机 CWBRM-1700 的特性，这些特性对车间配电网络的运行产生负面影响。这些因素是设备装机容量大的工艺机构频繁的冲击载荷。对10 kV变电站母线轧制生产配电网的实验研究表明，粗轧机架同步电传动的冲击载荷导致周期性电压下降高达13%，持续5-6 s。在MATLAB/Simscape/Electrical环境中进行数学建模，其结果与实验研究的数据一致，表明影响电能质量的最显着因素是同步电机无功功率从-0.5到+0.5 MVAR的突变。为了解决该问题，建议使用受控滤波器补偿装置。考虑了此类设备的电路解决方案的变体。我们选择了带有二极管-晶体管键的三相可调 LLC 滤波器。本文开发了一种计算此类滤波器电磁参数的方法，并确定，为了降低电压谐波畸变程度，需要使用可控无功补偿器的三角形连接，并选择晶体管的 PWM 频率，即电网三倍频率的倍数。研究了创建能量模式闭环控制系统的两种方案：配电网节点中的无功功率稳定系统和电压稳定系统，它们将暂态过程的持续时间减少到 0.5 s，并将网络节点的电压降在第一种情况下减少到 -4 到 + 1%，在第二种情况下减少到 -4 到 + 3%，同时将无功功耗分别减少到 0.02 MVAR 和 0.25 MVAR。具有电压稳定功能的闭环控制系统的优点是能够使用技术上不太复杂的电压传感器。",
     "innovationFormula": "麻雀搜索(SSA) + 工艺优化与参数设计 + 热轧工艺 = 热轧工艺优化",
     "doi": "10.3390/eng7080408"
+  },
+  {
+    "id": "p-118",
+    "title": "A high-precision rolling force prediction model based on three-segment deformation zone division for temper rolling",
+    "titleCn": "A high-precision rolling force prediction model based on three-segment deformation zone division for temper rolling",
+    "authors": "Ji Zhang, Zhi-Xuan Wang, Zhuo Wang, Hai-Bo Yuan et al.",
+    "journal": "Journal of Iron and Steel Research International",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 8,
+    "innovationScore": 7,
+    "field": "process",
+    "processType": "cold",
+    "innovationTags": [],
+    "abstract": "",
+    "innovationCn": "A high-precision rolling force prediction model based on three-segment deformation zone division for temper rolling。主要涉及process等方面的创新研究。",
+    "innovationFormula": "DEFORM + 工艺优化与参数设计 + 冷轧工艺 = 厚度精度",
+    "doi": "10.1007/s42243-026-01859-4"
+  },
+  {
+    "id": "p-119",
+    "title": "TiO2-Based Nanoemulsion Lubrication for Hot Rolling of High-Tensile Structural Steel: Experimental Analysis and Machine Learning-Based Roll Force Prediction",
+    "titleCn": "TiO2-Based Nanoemulsion Lubrication for Hot Rolling of High-Tensile Structural Steel: Experimental Analysis and Machine Learning-Based Roll Force Prediction",
+    "authors": "Ritesh Kumar Patel, Sutanu Misra, Abhisek Haldar, Suman Kant Thakur et al.",
+    "journal": "Journal of Tribology",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 8,
+    "innovationScore": 8,
+    "field": "tribo",
+    "processType": "hot",
+    "innovationTags": [],
+    "abstract": "Abstract The present study focuses on the formulation of a nano-additive emulsion by incorporating titanium dioxide nanoparticles into roll bite lubricants. The goal is to improve rolling force performance, enhance surface finish, and minimize oxide scale formation during hot-rolling of E410 steel. Experiments were conducted on a rolling mill using water, emulsion, and TiO2-based nanoemulsions at varying concentrations. Different machine learning algorithms such as Artificial Neural Network, Genetic Algorithm optimized ANN, Support Vector Regression, Genetic Algorithm optimized SVR and Backpropagation Neural Network were developed and evaluated to predict rolling force. Comparative analysis indicated that hybrid optimization-based models had better predictive ability, showing applicability of hybrid models to reliable prediction of rolling force. The lowest surface roughness obtained was 2.735 μm. This shows a decrease of 18.7% compared to the standard emulsion and 53.7% compared to water lubrication. The 0.1 wt.% nanoemulsion offers the best lubrication, and the rolling force during the first pass dropped to 33.59 tons, which is much lower than observed with the standard emulsion. The results show that TiO2-based nanoemulsions are an effective and environmentally friendly lubrication strategy, and machine learning can be an effective tool for process prediction and optimization in hot rolling.",
+    "innovationCn": "Abstract The present study focuses on the formulation of a nano-additive emulsion by incorporating titanium dioxide nanoparticles into roll bite lubricants. The goal is to improve rolling force performance, enhance surface finish, and minimize oxide scale formation during hot-rolling of E410 steel. Experiments were conducted on a rolling mill using water, emulsion, and TiO2-based nanoemulsions at varying concentrations. Different machine learning algorithms such as Artificial Neural Network, Genetic Algorithm optimized ANN, Support Vector Regression, Genetic Algorithm optimized SVR and Backpropagation Neural Network were developed and evaluated to predict rolling force.Comparative analysis indicated that hybrid optimization-based models had better predictive ability, showing applicability of hybrid models to reliable prediction of rolling force. The lowest surface roughness obtained was 2.735 μm. This shows a decrease of 18.7% compared to the standard emulsion and 53.7% compared to water lubrication. The 0.1 wt.% nanoemulsion offers the best lubrication, and the rolling force during the first pass dropped to 33.59 tons, which is much lower than observed with the standard emulsion. The results show that TiO2-based nanoemulsions are an effective and environmentally friendly lubrication strategy, and machine learning can be an effective tool for process prediction and optimization in hot rolling.",
+    "innovationFormula": "遗传算法 + 支持向量机(SVM) + 摩擦润滑与磨损 = 润滑性能",
+    "doi": "10.1115/1.4072596"
+  },
+  {
+    "id": "p-120",
+    "title": "FAST-roll: Texture Evolution and Mechanical Property Assessment of Low-Cost Ti–6Al–4V Plate from Surplus Powder",
+    "titleCn": "FAST-roll: Texture Evolution and Mechanical Property Assessment of Low-Cost Ti–6Al–4V Plate from Surplus Powder",
+    "authors": "Samuel Lister, Amborish Banerjee, William Pulfrey, Laurie Da Silva et al.",
+    "journal": "Metallurgical and Materials Transactions A",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 8,
+    "innovationScore": 8,
+    "field": "micro",
+    "processType": "section",
+    "innovationTags": [],
+    "abstract": "Abstract Low-cost titanium feedstock such as oversized additive manufacturing (AM) powders can be effectively consolidated into billets by the field-assisted sintering technology (FAST) process in the solid state with short processing times and reusable tooling. However, many engineering applications require material in the form of larger, flat plate or sheet product forms. By combining the FAST process with existing thermomechanical processing routes such as hot rolling, low-cost titanium plate or sheet can be produced in as little as two steps (FAST- roll ). This study investigates the microstructural evolution, crystallographic texture and mechanical properties of FAST- roll plate derived from surplus AM powder. Comparisons are made with commercially available unidirectionally (UD) rolled plate material. Results show that the near-isotropic fine-grained microstructure of FAST-consolidated titanium lends itself to hot rolling. This results in the final plate product being less anisotropic and avoids the formation of macrozones, hence suggesting it is easier to form than conventional melt-wrought-derived material. This approach shows promise for developing low-cost, sustainable titanium plate and sheet for use in a range of engineering applications or further downstream processing.",
+    "innovationCn": "Abstract Low-cost titanium feedstock such as oversized additive manufacturing (AM) powders can be effectively consolidated into billets by the field-assisted sintering technology (FAST) process in the solid state with short processing times and reusable tooling. However, many engineering applications require material in the form of larger, flat plate or sheet product forms. By combining the FAST process with existing thermomechanical processing routes such as hot rolling, low-cost titanium plate or sheet can be produced in as little as two steps (FAST- roll ). This study investigates the microstructural evolution, crystallographic texture and mechanical properties of FAST- roll plate derived from surplus AM powder.Comparisons are made with commercially available unidirectionally (UD) rolled plate material. Results show that the near-isotropic fine-grained microstructure of FAST-consolidated titanium lends itself to hot rolling. This results in the final plate product being less anisotropic and avoids the formation of macrozones, hence suggesting it is easier to form than conventional melt-wrought-derived material. This approach shows promise for developing low-cost, sustainable titanium plate and sheet for use in a range of engineering applications or further downstream processing.",
+    "innovationFormula": "织构调控 + 组织演变与性能调控 + 型线轧制 = 组织调控",
+    "doi": "10.1007/s11661-026-08349-y"
+  },
+  {
+    "id": "p-121",
+    "title": "Process-field evaluation of residual-stress-uniformity risk in hot-rolled Q355B strip by coupling transformation timing, dilatometric strain and microstructural constraint",
+    "titleCn": "Process-field evaluation of residual-stress-uniformity risk in hot-rolled Q355B strip by coupling transformation timing, dilatometric strain and microstructural constraint",
+    "authors": "Chengmeng Wang, Rundong Xue, Jianfeng Sun, Lili Sun et al.",
+    "journal": "Materials & Design",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 8,
+    "innovationScore": 8,
+    "field": "micro",
+    "processType": "hot",
+    "innovationTags": [],
+    "abstract": "Widthwise residual-stress non-uniformity generated during post-rolling cooling remains difficult to screen because adjacent regions follow different thermal, transformation and dimensional histories while remaining mechanically continuous. Under a fixed upstream rolling schedule, this work evaluates widthwise cooling-rate fields for Q355B using 150 full-factorial Gleeble paths, corrected dilatometry, central-zone electron backscatter diffraction and hardness, and a five-zone process-field model. The model separates mismatch formation ( J mis ) from cooling-intensity-associated retention ( J cool ), with microstructural descriptors treated only as relative path-state indices. The nominal 60 °C/s condition was verified from specimen-thermocouple records (59.15 ± 0.84 °C/s), and industrial hole-drilling measurements showed section-wise widthwise longitudinal-stress ranges of 67.3–121.1 MPa. Across 4182 admissible fields and 5000 sensitivity runs, moderate centre cooling with equal or slightly slower edge cooling remained the stable low-risk family. The formal minima were CT650-IH at 27.5/23.0 °C/s (centre/edge) and CT650-DC at 25.0/24.5 °C/s when holding was excluded. The dimensionless ranking provides a post-rolling process-screening framework rather than an absolute three-dimensional stress prediction.",
+    "innovationCn": "Widthwise residual-stress non-uniformity generated during post-rolling cooling remains difficult to screen because adjacent regions follow different thermal, transformation and dimensional histories while remaining mechanically continuous. Under a fixed upstream rolling schedule, this work evaluates widthwise cooling-rate fields for Q355B using 150 full-factorial Gleeble paths, corrected dilatometry, central-zone electron backscatter diffraction and hardness, and a five-zone process-field model. The model separates mismatch formation ( J mis ) from cooling-intensity-associated retention ( J cool ), with microstructural descriptors treated only as relative path-state indices.The nominal 60 °C/s condition was verified from specimen-thermocouple records (59.15 ± 0.84 °C/s), and industrial hole-drilling measurements showed section-wise widthwise longitudinal-stress ranges of 67.3–121.1 MPa. Across 4182 admissible fields and 5000 sensitivity runs, moderate centre cooling with equal or slightly slower edge cooling remained the stable low-risk family. The formal minima were CT650-IH at 27.5/23.0 °C/s (centre/edge) and CT650-DC at 25.0/24.5 °C/s when holding was excluded. The dimensionless ranking provides a post-rolling process-screening framework rather than an absolute three-dimensional stress prediction.",
+    "innovationFormula": "组织演变与性能调控 + 热轧工艺 + 轧制实验 = 性能预测",
+    "doi": "10.1016/j.matdes.2026.116825"
   }
 ];
+
 
 
 
