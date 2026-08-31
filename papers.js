@@ -2394,8 +2394,63 @@ const PAPERS = [
     "innovationCn": "Widthwise residual-stress non-uniformity generated during post-rolling cooling remains difficult to screen because adjacent regions follow different thermal, transformation and dimensional histories while remaining mechanically continuous. Under a fixed upstream rolling schedule, this work evaluates widthwise cooling-rate fields for Q355B using 150 full-factorial Gleeble paths, corrected dilatometry, central-zone electron backscatter diffraction and hardness, and a five-zone process-field model. The model separates mismatch formation ( J mis ) from cooling-intensity-associated retention ( J cool ), with microstructural descriptors treated only as relative path-state indices.The nominal 60 °C/s condition was verified from specimen-thermocouple records (59.15 ± 0.84 °C/s), and industrial hole-drilling measurements showed section-wise widthwise longitudinal-stress ranges of 67.3–121.1 MPa. Across 4182 admissible fields and 5000 sensitivity runs, moderate centre cooling with equal or slightly slower edge cooling remained the stable low-risk family. The formal minima were CT650-IH at 27.5/23.0 °C/s (centre/edge) and CT650-DC at 25.0/24.5 °C/s when holding was excluded. The dimensionless ranking provides a post-rolling process-screening framework rather than an absolute three-dimensional stress prediction.",
     "innovationFormula": "组织演变与性能调控 + 热轧工艺 + 轧制实验 = 性能预测",
     "doi": "10.1016/j.matdes.2026.116825"
+  },
+  {
+    "id": "p-122",
+    "title": "A three-stage solution for solving the cold rolling mill scheduling problem: an industrial case study",
+    "titleCn": "解决冷轧机调度问题的三阶段解决方案：工业案例研究",
+    "authors": "Zekang Lan, Yan Xu",
+    "journal": "International Journal of Production Research",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 8,
+    "innovationScore": 8,
+    "field": "process",
+    "processType": "cold",
+    "innovationTags": [],
+    "abstract": "In steel manufacturing, the cold rolling mill (CRM) plays a pivotal role as the initial stage of the cold rolling process, governing thickness reduction and resource allocation for downstream operations. This paper addresses the industrial CRM scheduling problem with distinct narrow-to-wide (N2W) and wide-to-narrow (W2N) stages. We first establish a tailored mixed-integer linear programming model that considers practical constraints and stage-eligible coils. A dedicated three-stage solution framework is proposed to tackle this problem efficiently, in which the W2N subproblem is converted into an elementary shortest path problem with resource constraints by adopting the ϵ-constraint method, and an improved pulse algorithm integrated with multiple acceleration strategies is developed to solve the subproblem optimally.Numerical experiments on real industrial data show that our approach obtains high-quality solutions with computational efficiency and solution quality validated against Gurobi's results, confirming its practical effectiveness.",
+    "innovationCn": "在钢铁制造中，冷轧机 (CRM) 作为冷轧过程的初始阶段发挥着关键作用，控制着下游业务的厚度减少和资源分配。本文解决了具有不同窄到宽 (N2W) 和宽到窄 (W2N) 阶段的工业 CRM 调度问题。我们首先建立一个定制的混合整数线性规划模型，考虑实际约束和阶段合格线圈。为了有效解决该问题，提出了专用的三阶段解决框架，其中采用ε约束方法将W2N子问题转化为资源约束的基本最短路径问题，并开发了一种集成多种加速策略的改进脉冲算法来优化解决该子问题。真实工业数据的数值实验表明，我们的方法获得了高质量的解决方案，其计算效率和解决方案质量与Gurobi的结果进行了验证，证实了其实际有效性。",
+    "innovationFormula": "工艺优化与参数设计 + 冷轧工艺 + 轧制实验 = 厚度精度",
+    "doi": "10.1080/00207543.2026.2718453"
+  },
+  {
+    "id": "p-123",
+    "title": "Solution treatment + cold rolling + creep aging composite process for regulating the mechanical properties of additive friction stir deposition-2219 aluminum alloy",
+    "titleCn": "固溶处理+冷轧+蠕变时效复合工艺调控添加剂搅拌摩擦沉积-2219铝合金力学性能",
+    "authors": "Zechao Wu, Lihua Zhan, Tong Feng, Jiecheng Zhong et al.",
+    "journal": "Materials Today Communications",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 8,
+    "innovationScore": 8,
+    "field": "micro",
+    "processType": "cold",
+    "innovationTags": [],
+    "abstract": "ABSTRACT To address the issues of low strength, microstructural inhomogeneity, and interlayer defects in 2219 aluminum alloy fabricated by additive friction stir deposition (AFSD), this study proposes a hybrid processing route combining solution treatment, cold rolling, and creep aging. The effects of cold rolling reduction (0%–20%) on the microstructure and mechanical properties were systematically investigated. The results show that the AFSD-fabricated alloy exhibits microstructural inhomogeneity along the deposition direction. Solution treatment effectively dissolves the secondary phases, but introduces interlayer defects during quenching. Cold rolling significantly improves structural integrity and alters the fracture behavior, thereby leading to better overall mechanical properties after creep aging. Under the investigated conditions, a cold rolling reduction of 10%–20% provides a good balance between strength and ductility compared with lower or higher reductions. In addition, a quantitative strengthening model was established to evaluate the contribution of θ′ precipitates to the yield strength. This study provides an effective processing window and a quantitative analytical framework for tailoring the mechanical properties of additively manufactured 2219 aluminum alloy, offering guidance for its application in aerospace structural components.",
+    "innovationCn": "摘要 针对增材搅拌摩擦沉积 (AFSD) 制备 2219 铝合金强度低、微观结构不均匀和层间缺陷的问题，本研究提出了一种结合固溶处理、冷轧和蠕变时效的混合加工路线。系统研究了冷轧压下量（0%~20%）对显微组织和力学性能的影响。结果表明，AFSD 制造的合金沿沉积方向表现出微观结构的不均匀性。固溶处理有效地溶解了第二相，但在淬火过程中引入了层间缺陷。冷轧显着提高了结构完整性并改变了断裂行为，从而在蠕变时效后获得更好的整体机械性能。在研究条件下，与较低或较高的压下量相比，10%–20%的冷轧压下量可在强度和延展性之间提供良好的平衡。此外，还建立了定量强化模型来评估θ'析出相对屈服强度的贡献。该研究为增材制造2219铝合金的机械性能提供了有效的加工窗口和定量分析框架，为其在航空航天结构件中的应用提供了指导。",
+    "innovationFormula": "析出强化 + 组织演变与性能调控 + 冷轧工艺 = 组织调控",
+    "doi": "10.1016/j.mtcomm.2026.116000"
+  },
+  {
+    "id": "p-124",
+    "title": "Numerical analysis and neural-network modeling for predicting the thermo-viscoplastic behavior of Cu/AA2030 panel during the hot rolling process",
+    "titleCn": "用于预测 Cu/AA2030 板材热轧过程中热粘塑性行为的数值分析和神经网络建模",
+    "authors": "Alireza Jalili, Hamidreza Rezaei Ashtiani",
+    "journal": "Multiscale and Multidisciplinary Modeling Experiments and Design",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 8,
+    "innovationScore": 8,
+    "field": "fem",
+    "processType": "hot",
+    "innovationTags": [],
+    "abstract": "This study presents a three-dimensional thermo-mechanical finite element (3D-FEM) investigation of the hot rolling process for Cu/AA2030/Cu laminated composite panels, coupled with an artificial neural network (ANN) surrogate model for rapid prediction of process responses. The numerical model was developed to evaluate the effects of major process parameters, including friction coefficient, reduction ratio, roll speed, roll diameter, and initial copper layer thickness, on rolling force, torque, temperature distribution, and deformation behavior. Temperature- and strain rate-dependent material properties of Cu and AA2030 were incorporated into the finite element model using experimentally obtained hot compression data. Based on the numerical database generated by the FEM simulations, a feed-forward ANN was trained to predict the rolling force and torque within the investigated operating conditions. The developed ANN achieved correlation coefficients (R) of 0.9749 and 0.9742 for the training and testing datasets of rolling force, respectively, while corresponding values for rolling torque were 0.9811 and 0.9810. The maximum rolling force and torque obtained from the simulations were 32.5 kN and 0.445 kN·m, respectively. Increasing the friction coefficient from 0.1 to 0.5 increased the rolling force by approximately 33.8%, demonstrating the dominant influence of interfacial friction on the thermo-mechanical response of the laminate. The proposed FEM–ANN framework provides an efficient computational tool for predicting process responses and analyzing the influence of processing parameters within the investigated hot rolling conditions.",
+    "innovationCn": "本研究对 Cu/AA2030/Cu 层压复合材料板的热轧过程进行了三维热机械有限元 (3D-FEM) 研究，并结合人工神经网络 (ANN) 替代模型来快速预测过程响应。开发数值模型是为了评估主要工艺参数（包括摩擦系数、压下比、轧辊速度、轧辊直径和初始铜层厚度）对轧制力、扭矩、温度分布和变形行为的影响。使用实验获得的热压缩数据将 Cu 和 AA2030 与温度和应变率相关的材料特性纳入有限元模型中。基于有限元模拟生成的数值数据库，训练前馈神经网络来预测所研究的操作条件下的轧制力和扭矩。所开发的神经网络在轧制力训练和测试数据集上的相关系数 (R) 分别为 0.9749 和 0.9742，而轧制扭矩的相应值为 0.9811 和 0.9810。模拟获得的最大轧制力和扭矩分别为32.5 kN和0.445 kN·m。将摩擦系数从 0.1 增加到 0.5，轧制力增加了约 33.8%，这表明界面摩擦对层压板热机械响应的主要影响。所提出的 FEM-ANN 框架提供了一种有效的计算工具，用于预测过程响应并分析所研究的热轧条件下加工参数的影响。",
+    "innovationFormula": "有限元(FEM) + DEFORM + 有限元与多物理场仿真 = 厚度精度",
+    "doi": "10.1007/s41939-026-01262-2"
   }
 ];
+
 
 
 
