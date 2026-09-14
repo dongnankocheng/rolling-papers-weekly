@@ -2574,8 +2574,45 @@ const PAPERS = [
     "innovationCn": "带轴向移动带材的四辊冷轧机的多模态动力学和稳定性：建模以及与操作测量的比较。主要涉及process等方面的创新研究。",
     "innovationFormula": "工艺优化与参数设计 + 冷轧工艺 + 轧制实验 = 冷轧工艺优化",
     "doi": "10.1007/s42417-026-02732-0"
+  },
+  {
+    "id": "p-132",
+    "title": "Finite element analysis-based flatness control and bending force optimization strategy for high rolling force conditions",
+    "titleCn": "基于有限元分析的高轧制力工况平直度控制和弯曲力优化策略",
+    "authors": "Zhuwen Yan, Wenjun Cao, Baosheng Wang, Yingxin Tang et al.",
+    "journal": "PLoS ONE",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 9,
+    "innovationScore": 8,
+    "field": "process",
+    "processType": "cold",
+    "innovationTags": [],
+    "abstract": "To address severe flatness control failure of cold rolled strips under ultra-high rolling force, a collaborative bending force multi-objective optimization strategy based on surrogate models is proposed for a 1450 six-high tandem cold mill. Latin hypercube sampling (LHS) is adopted to generate process sample points, and Gaussian process regression (GPR) and radial basis function neural network (RBFNN) are constructed as fast surrogate models to replace time-consuming ABAQUS finite element simulation. NSGA-II and particle swarm optimization (PSO) are combined to perform global constrained optimization of work roll bending (WRB) and intermediate roll bending (IRB) forces, aiming to minimize transverse thickness deviation, quadratic/quartic strip crown, flatness residual error and rolling force unevenness simultaneously. Finite element verification shows that under high rolling force of 25000 kN, the optimized collaborative bending force combination reduces strip transverse thickness difference from 18 μm to 6 μm, quadratic crown from +11 μm to -5 μm, quartic crown from 3 μm to 1 μm, rolling pressure unevenness by 75.9%, and almost eliminates edge wave flatness defects. Mechanism analysis reveals that high rolling force significantly shifts the optimal single bending force operating window and increases quartic crown proportion, while intermediate roll bending force presents stronger anti-interference performance for quarter-wave defects. The proposed surrogate model-based optimization framework effectively overcomes the compensation limit of single bending force control under extreme heavy load, providing theoretical and technical support for high-precision flatness control of ultra-thin high-strength cold rolled strips.",
+    "innovationCn": "针对超高轧制力下冷轧带钢板形控制严重失效的问题，针对1450六辊冷轧机提出了一种基于代理模型的协同弯曲力多目标优化策略。采用拉丁超立方采样（LHS）生成过程样本点，并构建高斯过程回归（GPR）和径向基函数神经网络（RBFNN）作为快速代理模型来替代耗时的ABAQUS有限元模拟。NSGA-II和粒子群优化（PSO）相结合，对工作辊弯曲（WRB）和中间辊弯曲（IRB）力进行全局约束优化，旨在同时最小化横向厚度偏差、二次/四次带材凸度、板形残余误差和轧制力不均匀性。有限元验证表明，在25000 kN的高轧制力下，优化的协同弯曲力组合使带钢横向厚差由18 μm减小到6 μm，二次凸度由+11 μm减小到-5 μm，四次凸度由3 μm减小到1 μm，轧制压力不均匀度降低75.9%，几乎消除了边波平整度缺陷。机理分析表明，高轧制力显着改变了最佳单弯力操作窗口，增加了四次凸度比例，而中弯轧力对四分之一波缺陷表现出更强的抗干扰性能。所提出的基于代理模型的优化框架有效克服了极重载荷下单一弯曲力控制的补偿极限，为超薄高强冷轧带钢的高精度平整度控制提供了理论和技术支撑。",
+    "innovationFormula": "粒子群(PSO) + 有限元(FEM) + ABAQUS = 板形控制",
+    "doi": "10.1371/journal.pone.0356630"
+  },
+  {
+    "id": "p-133",
+    "title": "Insights into interface bonding mechanism of titanium-steel composite shafts fabricated by cross wedge rolling",
+    "titleCn": "楔横轧钛钢复合轴界面结合机理的探讨",
+    "authors": "Le Zhu, Chaoyang Sun, Lianjing Hao, Cuiping Yang et al.",
+    "journal": "Journal of Materials Research and Technology",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 9,
+    "innovationScore": 8,
+    "field": "clad",
+    "processType": "clad",
+    "innovationTags": [],
+    "abstract": "Composite materials composed of titanium and steel are reasonably priced and exhibit excellent corrosion resistance. However, their widespread engineering applications are severely limited by insufficient interfacial bonding strength. To fill the technical gap in the fabrication of titanium/steel composite shafts, this study proposes an assembly method for heterogeneous metal composite shaft blanks and adopts cross-wedge rolling (CWR) technology to successfully fabricate high-bonding-strength titanium–steel composite shafts. Based on the CWR process, the effects of forming temperature on the interfacial microstructure and bonding strength of titanium/steel composite shafts were systematically investigated. The results show that the shear strength of the composite shafts rolled at 850°C–1000°C increases first and then decrease with rising temperature, reaching a maximum value of 287 MPa at 900 °C. The superior interfacial bonding performance of the composite shafts is attributed to three main mechanisms. (1) Tight surface contact reduces air entrapment at the interface and suppresses the formation of brittle intermetallic compounds. (2) Cyclic stress loading and strain fluctuation at the interface during forming promote the fragmentation of interfacial compound layers. (3) Multilayer embedding of the Fe matrix and the pinning effect of dispersed nano-TiC particles at the interface further improve the interfacial shear strength. The findings verify that precise temperature control in the CWR process enables the acquisition of titanium/steel composite shafts with high interfacial bonding strength.",
+    "innovationCn": "由钛和钢组成的复合材料价格合理，并且具有优异的耐腐蚀性。然而，其广泛的工程应用由于界面结合强度不足而受到严重限制。为了填补钛/钢复合轴制造的技术空白，本研究提出了一种异种金属复合轴毛坯组装方法，并采用楔横轧（CWR）技术成功制造了高结合强度的钛钢复合轴。基于CWR工艺，系统研究了成形温度对钛/钢复合轴的界面组织和结合强度的影响。结果表明，在850℃~1000℃轧制的复合材料轴的剪切强度随着温度的升高先增大后减小，在900℃时达到最大值287 MPa。复合材料轴优异的界面结合性能归因于三个主要机制。 (1)紧密的表面接触减少了界面处的空气截留并抑制了脆性金属间化合物的形成。 (2)成形过程中界面处的循环应力加载和应变波动促进了界面化合物层的破碎。 (3)Fe基体的多层嵌入和界面分散的纳米TiC颗粒的钉扎效应进一步提高了界面剪切强度。研究结果证实，CWR 工艺中的精确温度控制能够获得具有高界面结合强度的钛/钢复合轴。",
+    "innovationFormula": "楔横轧 + 复合轧制与层压材料 + 复合轧制 = 界面结合",
+    "doi": "10.1016/j.jmrt.2026.09.044"
   }
 ];
+
 
 
 
