@@ -2610,8 +2610,27 @@ const PAPERS = [
     "innovationCn": "由钛和钢组成的复合材料价格合理，并且具有优异的耐腐蚀性。然而，其广泛的工程应用由于界面结合强度不足而受到严重限制。为了填补钛/钢复合轴制造的技术空白，本研究提出了一种异种金属复合轴毛坯组装方法，并采用楔横轧（CWR）技术成功制造了高结合强度的钛钢复合轴。基于CWR工艺，系统研究了成形温度对钛/钢复合轴的界面组织和结合强度的影响。结果表明，在850℃~1000℃轧制的复合材料轴的剪切强度随着温度的升高先增大后减小，在900℃时达到最大值287 MPa。复合材料轴优异的界面结合性能归因于三个主要机制。 (1)紧密的表面接触减少了界面处的空气截留并抑制了脆性金属间化合物的形成。 (2)成形过程中界面处的循环应力加载和应变波动促进了界面化合物层的破碎。 (3)Fe基体的多层嵌入和界面分散的纳米TiC颗粒的钉扎效应进一步提高了界面剪切强度。研究结果证实，CWR 工艺中的精确温度控制能够获得具有高界面结合强度的钛/钢复合轴。",
     "innovationFormula": "楔横轧 + 复合轧制与层压材料 + 复合轧制 = 界面结合",
     "doi": "10.1016/j.jmrt.2026.09.044"
+  },
+  {
+    "id": "p-134",
+    "title": "Accurate determination of deformation resistance for thin-hard steel strip in tandem cold rolling process",
+    "titleCn": "薄硬钢带冷连轧变形抗力的准确测定",
+    "authors": "Guomin Han, Hongbo Li, Jie Zhang, Xuechang You et al.",
+    "journal": "Journal of Manufacturing Processes",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 9,
+    "innovationScore": 8,
+    "field": "process",
+    "processType": "cold",
+    "innovationTags": [],
+    "abstract": "In the tandem cold rolling of thin-hard steel strip, the calculated value of rolling force is often smaller than the measured value in the back stands (e.g. the fourth and fifth stand), and the unbalanced load distribution appears with inaccurate rolling force, which significantly disturbs the stability of rolling process. Strip deformation resistance is an important factor affecting the calculation of rolling force, which is commonly determined via the uniaxial stress test of incoming material, however, the deformation state of material in uniaxial stress test is different from that in actual rolling, especially for the thin-hard strip with severe work-hardening, the effect of rolling strengthening may be more obvious than tensile strengthening. Here, combined the sampling of industrial multi-stand rolled strip with the tensile test, a method to accurately determine deformation resistance of thin-hard strip is proposed, which considers the rolling deformation state. It is found that the stress-strain data in plastic deformation stage of thin-hard specimens from the fourth and fifth stand are difficult to be obtained, so the size effect theory is used for prediction. By comparing the calculated rolling force with the measured rolling force, the accuracy of proposed method is proved. This work builds a solid foundation for accurate calculation of rolling force and balanced load distribution for thin-hard strip in routine five-stand cold rolling mill, and provides a significant reference for solution of similar problem for other types of thin-hard strips and the process improvement of emerging six-stand mill with smaller roll diameter.",
+    "innovationCn": "在薄硬带钢连轧冷轧中，轧制力的计算值往往小于后机架（如第四、五机架）的测量值，并且出现载荷分布不平衡，轧制力不准确，严重影响轧制过程的稳定性。带材变形抗力是影响轧制力计算的重要因素，通常通过来料单轴应力试验确定，但单轴应力试验中材料的变形状态与实际轧制时的变形状态不同，特别是对于加工硬化严重的薄硬带材，轧制强化的效果可能比拉伸强化更明显。本文将工业多机架轧制带材取样与拉伸试验相结合，提出了一种考虑轧制变形状态的薄硬带材变形抗力的准确测定方法。发现第四、五机架薄硬试件塑性变形阶段的应力应变数据难以获取，因此采用尺寸效应理论进行预测。通过将计算的轧制力与实测轧制力进行比较，证明了该方法的准确性。该工作为常规五机架冷轧机薄硬带材轧制力的精确计算和均衡载荷分布奠定了坚实的基础，也为其他类型薄硬带材类似问题的解决以及新兴小辊径六机架轧机的工艺改进提供了重要参考。",
+    "innovationFormula": "DEFORM + 工艺优化与参数设计 + 冷轧工艺 = 性能预测",
+    "doi": "10.1016/j.jmapro.2026.09.003"
   }
 ];
+
 
 
 
