@@ -2628,8 +2628,27 @@ const PAPERS = [
     "innovationCn": "在薄硬带钢连轧冷轧中，轧制力的计算值往往小于后机架（如第四、五机架）的测量值，并且出现载荷分布不平衡，轧制力不准确，严重影响轧制过程的稳定性。带材变形抗力是影响轧制力计算的重要因素，通常通过来料单轴应力试验确定，但单轴应力试验中材料的变形状态与实际轧制时的变形状态不同，特别是对于加工硬化严重的薄硬带材，轧制强化的效果可能比拉伸强化更明显。本文将工业多机架轧制带材取样与拉伸试验相结合，提出了一种考虑轧制变形状态的薄硬带材变形抗力的准确测定方法。发现第四、五机架薄硬试件塑性变形阶段的应力应变数据难以获取，因此采用尺寸效应理论进行预测。通过将计算的轧制力与实测轧制力进行比较，证明了该方法的准确性。该工作为常规五机架冷轧机薄硬带材轧制力的精确计算和均衡载荷分布奠定了坚实的基础，也为其他类型薄硬带材类似问题的解决以及新兴小辊径六机架轧机的工艺改进提供了重要参考。",
     "innovationFormula": "DEFORM + 工艺优化与参数设计 + 冷轧工艺 = 性能预测",
     "doi": "10.1016/j.jmapro.2026.09.003"
+  },
+  {
+    "id": "p-135",
+    "title": "Novel segmented taper work roll profile technology for edge drop control of cold-rolled silicon steel",
+    "titleCn": "冷轧硅钢边落控制新型分段锥度工作辊型线技术",
+    "authors": "Hao-Tang Qie, Anrui He, Wenquan Sun, Chao Liu et al.",
+    "journal": "Journal of Iron and Steel Research International",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 9,
+    "innovationScore": 9,
+    "field": "process",
+    "processType": "cold",
+    "innovationTags": [],
+    "abstract": "",
+    "innovationCn": "冷轧硅钢边落控制新型分段锥度工作辊型线技术。主要涉及process等方面的创新研究。",
+    "innovationFormula": "辊型优化 + 工艺优化与参数设计 + 冷轧工艺 = 冷轧工艺优化",
+    "doi": "10.1007/s42243-026-01928-8"
   }
 ];
+
 
 
 
