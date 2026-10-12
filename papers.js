@@ -2808,8 +2808,81 @@ const PAPERS = [
     "innovationCn": "摘要 本研究成功开发了一种基于轧制的固态焊接方法。为此，使用厚度均为 2 毫米的铝 (Al) 1050 片和商用纯铜 (Cu) 片。将板材在接触界面处以 30° 角切割，并通过厚度减少 60% 的冷轧粘合在一起。轧制后，由于施加的应变，30°角减小至12°。采用光学显微镜（OM）、扫描电子显微镜（SEM）、电子背散射衍射（EBSD）、能谱（EDS）、显微硬度和拉伸强度测试来研究焊缝的显微组织和力学性能。此外，使用商业有限元软件包Abaqus进行数值模拟。轧制使Al和Cu的平均晶粒尺寸分别从35μm到5μm减小到5μm和2μm。 EDS 分析表明，Al/Cu 界面处没有形成金属间化合物 (IMC)，这证实了键合主要通过机械互锁而不是原子扩散发生。由 EBSD 分析得出的核平均取向误差 (KAM) 图显示，与样品的其他区域相比，Al/Cu 界面处的应变浓度更高。数值模拟证实了EBSD结果。焊接样品的拉伸强度为 148 MPa，与本研究中轧制铝的拉伸强度相同。在拉伸试验过程中，Al 区域发生断裂，而焊缝保持完好。",
     "innovationFormula": "有限元(FEM) + ABAQUS + 组织演变与性能调控 = 厚度精度",
     "doi": "10.1038/s41598-026-73202-6"
+  },
+  {
+    "id": "p-145",
+    "title": "Leaner alloy design for structural-grade hot rolled coils: Effects on rolling load, microstructure and process stability",
+    "titleCn": "结构级热轧卷材的精益合金设计：对轧制载荷、微观结构和工艺稳定性的影响",
+    "authors": "Arthita Bhattacharyya, Snehangshu Roy, Somnath Kumar, Kaushal Kishore Singh et al.",
+    "journal": "Ironmaking & Steelmaking Processes Products and Applications",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 10,
+    "innovationScore": 8,
+    "field": "micro",
+    "processType": "section",
+    "innovationTags": [],
+    "abstract": "A major integrated steel producer manufacturing structural-grade hot-rolled coils and plates observed significant challenges in rolling operations associated with richer chemistries containing higher levels of carbon and manganese. Elevated alloy content increased flow stress during deformation, resulting in higher rolling loads, greater mill energy demand, and a higher incidence of cobbles during thin-gauge rolling. To improve operational stability and overall process efficiency, a leaner chemistry route with reduced carbon and manganese content was developed and industrially validated. Production trials demonstrated a 16%–34% reduction in rolling load, accompanied by a 15-min decrease in average furnace residence time, contributing to enhanced productivity. Mechanical testing confirmed that the modified grade satisfied all specification requirements while exhibiting improved ductility and a cleaner ferrite–pearlite microstructure with lower inclusion density. Additionally, optimised alloy design enabled a reduction in multiple ferroalloys consumption by 2.11 kg per tonne of crude steel, resulting in annual cost savings exceeding Rs. 2.5 crore. These findings establish leaner chemistry as an effective and sustainable pathway for producing cost-efficient, high-quality structural steels while improving process robustness.",
+    "innovationCn": "一家生产结构级热轧钢卷和板材的大型综合钢铁生产商发现，由于含有较高碳和锰含量的化学物质含量较高，轧制操作面临着重大挑战。合金含量升高会增加变形过程中的流动应力，从而导致更高的轧制载荷、更大的轧机能量需求以及薄规格轧制过程中更高的卵石发生率。为了提高操作稳定性和整体工艺效率，开发了一种减少碳和锰含量的精简化学路线并进行了工业验证。生产试验表明，轧制载荷降低了 16%–34%，炉内平均停留时间缩短了 15 分钟，有助于提高生产率。机械测试证实，改进后的牌号满足所有规格要求，同时表现出更高的延展性和更清洁的铁素体-珠光体微观结构以及更低的夹杂物密度。此外，优化的合金设计使每吨粗钢的多种铁合金消耗量减少了2.11公斤，每年节省的成本超过卢比。 2.5 千万卢比。这些发现将精益化学确立为一种有效且可持续的途径，可生产具有成本效益的高质量结构钢，同时提高工艺稳健性。",
+    "innovationFormula": "DEFORM + 累积叠轧(ARB) + 组织演变与性能调控 = 厚度精度",
+    "doi": "10.1177/03019233261482018"
+  },
+  {
+    "id": "p-146",
+    "title": "Study on friction characteristics at the rolling interface under vertical-horizontal coupled vibration of rolling mill systems based on dynamic rolling force",
+    "titleCn": "基于动态轧制力的轧机系统纵横耦合振动下轧制界面摩擦特性研究",
+    "authors": "Laihua Tao, Qiaoyi Wang, Huajie Wu, Xin Jiang",
+    "journal": "Proceedings of the Institution of Mechanical Engineers Part C Journal of Mechanical Engineering Science",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 10,
+    "innovationScore": 8,
+    "field": "tribo",
+    "processType": "general",
+    "innovationTags": [],
+    "abstract": "This study addresses the limitations of conventional steady-state rolling models in characterizing metal flow dynamics and force-energy parameters at the rolling interface under vertical-horizontal coupled roll vibrations. Based on the principle of mass conservation, a three-dimensional velocity field for the strip was established. A dynamic rolling model of the rolling mill system was constructed by systematically analyzing the effects of coupled roll vibrations on micro-element deformation. An improved Tselikov-based rolling force calculation method was developed using a chord-to-arc approach for individual strip micro-elements to determine the evolution of the friction coefficient and the stress distribution during rolling. The results show that the rate of change in roll-gap height is linearly related to the horizontal roll vibration velocity, while increasing rolling speed reduces the friction coefficient and shifts the neutral point. For low-speed rolling of aluminum, the maximum relative error between the model-predicted rolling force and the measured value is 11.92%, and the average relative error is lower than that obtained with existing constant-friction coefficient models. The remaining discrepancy is mainly attributed to dynamic effects that are not fully captured during the rolling process. These results support the effectiveness of the model within the investigated operating range. The analysis further shows that vertical-horizontal coupled roll vibrations significantly influence the distribution of force-energy parameters at the rolling interface by dynamically modulating the contact arc length. The proposed framework provides a theoretical basis for optimizing rolling-process parameters through active control of roll vibrations and contributes to the development of vibration aware rolling technology.",
+    "innovationCn": "这项研究解决了传统稳态轧制模型在表征垂直-水平耦合轧制振动下轧制界面处的金属流动动力学和力能参数方面的局限性。基于质量守恒定律，建立了带材的三维速度场。通过系统分析轧辊耦合振动对微元变形的影响，构建了轧机系统的动态轧制模型。改进的基于 Tselikov 的轧制力计算方法采用弦-弧方法针对单个带材微单元开发，以确定轧制过程中摩擦系数和应力分布的演变。结果表明，辊缝高度的变化率与水平辊振动速度呈线性相关，而增加轧制速度会降低摩擦系数并移动中性点。对于铝材低速轧制，模型预测轧制力与实测值之间的最大相对误差为11.92%，平均相对误差低于现有恒摩擦系数模型得到的结果。剩余的差异主要归因于滚动过程中未完全捕获的动态效应。这些结果支持模型在研究的操作范围内的有效性。分析进一步表明，垂直-水平耦合滚动振动通过动态调节接触弧长度，显着影响滚动界面处力能参数的分布。所提出的框架为通过轧辊振动的主动控制来优化轧制工艺参数提供了理论基础，并有助于振动感知轧制技术的发展。",
+    "innovationFormula": "DEFORM + 摩擦润滑与磨损 + 轧制工艺 = 振动抑制",
+    "doi": "10.1177/09544062261494681"
+  },
+  {
+    "id": "p-147",
+    "title": "Improving corrosion resistance of cold-rolled automotive sheet by optimizing production process parameters",
+    "titleCn": "优化生产工艺参数提高冷轧汽车板耐腐蚀性能",
+    "authors": "I. G. Rodionova, S. V. Denisov, D. G. Ruzaev, I. A. Kozhevnikova et al.",
+    "journal": "Ferrous Metallurgy Bulletin of Scientific Technical and Economic Information",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 10,
+    "innovationScore": 8,
+    "field": "micro",
+    "processType": "cold",
+    "innovationTags": [],
+    "abstract": "A comprehensive analysis has been carried out on the influence of chemical composition parameters, hot and cold rolling, and recrystallization annealing in bell-type furnaces on the corrosion resistance of cold-rolled automotive sheet steel 08Yu. It has been established that the key factors determining the atmospheric corrosion rate are the completeness of nitrogen binding into aluminum nitride (Al/N ratio), the temperatures of the transfer bar between the roughing and finishing mill stands during hot rolling and of coiling of hot-rolled strips into coils, the annealing temperature, as well as the stress-strain state (SSS) of the metal during annealing, which is formed during cold rolling. It is shown that lowering the annealing temperature, as well as maintaining the roll antibending force in the cold rolling mill stands within a specific range, ensures the highest corrosion resistance. The article emphasizes that the main microstructural feature of the rolled product with reduced corrosion resistance in the case of increased antibending force during cold rolling is an increased number of cementite precipitates within the grain body, formed upon cooling after annealing at high temperatures. These precipitates increase microstructural heterogeneity and accelerate corrosion processes. In the case of reduced antibending force during cold rolling, the grain size heterogeneity of the microstructure, which leads to accelerated corrosion processes, may be caused by retarded recrystallization due to hindered diffusion processes and/or strain nonuniformity",
+    "innovationCn": "综合分析了化学成分参数、热轧、冷轧、罩式炉再结晶退火对冷轧汽车板08Yu耐腐蚀性能的影响。已经确定，决定大气腐蚀速率的关键因素是氮与氮化铝结合的完整性（Al/N比）、热轧过程中粗轧机和精轧机机架之间的传递棒的温度以及热轧带材卷成卷的温度、退火温度以及在冷轧过程中形成的退火过程中金属的应力应变状态（SSS）。结果表明，降低退火温度，并将冷轧机轧辊抗弯力保持在特定范围内，可确保最高的耐腐蚀性能。文章强调，在冷轧过程中抗弯力增加的情况下，轧制产品的耐腐蚀性能降低的主要显微组织特征是晶粒体内渗碳体析出物数量增加，这些析出物是在高温退火后冷却时形成的。这些沉淀物增加了微观结构的不均匀性并加速了腐蚀过程。在冷轧过程中抗弯力降低的情况下，微观结构的晶粒尺寸不均匀性可能是由于受阻扩散过程和/或应变不均匀性导致再结晶延迟造成的，从而导致腐蚀过程加速。",
+    "innovationFormula": "析出强化 + 再结晶 + 退火工艺 = 组织调控",
+    "doi": "10.32339/0135-5910-2026-7-14-20"
+  },
+  {
+    "id": "p-148",
+    "title": "Microstructural evolution and mechanical properties of 30NiCrMoV12 constant-inner-diameter hollow axles during three-roll flexible skew rolling",
+    "titleCn": "30NiCrMoV12等内径空心轴三辊柔性斜轧微观组织演变及力学性能",
+    "authors": "Caoqi Ye, Xuedao Shu, Xinming Cao, Xueying Huang et al.",
+    "journal": "Journal of Materials Research and Technology",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 10,
+    "innovationScore": 8,
+    "field": "micro",
+    "processType": "tube",
+    "innovationTags": [],
+    "abstract": "To elucidate the microstructural evolution and mechanical properties of constant inner diameter hollow axles fabricated by three-roll flexible skew rolling (TRSR), 30NiCrMoV12 alloy steel was investigated through hot compression tests, dynamic recrystallization (DRX) modeling, finite element simulations, rolling experiments, EBSD characterization, and tensile tests. The flow behavior under different deformation conditions was obtained, and DRX models for critical strain, recrystallized fraction, and grain size were established and implemented into the FORGE software to develop a thermomechanically coupled TRSR model. The model was validated by comparing the predicted macroscopic geometry, tool loads, temperature fields, and microstructures with experimental results. Based on the validated model, the effects of feed angle, chuck axial velocity, and initial billet temperature on DRX behavior and grain evolution were systematically analyzed. Results show that increasing the feed angle and chuck axial velocity decreases strain accumulation and DRX cycles, leading to grain coarsening and reduced microstructural uniformity. The initial billet temperature exhibits a competitive effect between DRX activation and grain growth. Mechanical tests demonstrate that grain refinement effectively improves yield strength and tensile strength while maintaining good ductility. Notably, hollow axles produced at lower chuck axial velocity achieve a better balance between strength and ductility. This study provides insights into optimizing TRSR parameters for coordinated control of microstructure and mechanical performance.",
+    "innovationCn": "为了阐明三辊柔性斜轧（TRSR）制造的等内径空心轴的微观结构演变和力学性能，通过热压缩试验、动态再结晶（DRX）建模、有限元模拟、轧制实验、EBSD表征和拉伸试验对30NiCrMoV12合金钢进行了研究。获得了不同变形条件下的流动行为，建立了临界应变、再结晶分数和晶粒尺寸的DRX模型，并将其应用到FORGE软件中，开发了热机耦合TRSR模型。通过将预测的宏观几何形状、工具载荷、温度场和微观结构与实验结果进行比较来验证模型。基于经过验证的模型，系统分析了进给角、卡盘轴向速度和初始坯料温度对 DRX 行为和晶粒演化的影响。结果表明，增加进给角和卡盘轴向速度会减少应变积累和 DRX 循环，导致晶粒粗化并降低显微结构均匀性。初始坯料温度在 DRX 激活和晶粒生长之间表现出竞争效应。力学测试表明，晶粒细化有效提高了屈服强度和抗拉强度，同时保持了良好的延展性。值得注意的是，以较低卡盘轴向速度生产的空心轴在强度和延展性之间实现了更好的平衡。这项研究为优化 TRSR 参数以协调控制微观结构和机械性能提供了见解。",
+    "innovationFormula": "有限元(FEM) + DEFORM + 再结晶 = 组织调控",
+    "doi": "10.1016/j.jmrt.2026.10.026"
   }
 ];
+
 
 
 
