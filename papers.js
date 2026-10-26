@@ -3006,8 +3006,45 @@ const PAPERS = [
     "innovationCn": "In this study, TC4/316H clad plate was prepared by corrugated-flat vacuum hot rolling, and the effects of post-rolling annealing on its microstructure and mechanical properties were studied by SEM, EBSD, TEM and EDS. The results show that the rolled composite plate exhibits the highest UTS (960.5 MPa) and shear strength (345.9 MPa), but the EL is only about 5.2 %. After annealing at 600 °C, the EL of the composite plate significantly increases to 17.4%, while the UTS and shear strength remain at 833.4 MPa and 239.6 MPa, respectively, with the shear strength meeting the requirement of GB/T 8547-2019 standard.This annealing temperature effectively eliminates rolling residual stress and greatly improves plasticity, while retaining qualified interface bonding strength and a high strength level, without forming a continuous brittle reaction layer at the interface. Recrystallization occurs preferentially in the near-interface region of the titanium side, and the degree of recrystallization reaches 12.5%. The shear fracture shows typical ductile fracture characteristics. After annealing at 700 °C, the interface properties of the composite plate deteriorate significantly, and the EL and shear strength decrease to 11.2 % and 145.3 MPa, respectively.It is confirmed by TEM that a continuous brittle reaction layer is formed at the interface, which is mainly composed of IMCs such as σ-FeCr, FeTi and Fe 2 Ti. The fracture mode is transformed into cleavage fracture along the brittle phase, which is the core reason for the significant decrease of interface performance.",
     "innovationFormula": "再结晶 + 退火工艺 + 复合轧制与层压材料 = 界面结合",
     "doi": "10.1016/j.jmrt.2026.10.079"
+  },
+  {
+    "id": "p-156",
+    "title": "A Review of Strip Shape Prediction Methods Transitioning From Mechanistic Models to Interpretable Deep Learning",
+    "titleCn": "从机械模型过渡到可解释深度学习的带状预测方法综述",
+    "authors": "Fei Shang, Zhijie Zheng, Huilin Chen, Jipeng Zhao et al.",
+    "journal": "steel research international",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 10,
+    "innovationScore": 6,
+    "field": "ml",
+    "processType": "section",
+    "innovationTags": [],
+    "abstract": "Strip shape prediction is a core task in rolling process control, and its accuracy directly impacts product quality and production efficiency. However, complex multivariable nonlinear couplings, dynamic operating conditions, and strong environmental disturbances severely challenge the accuracy and adaptability of traditional mechanistic models. In recent years, machine learning (ML) has provided new pathways to overcome these limitations. Although research achievements are increasingly abundant, the field still lacks a systematic review that integrates technological evolution with industrial application experience. This paper systematically reviews the research progress of ML in strip shape prediction, tracing the evolution from mechanistic modeling to data‐driven approaches. By detailing the core modeling stages and using strip crown, flatness, and key influencing factors as specific contexts, we systematically categorize the functional positioning and applicable scenarios of various ML algorithms. Crucially, we outline their structural limitations in practical deployment, such as “black‐box” unreliability and a lack of physical consistency. Based on this synthesis, the paper explores current industrial bottlenecks and future development directions, specifically highlighting interpretable deep learning, mechanism‐data fusion, and causal inference. Ultimately, this review aims to provide valuable references and insights for academia and industry professionals striving to advance intelligent steel production and enhance process efficiency.",
+    "innovationCn": "带材板形预测是轧制过程控制的核心任务，其准确性直接影响产品质量和生产效率。然而，复杂的多变量非线性耦合、动态运行条件和强烈的环境扰动对传统力学模型的准确性和适应性提出了严峻的挑战。近年来，机器学习（ML）提供了克服这些限制的新途径。尽管研究成果日益丰富，但该领域仍缺乏将技术演进与产业应用经验相结合的系统综述。本文系统回顾了机器学习在带材形状预测方面的研究进展，追溯了从机械建模到数据驱动方法的演变。通过详细阐述核心建模阶段，以带材凸度、平整度和关键影响因素为具体背景，对各种机器学习算法的功能定位和适用场景进行系统分类。至关重要的是，我们概述了它们在实际部署中的结构局限性，例如“黑匣子”不可靠性和缺乏物理一致性。在此基础上，本文探讨了当前的产业瓶颈和未来的发展方向，特别强调了可解释的深度学习、机制数据融合和因果推理。最终，本综述旨在为学术界和行业专业人士努力推进智能钢铁生产和提高流程效率提供有价值的参考和见解。",
+    "innovationFormula": "多传感器融合 + 机器学习与智能预测 + 型线轧制 = 板形控制",
+    "doi": "10.1002/srin.70744"
+  },
+  {
+    "id": "p-157",
+    "title": "Finite Element Method for the Steady‐State Deformation in Strip Rolling",
+    "titleCn": "带材轧制稳态变形的有限元方法",
+    "authors": "Kentaro Hatayama, Jun Yanagimoto",
+    "journal": "steel research international",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 10,
+    "innovationScore": 7,
+    "field": "fem",
+    "processType": "cold",
+    "innovationTags": [],
+    "abstract": "A steady‐state elastoplastic finite element method for the rolling process is proposed, which is based on a steady‐state formulation incorporating finite deformation theory with a static explicit method. It enables an accurate and robust analysis of the rolling process at a low computational cost, achieved by adopting a steady‐state formulation and a static explicit method for stress integration. The basic mathematical formulation of the proposed analytical method is described first, and its application to the simulation of strip‐rolling is presented with several different thickness reductions ranging from a skin pass to approximately 30%. Through this investigation, it is clear that the proposed method can analyze the 2D elastoplastic deformation characteristics of a strip under rolling, suggesting that the proposed theoretical framework is an effective and robust method for high‐precision rolling analysis.",
+    "innovationCn": "提出了一种用于轧制过程的稳态弹塑性有限元方法，该方法基于将有限变形理论与静态显式方法相结合的稳态公式。它通过采用稳态公式和静态显式应力积分方法，能够以较低的计算成本对轧制过程进行准确而稳健的分析。首先描述了所提出的分析方法的基本数学公式，并提出了其在带材轧制模拟中的应用，提出了几种不同的厚度减少量，范围从平整到大约 30%。通过这项研究，很明显，所提出的方法可以分析轧制带材的二维弹塑性变形特性，表明所提出的理论框架是高精度轧制分析的有效且稳健的方法。",
+    "innovationFormula": "有限元(FEM) + DEFORM + 有限元与多物理场仿真 = 厚度精度",
+    "doi": "10.1002/srin.70751"
   }
 ];
+
 
 
 
