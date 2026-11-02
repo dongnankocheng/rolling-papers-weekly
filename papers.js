@@ -3042,8 +3042,63 @@ const PAPERS = [
     "innovationCn": "提出了一种用于轧制过程的稳态弹塑性有限元方法，该方法基于将有限变形理论与静态显式方法相结合的稳态公式。它通过采用稳态公式和静态显式应力积分方法，能够以较低的计算成本对轧制过程进行准确而稳健的分析。首先描述了所提出的分析方法的基本数学公式，并提出了其在带材轧制模拟中的应用，提出了几种不同的厚度减少量，范围从平整到大约 30%。通过这项研究，很明显，所提出的方法可以分析轧制带材的二维弹塑性变形特性，表明所提出的理论框架是高精度轧制分析的有效且稳健的方法。",
     "innovationFormula": "有限元(FEM) + DEFORM + 有限元与多物理场仿真 = 厚度精度",
     "doi": "10.1002/srin.70751"
+  },
+  {
+    "id": "p-158",
+    "title": "Effect of Twins and β‐Mg 17 Al 12 Precipitates on the Mechanical Behavior and Corrosion Resistance of AZ80 Alloy",
+    "titleCn": "孪晶和β-Mg 17 Al 12 析出相对AZ80合金力学行为和耐蚀性的影响",
+    "authors": "Jingru Zhang, M. Liu, Changjian Yan, Xuan Luo et al.",
+    "journal": "Advanced Engineering Materials",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 10,
+    "innovationScore": 8,
+    "field": "micro",
+    "processType": "general",
+    "innovationTags": [],
+    "abstract": "This study investigated rolling‐assisted aging as a strategy for balancing strength and corrosion resistance in AZ80 alloy. Solution‐treated specimens were pre‐rolled at 8%, 12%, and 16% reductions, then aged at 180 °C for 24 h. Increasing reduction from 8% to 16% raised twin‐boundary density from 0.058 ± 0.009 to 0.121 ± 0.017 μm −1 and β‐Mg 17 Al 12 area fraction from 11.71% ± 3.25% to 14.64% ± 1.95%. Granular precipitates preferentially observed in twin‐related regions, suggesting twin‑assisted precipitation. Mechanical and corrosion responses showed non‐monotonic dependence on reduction. The 12% rolled‐aged sample achieved the best performance, with tensile/compressive strengths of 388 and 435 MPa, CYS/TYS ratio of 0.775, corrosion current density of 7.69 × 10 −7 A·cm −2 , and hydrogen evolution of 3.2 mL·cm −2 after 300 h in 3.5 wt.% NaCl. Direct aging gave 304 MPa, 368 MPa, 0.495, 6.07 × 10 −6 A·cm −2 , and 7.7 mL·cm −2 , respectively. Increasing the reduction to 16% did not yield further improvement, indicating that the optimal performance is governed by the interplay among grain refinement, precipitate morphology, twin boundaries, and deformation‑induced heterogeneity. The 12% pre‑rolling reduction combined with conventional aging provides a composition‑neutral processing route for enhancing the combined performance of AZ80 alloy.",
+    "innovationCn": "本研究研究了轧制辅助时效作为平衡 AZ80 合金强度和耐腐蚀性的策略。固溶处理的样品以 8%、12% 和 16% 的压下量预轧制，然后在 180 °C 下时效 24 小时。减少量从8%增加到16%，孪晶界密度从0.058±0.009提高到0.121±0.017μm -1 ，β-Mg 17 Al 12 面积分数从11.71%±3.25%提高到14.64%±1.95%。粒状沉淀物优先在孪生相关区域观察到，表明孪生辅助沉淀。机械和腐蚀响应表现出对还原的非单调依赖性。12%轧制时效样品性能最佳，拉伸/压缩强度分别为388和435 MPa，CYS/TYS比为0.775，腐蚀电流密度为7.69 × 10 -7 A·cm -2 ，在3.5 wt.% NaCl中300小时后析氢量为3.2 mL·cm -2 。直接时效分别给出304MPa、368MPa、0.495、6.07×10 -6 A·cm -2 和7.7mL·cm -2 。将减少量增加到 16% 并没有带来进一步的改善，这表明最佳性能是由晶粒细化、析出物形态、孪晶界和变形引起的不均匀性之间的相互作用决定的。 12% 的预轧压下率与传统时效相结合，提供了一种成分中性的加工路线，可增强 AZ80 合金的综合性能。",
+    "innovationFormula": "DEFORM + 析出强化 + 组织演变与性能调控 = 组织调控",
+    "doi": "10.1002/adem.71378"
+  },
+  {
+    "id": "p-159",
+    "title": "Stress Gradient-Driven Deformation Mechanisms in Cold-Rolled AZ31 Magnesium Alloy Sheets",
+    "titleCn": "冷轧 AZ31 镁合金板的应力梯度驱动变形机制",
+    "authors": "Peiyu Sun, Guanlin Chen, Xianshe Hou, Zirui Qiao et al.",
+    "journal": "Materials Research Express",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 10,
+    "innovationScore": 8,
+    "field": "process",
+    "processType": "cold",
+    "innovationTags": [],
+    "abstract": "Abstract AZ31 magnesium alloy, with limited slip systems at room temperature, is prone to non‑uniform stress/strain distribution during cold rolling. This study combines finite‑element simulation, rolling experiments, and multi‑scale TEM characterization including in‑situ tensile testing to reveal that roll speed‑to‑feed rate matching governs through‑thickness stress partitioning. A critical feed rate of 200 mm/s eliminates “zipper‑like” stress concentration and significantly reduces peak equivalent stress; deviation intensifies stress gradients and causes rolling force surges up to ~930 kN at 300 mm/s. A pronounced stress gradient exists along the thickness direction: the surface layer, sub-jected to high shear strain from roll friction, exhibits dense dislocation tangles and lattice distortion, whereas the core coordinates deformation predominantly via twinning, with twin boundaries redistributing strain. In‑situ TEM dy-namically corroborates this stress‑partitioning mechanism, revealing a competitive “tangling versus slipping” be-havior—high‑shear zones promote dislocation entanglement and blockage, while transition zones accommodate strain through dislocation slip. This multi‑scale study establishes a direct linkage from macroscopic stress gradients to microscopic deformation mechanisms, providing a theoretical basis for optimizing rolling parameters and micro-structure control in AZ31 sheets.",
+    "innovationCn": "摘要 AZ31镁合金在室温下具有有限滑移系统，在冷轧过程中容易出现应力/应变分布不均匀的情况。这项研究结合了有限元模拟、轧制实验和多尺度 TEM 表征（包括原位拉伸测试），以揭示轧制速度与进给速率的匹配控制全厚度应力分配。 200毫米/秒的临界进给速度消除了“拉链式”应力集中，并显着降低了峰值等效应力；偏差会加剧应力梯度，并导致轧制力在 300 mm/s 时激增至约 930 kN。沿厚度方向存在明显的应力梯度：表面层受到滚动摩擦产生的高剪切应变，表现出密集的位错缠结和晶格畸变，而核心主要通过孪晶协调变形，孪晶边界重新分布应变。原位 TEM 动态证实了这种应力分配机制，揭示了竞争性的“缠结与滑移”行为——高剪切区促进位错缠结和阻塞，而过渡区通过位错滑移调节应变。这项多尺度研究建立了从宏观应力梯度到微观变形机制的直接联系，为优化AZ31板材的轧制参数和微观结构控制提供了理论基础。",
+    "innovationFormula": "DEFORM + 工艺优化与参数设计 + 冷轧工艺 = 厚度精度",
+    "doi": "10.1088/2053-1591/aebaef"
+  },
+  {
+    "id": "p-160",
+    "title": "Gamma irradiation-induced modification of B4C reinforcement for controlling microstructure and mechanical–corrosion behavior of Al/B4C composites",
+    "titleCn": "伽马辐照诱导 B4C 增强材料的改性，用于控制 Al/B4C 复合材料的微观结构和机械腐蚀行为",
+    "authors": "Fatemeh Soltanifar, Ehsan Ebrahimibasabi, Mohammad Mahdi Shahidi, Majid Mohammadi et al.",
+    "journal": "Materials Today Advances",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 10,
+    "innovationScore": 7,
+    "field": "clad",
+    "processType": "clad",
+    "innovationTags": [],
+    "abstract": "This study investigates gamma irradiation-induced modification of B 4 C reinforcement and its effect on the microstructure, mechanical properties, and electrochemical corrosion behavior of Al/B 4 C composites. B 4 C micropowders irradiated at 50, 100, and 150 kGy were incorporated into aluminum sheets through accumulative roll bonding. Al/G.MB50 exhibited the most favorable mechanical response, with the highest mean ultimate tensile strength among the reinforced samples and a hardness of 68.03 HV. The Al/G.MB150 composite showed the highest corrosion resistance, with a corrosion current density of 0.38 μA cm −2 , a Tafel-derived polarization resistance of 79.68 kΩ cm 2 , and a corrosion rate of 0.00419 mm.y −1 . The results show that the irradiation state of B 4 C controls the balance between mechanical strengthening and corrosion resistance in ARB-processed Al/B 4 C composites.",
+    "innovationCn": "本研究研究了伽马辐照诱导的 B 4 C 增强材料的改性及其对 Al/B 4 C 复合材料微观结构、机械性能和电化学腐蚀行为的影响。在50、100和150 kGy下辐照的B 4 C微粉通过累积辊压结合到铝片中。 Al/G.MB50表现出最良好的机械响应，在增强样品中具有最高的平均极限拉伸强度，硬度为68.03 HV。 Al/G.MB150复合材料表现出最高的耐腐蚀性，腐蚀电流密度为0.38 μA cm -2 ，塔菲尔极化电阻为79.68 kΩ cm 2 ，腐蚀速率为0.00419 mm.y -1 。结果表明，B 4 C的辐照状态控制着ARB处理的Al/B 4 C复合材料机械强化和耐腐蚀性之间的平衡。",
+    "innovationFormula": "累积叠轧(ARB) + 轧制复合 + 复合轧制与层压材料 = 组织调控",
+    "doi": "10.1016/j.mtadv.2026.101044"
   }
 ];
+
 
 
 
