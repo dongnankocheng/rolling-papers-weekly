@@ -3096,8 +3096,63 @@ const PAPERS = [
     "innovationCn": "本研究研究了伽马辐照诱导的 B 4 C 增强材料的改性及其对 Al/B 4 C 复合材料微观结构、机械性能和电化学腐蚀行为的影响。在50、100和150 kGy下辐照的B 4 C微粉通过累积辊压结合到铝片中。 Al/G.MB50表现出最良好的机械响应，在增强样品中具有最高的平均极限拉伸强度，硬度为68.03 HV。 Al/G.MB150复合材料表现出最高的耐腐蚀性，腐蚀电流密度为0.38 μA cm -2 ，塔菲尔极化电阻为79.68 kΩ cm 2 ，腐蚀速率为0.00419 mm.y -1 。结果表明，B 4 C的辐照状态控制着ARB处理的Al/B 4 C复合材料机械强化和耐腐蚀性之间的平衡。",
     "innovationFormula": "累积叠轧(ARB) + 轧制复合 + 复合轧制与层压材料 = 组织调控",
     "doi": "10.1016/j.mtadv.2026.101044"
+  },
+  {
+    "id": "p-161",
+    "title": "Study of screw rolling process for production of bimetallic pipes: simulation and experimental testing",
+    "titleCn": "双金属管材螺杆滚压工艺研究：模拟与实验测试",
+    "authors": "T. Yu. Kin, Anna Khakimova, А. С. Будников, Ivan S. Solovev et al.",
+    "journal": "Metallurgist",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 11,
+    "innovationScore": 7,
+    "field": "fem",
+    "processType": "tube",
+    "innovationTags": [],
+    "abstract": "",
+    "innovationCn": "双金属管材螺杆滚压工艺研究：模拟与实验测试。主要涉及fem等方面的创新研究。",
+    "innovationFormula": "有限元与多物理场仿真 + 管材轧制 + 轧制实验 = 管材轧制优化",
+    "doi": "10.1007/s11015-026-02175-8"
+  },
+  {
+    "id": "p-162",
+    "title": "Effect of First Intermediate Roll Shifting and Adjustable Support Unit on Strip Flatness in 20-High Sendzimir Mills",
+    "titleCn": "20辊森吉米尔轧机第一中间辊移动和可调支撑装置对带材平整度的影响",
+    "authors": "yinjie Ren, Dong-Cheng Wang, Hong-min Liu, You-chuang Lv",
+    "journal": "Metals",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 11,
+    "innovationScore": 8,
+    "field": "fem",
+    "processType": "cold",
+    "innovationTags": [],
+    "abstract": "The 20-high mills often face various flatness problems in the production of cold-rolled stainless steel thin strips. In the proposed model coupling method, the roll-stack elastic deformation equations and the strip plastic deformation equations are assembled into a single system of linear equations and solved simultaneously. This avoids the repeated iterative exchange between the two sub-models used in the conventional method, thereby significantly improving computational speed and numerical stability. Rolling calculations of 304 stainless steel thin strips show that the model coupling results agree with those of the traditional method. The root mean square error (RMSE) values for all variables are very small. Compared with the traditional method, the model coupling method gives very small RMSEs. For the symmetric shifting case, the RMSE is 5.48 × 10−4 mm for exit thickness and 3.61 I for flatness. For the asymmetric shifting case, the corresponding RMSEs are 3.80 × 10−5 mm and 5.57 I, respectively. Additionally, the influence of the first intermediate roll on symmetric and asymmetric roll shifting and ASU (Adjustable Support Unit) control on flatness was analyzed. For both symmetric and asymmetric roll shifting, the inter-roll pressure remains non-uniform and exhibits peaks. Adjusting the ASU can, to some extent, suppress many defects. However, ASU adjustment alone cannot completely eliminate high-order defects.",
+    "innovationCn": "20辊轧机在生产冷轧不锈钢薄带时经常面临各种平整度问题。在所提出的模型耦合方法中，轧辊弹性变形方程和带材塑性变形方程被组装成单个线性方程组并同时求解。这避免了传统方法中使用的两个子模型之间的重复迭代交换，从而显着提高了计算速度和数值稳定性。 304不锈钢薄带轧制计算表明，模型耦合结果与传统方法的结果一致。所有变量的均方根误差 (RMSE) 值都非常小。与传统方法相比，模型耦合方法给出的 RMSE 非常小。对于对称移动情况，出口厚度的 RMSE 为 5.48 × 10−4 mm，平坦度为 3.61 I。对于不对称移动情况，相应的 RMSE 分别为 3.80 × 10−5 mm 和 5.57 I。此外，还分析了第一中间辊对对称和非对称辊移以及ASU（可调支撑单元）控制对平整度的影响。对于对称和非对称辊偏移，辊间压力保持不均匀并呈现峰值。调整ASU可以在一定程度上抑制很多缺陷。然而，仅靠ASU调整并不能完全消除高阶缺陷。",
+    "innovationFormula": "DEFORM + 有限元与多物理场仿真 + 冷轧工艺 = 板形控制",
+    "doi": "10.3390/met16111219"
+  },
+  {
+    "id": "p-163",
+    "title": "Microstructure–electrical conductivity relationship in accumulative roll-bonded Al/Cu laminated composites: A calibrated multiscale model",
+    "titleCn": "累积滚压铝/铜层压复合材料的微观结构-电导率关系：校准的多尺度模型",
+    "authors": "Shima Pashangeh, Mohammad Hadi Moradi Ardakani, Morteza Alizadeh, Abbas Karimi",
+    "journal": "Results in Engineering",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 11,
+    "innovationScore": 8,
+    "field": "clad",
+    "processType": "clad",
+    "innovationTags": [],
+    "abstract": "Al/Cu laminated composites are promising for power transmission and electronics due to their high conductivity and low density. However, quantitatively linking microstructural evolution to conductivity during accumulative roll bonding (ARB) remains challenging. Here, Al/Cu laminates containing 5, 10, 15, 20, 30, and 40 wt.% Cu were fabricated by ARB and characterized using scanning electron microscopy (SEM), X-ray diffraction (XRD), and conductivity measurements. XRD confirmed the absence of detectable intermetallic compounds, while severe plastic deformation reduced crystallite size from 450 to 140 nm and increased lattice microstrain from 0.85 × 10⁻³ to 2.96 × 10⁻³. SEM analysis revealed interface multiplication and changes in lamellar continuity. Electrical conductivity increased with Cu content, peaking at 40 wt.% Cu, while deformation-induced defects contributed to variations across ARB passes. A physics-informed electron-transport model was developed using a Matthiessen-based resistivity framework combining XRD-derived crystallographic parameters with SEM-derived geometrical descriptors. It accounts for grain-boundary, dislocation, and interface scattering, as well as lamellar continuity; weighting coefficients were calibrated against experimental conductivity data. The model showed good in-sample agreement with calibration data (R² = 0.91, RMSE = 1.64 %IACS, MAE = 1.25 %IACS). Leave-one-composition-out and leave-one-pass-out cross-validation yielded R² values of 0.82 and 0.73, respectively. One-at-a-time sensitivity analysis ranked interface density highest, followed by lamellar continuity, crystallite size, and dislocation density within the investigated ranges. These indicators reflect changes in predicted conductivity, not independently measured physical contributions. The framework supports interpretation of microstructure–conductivity relationships in laminated metallic composites, but applicability beyond the investigated conditions requires independent validation.",
+    "innovationCn": "Al/Cu层状复合材料由于其高导电性和低密度而在电力传输和电子领域具有广阔的前景。然而，在累积辊压粘合（ARB）过程中定量地将微观结构演变与电导率联系起来仍然具有挑战性。在此，通过 ARB 制造了含有 5、10、15、20、30 和 40 wt.% Cu 的 Al/Cu 层压板，并使用扫描电子显微镜 (SEM)、X 射线衍射 (XRD) 和电导率测量进行表征。 XRD 证实不存在可检测到的金属间化合物，而严重的塑性变形将微晶尺寸从 450 nm 减小到 140 nm，并将晶格微应变从 0.85 × 10-3 增加到 2.96 × 10-3。 SEM 分析揭示了界面倍增和层状连续性的变化。电导率随着 Cu 含量的增加而增加，在 40 wt.% Cu 时达到峰值，而变形引起的缺陷会导致 ARB 道次的变化。使用基于 Matthiessen 的电阻率框架，结合 XRD 导出的晶体学参数与 SEM 导出的几何描述符，开发了基于物理的电子传输模型。它解释了晶界、位错、界面散射以及层状连续性；加权系数根据实验电导率数据进行校准。该模型显示出与校准数据良好的样本内一致性（R² = 0.91，RMSE = 1.64 %IACS，MAE = 1.25 %IACS）。留一组合和留一传递交叉验证产生的 R² 值分别为 0.82 和 0.73。一次性敏感性分析将界面密度排名最高，其次是研究范围内的层状连续性、微晶尺寸和位错密度。这些指标反映了预测电导率的变化，而不是独立测量的物理贡献。该框架支持解释层压金属复合材料中的微观结构-电导率关系，但超出研究条件的适用性需要独立验证。",
+    "innovationFormula": "DEFORM + 累积叠轧(ARB) + 轧制复合 = 界面结合",
+    "doi": "10.1016/j.rineng.2026.113968"
   }
 ];
+
 
 
 
