@@ -3150,8 +3150,63 @@ const PAPERS = [
     "innovationCn": "Al/Cu层状复合材料由于其高导电性和低密度而在电力传输和电子领域具有广阔的前景。然而，在累积辊压粘合（ARB）过程中定量地将微观结构演变与电导率联系起来仍然具有挑战性。在此，通过 ARB 制造了含有 5、10、15、20、30 和 40 wt.% Cu 的 Al/Cu 层压板，并使用扫描电子显微镜 (SEM)、X 射线衍射 (XRD) 和电导率测量进行表征。 XRD 证实不存在可检测到的金属间化合物，而严重的塑性变形将微晶尺寸从 450 nm 减小到 140 nm，并将晶格微应变从 0.85 × 10-3 增加到 2.96 × 10-3。 SEM 分析揭示了界面倍增和层状连续性的变化。电导率随着 Cu 含量的增加而增加，在 40 wt.% Cu 时达到峰值，而变形引起的缺陷会导致 ARB 道次的变化。使用基于 Matthiessen 的电阻率框架，结合 XRD 导出的晶体学参数与 SEM 导出的几何描述符，开发了基于物理的电子传输模型。它解释了晶界、位错、界面散射以及层状连续性；加权系数根据实验电导率数据进行校准。该模型显示出与校准数据良好的样本内一致性（R² = 0.91，RMSE = 1.64 %IACS，MAE = 1.25 %IACS）。留一组合和留一传递交叉验证产生的 R² 值分别为 0.82 和 0.73。一次性敏感性分析将界面密度排名最高，其次是研究范围内的层状连续性、微晶尺寸和位错密度。这些指标反映了预测电导率的变化，而不是独立测量的物理贡献。该框架支持解释层压金属复合材料中的微观结构-电导率关系，但超出研究条件的适用性需要独立验证。",
     "innovationFormula": "DEFORM + 累积叠轧(ARB) + 轧制复合 = 界面结合",
     "doi": "10.1016/j.rineng.2026.113968"
+  },
+  {
+    "id": "p-164",
+    "title": "Macroscopic plastic response and atomic-scale dislocation evolution of Ti-6Al-4V alloy during ultrasonic surface rolling",
+    "titleCn": "Macroscopic plastic response and atomic-scale dislocation evolution of Ti-6Al-4V alloy during ultrasonic surface rolling",
+    "authors": "Zhenghao Wang, Zeqi Feng, Jiakang Zhou, Xianfu Liu et al.",
+    "journal": "Frontiers in Mechanical Engineering",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 11,
+    "innovationScore": 8,
+    "field": "fem",
+    "processType": "general",
+    "innovationTags": [],
+    "abstract": "To address the insufficient understanding of the surface plastic deformation mechanism of Ti-6Al-4V alloy during ultrasonic surface rolling processing (USRP), this study adopts an approach combining finite element (FE) simulation and molecular dynamics (MD) analysis. The effects of static load, ultrasonic vibration frequency, and ultrasonic amplitude on residual stress and surface plastic deformation are investigated, and the dislocation evolution and local deformation response under ultrasonic vibration are analyzed at the atomic scale. A three-dimensional explicit dynamic FE model based on the Johnson-Cook constitutive law is established to examine the variations of surface residual stress, equivalent plastic strain, and plastic displacement under different static loads, ultrasonic vibration frequencies, and ultrasonic amplitudes, and the validity of the FE model is verified against experimentally measured residual stress results. The results show that static load is the dominant factor governing the degree of macroscopic surface plastic deformation. Within the investigated static-load range of 100–400 N, the magnitude of the peak residual compressive stress increases overall from 685.11 MPa to 722.09 MPa, although the variation is not strictly monotonic, while the maximum PEEQ increases from 0.12481 to 0.38641 and the affected depths increase markedly. Increasing the ultrasonic amplitude further enhances near-surface plastic deformation, whereas the influence of ultrasonic vibration frequency on macroscopic plastic deformation is relatively limited within the 20–29 kHz range. On this basis, a simplified Ti-Al atomic model of the α phase of Ti-6Al-4V alloy is established to analyze the effect of ultrasonic vibration on atomic-scale plastic deformation behavior by comparing the dislocation evolution, loading force, and system potential energy under conditions with and without ultrasonic vibration. The MD results indicate that periodic excitation is accompanied by an increase in the number and total line length of detected dislocations, together with lower time-averaged indentation reaction forces and higher reported potential-energy values under the investigated simulation conditions. These observations suggest that periodic excitation modifies local defect evolution and indentation response within the simplified atomic model, providing complementary insights into atomic-scale plastic deformation. This study can provide a reference for process optimization and surface strengthening mechanism research of Ti-6Al-4V alloy during USRP.",
+    "innovationCn": "To address the insufficient understanding of the surface plastic deformation mechanism of Ti-6Al-4V alloy during ultrasonic surface rolling processing (USRP), this study adopts an approach combining finite element (FE) simulation and molecular dynamics (MD) analysis. The effects of static load, ultrasonic vibration frequency, and ultrasonic amplitude on residual stress and surface plastic deformation are investigated, and the dislocation evolution and local deformation response under ultrasonic vibration are analyzed at the atomic scale.A three-dimensional explicit dynamic FE model based on the Johnson-Cook constitutive law is established to examine the variations of surface residual stress, equivalent plastic strain, and plastic displacement under different static loads, ultrasonic vibration frequencies, and ultrasonic amplitudes, and the validity of the FE model is verified against experimentally measured residual stress results. The results show that static load is the dominant factor governing the degree of macroscopic surface plastic deformation.Within the investigated static-load range of 100–400 N, the magnitude of the peak residual compressive stress increases overall from 685.11 MPa to 722.09 MPa, although the variation is not strictly monotonic, while the maximum PEEQ increases from 0.12481 to 0.38641 and the affected depths increase markedly. Increasing the ultrasonic amplitude further enhances near-surface plastic deformation, whereas the influence of ultrasonic vibration frequency on macroscopic plastic deformation is relatively limited within the 20–29 kHz range.On this basis, a simplified Ti-Al atomic model of the α phase of Ti-6Al-4V alloy is established to analyze the effect of ultrasonic vibration on atomic-scale plastic deformation behavior by comparing the dislocation evolution, loading force, and system potential energy under conditions with and without ultrasonic vibration. The MD results indicate that periodic excitation is accompanied by an increase in the number and total line length of detected dislocations, together with lower time-averaged indentation reaction forces and higher reported potential-energy values under the investigated simulation conditions.These observations suggest that periodic excitation modifies local defect evolution and indentation response within the simplified atomic model, providing complementary insights into atomic-scale plastic deformation. This study can provide a reference for process optimization and surface strengthening mechanism research of Ti-6Al-4V alloy during USRP.",
+    "innovationFormula": "有限元(FEM) + DEFORM + 有限元与多物理场仿真 = 振动抑制",
+    "doi": "10.3389/fmech.2026.2014090"
+  },
+  {
+    "id": "p-165",
+    "title": "Development of Multifunctional Mg-3Zn-0.5Mn/0.5GNP Nanocomposites Modified with Rare-Earth Oxide Addition and Hot Rolling for Biodegradable Orthopaedic Implants",
+    "titleCn": "Development of Multifunctional Mg-3Zn-0.5Mn/0.5GNP Nanocomposites Modified with Rare-Earth Oxide Addition and Hot Rolling for Biodegradable Orthopaedic Implants",
+    "authors": "Rakesh Kumar, Neha Mehrotra, Kaushik Pal",
+    "journal": "Biomedical Materials",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 11,
+    "innovationScore": 8,
+    "field": "micro",
+    "processType": "clad",
+    "innovationTags": [],
+    "abstract": "Although magnesium-based biomaterials are promising for biodegradable implants owing to their bone-matching mechanical properties, their clinical adoption is hindered by insufficient strength, rapid degradation, and limited biocompatibility. Graphene nanoplatelets (GNPs) hold the potential to enhance mechanical performance and corrosion resistance when well dispersed at low concentrations but may compromise long-term biocompatibility. Moreover, hybridising GNPs with nano CeO2 (n-CeO2), which is largely unexplored, can improve cytocompatibility, and hot rolling can further strengthen this by refining the grain size beyond what is achieved by incorporating reinforcement alone. In the current investigation, Mg-3Zn-0.5Mn/0.5GNP nanocomposites, with and without bone-friendly n-CeO2, were fabricated by stir casting, followed by hot rolling at 350 °C, and were comprehensively investigated for their microstructure, mechanical properties, in vitro corrosion, and biocompatibility. The incorporation of GNPs alone enhanced yield strength by 72.4% and elongation at fracture by 8.63% compared to pure Mg, and the lowest hydrogen evolution rate among all fabricated composites. Hybridising GNPs with n-CeO2 further improved yield strength and elongation at fracture by 118.9% and 10.78%, respectively, enhanced MG-63 cell viability, and increased initial degradation resistance, but a less stable protective layer led to higher degradation during prolonged PBS immersion. The hot-rolled, hybrid GNP/n-CeO2 composite exhibited the highest strength improvements, with increases of 185% in yield and 90.6% ultimate strength, owing to further grain refinement and a strong basal texture. Thus, the developed nanocomposites are promising, and the investigation presents a cost-effective and scalable approach to tailoring the mechanical, degradation, and biocompatibility of biodegradable biomaterials.",
+    "innovationCn": "Although magnesium-based biomaterials are promising for biodegradable implants owing to their bone-matching mechanical properties, their clinical adoption is hindered by insufficient strength, rapid degradation, and limited biocompatibility. Graphene nanoplatelets (GNPs) hold the potential to enhance mechanical performance and corrosion resistance when well dispersed at low concentrations but may compromise long-term biocompatibility. Moreover, hybridising GNPs with nano CeO2 (n-CeO2), which is largely unexplored, can improve cytocompatibility, and hot rolling can further strengthen this by refining the grain size beyond what is achieved by incorporating reinforcement alone.In the current investigation, Mg-3Zn-0.5Mn/0.5GNP nanocomposites, with and without bone-friendly n-CeO2, were fabricated by stir casting, followed by hot rolling at 350 °C, and were comprehensively investigated for their microstructure, mechanical properties, in vitro corrosion, and biocompatibility. The incorporation of GNPs alone enhanced yield strength by 72.4% and elongation at fracture by 8.63% compared to pure Mg, and the lowest hydrogen evolution rate among all fabricated composites. Hybridising GNPs with n-CeO2 further improved yield strength and elongation at fracture by 118.9% and 10.78%, respectively, enhanced MG-63 cell viability, and increased initial degradation resistance, but a less stable protective layer led to higher degradation during prolonged PBS immersion.The hot-rolled, hybrid GNP/n-CeO2 composite exhibited the highest strength improvements, with increases of 185% in yield and 90.6% ultimate strength, owing to further grain refinement and a strong basal texture. Thus, the developed nanocomposites are promising, and the investigation presents a cost-effective and scalable approach to tailoring the mechanical, degradation, and biocompatibility of biodegradable biomaterials.",
+    "innovationFormula": "织构调控 + 纳米润滑剂 + 组织演变与性能调控 = 组织调控",
+    "doi": "10.1088/1748-605x/aec07b"
+  },
+  {
+    "id": "p-166",
+    "title": "Enhancing structural homogeneity and service life of sheet-rolled products through improved continuous hot rolling technology and equipment",
+    "titleCn": "Enhancing structural homogeneity and service life of sheet-rolled products through improved continuous hot rolling technology and equipment",
+    "authors": "Алдунин Анатолий Васильевич, V.E. Polovinko, N. Yu. Ignat’ev",
+    "journal": "Metallurgist",
+    "sourceType": "SCI",
+    "year": 2026,
+    "month": 11,
+    "innovationScore": 7,
+    "field": "process",
+    "processType": "hot",
+    "innovationTags": [],
+    "abstract": "",
+    "innovationCn": "Enhancing structural homogeneity and service life of sheet-rolled products through improved continuous hot rolling technology and equipment。主要涉及process等方面的创新研究。",
+    "innovationFormula": "工艺优化与参数设计 + 热轧工艺 + 轧制实验 = 热轧工艺优化",
+    "doi": "10.1007/s11015-026-02187-4"
   }
 ];
+
 
 
 
